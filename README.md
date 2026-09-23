@@ -14,10 +14,11 @@ Job hunting often ends up scattered across browser tabs, email threads, and note
 - Next actions, notes, and a short activity history for every opportunity
 - Search and stage filters for quickly finding active or closed applications
 - A lightweight application-entry form for adding new roles
+- A separate founder and product-outreach pipeline with public LinkedIn links, researched context, message drafts, and an explicit record of what was shared
 
 ## Privacy
 
-This version is intentionally local-first. Records are stored in the browser's local storage; the app does not connect to Gmail, LinkedIn, Google Drive, or any job board. Clearing browser storage will reset locally saved changes.
+This version is intentionally local-first. Records are stored in the browser's local storage; the app does not connect to Gmail, LinkedIn, Google Drive, or any job board. Outreach entries are drafts and status records only: the app never sends a message or attaches a CV. Clearing browser storage will reset locally saved changes.
 
 ## Stack
 
