@@ -241,9 +241,9 @@ const seededOutreach: Outreach[] = [
     title: "Founder",
     region: "Indonesia · SaaS builder",
     linkedin: "https://id.linkedin.com/in/m-robi",
-    status: "Draft ready",
+    status: "Replied",
     angle: "SaaS product polish, dashboard UX, and testimonial-product surfaces",
-    researchNote: "ProofEcho is a testimonial SaaS built around an embeddable product experience and analytics.",
+    researchNote: "Robi replied on Sep 23, 2026. He is not hiring or subcontracting now, but reviewed Huzaifa's GitHub, liked the RepoCards idea, and kept the profile for possible future work.",
     message: "Hi Robi — ProofEcho looks like a thoughtful product, especially the mix of collection flows, embeddable widgets, and analytics. I have around three years of React, Next.js, TypeScript, Tailwind, and API-driven product work, and I also build React Native applications. If you ever want help polishing a product surface, dashboard, or new feature, I’d be happy to share work: https://github.com/HuzaifaBinShahid\n\nHuzaifa",
     shared: "GitHub profile included · CV not attached"
   },
