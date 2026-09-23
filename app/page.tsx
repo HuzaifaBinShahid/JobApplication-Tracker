@@ -42,6 +42,21 @@ const stages: Stage[] = ["Applied", "Awaiting reply", "Interview", "Offer", "Rej
 
 const seededApplications: Application[] = [
   {
+    id: "writesonic",
+    company: "Writesonic",
+    role: "Senior Software Engineer (Frontend)",
+    location: "Remote, India",
+    source: "Workable",
+    stage: "Applied",
+    appliedOn: "2026-09-23",
+    compensation: "Current USD 800/month; Expected USD 1,000 to 1,500/month",
+    link: "https://jobs.workable.com/view/vkTUY2ArmfYXDGad7UUumc/remote-senior-software-engineer-(-frontend)-in-india-at-writesonic",
+    nextAction: "Watch for an acknowledgement; clarify Pakistan remote-work eligibility if asked",
+    due: "2026-10-07",
+    notes: "Submitted through Workable with the provided CV, tailored frontend examples, and CTC range.",
+    activity: [{ date: "Sep 23", text: "Application submitted" }]
+  },
+  {
     id: "eventmobi",
     company: "EventMobi",
     role: "Front End Engineer",
