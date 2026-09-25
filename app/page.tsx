@@ -293,11 +293,11 @@ const seededOutreach: Outreach[] = [
     title: "Founder",
     region: "Indonesia · AI product builder",
     linkedin: "https://www.linkedin.com/in/m-faris-d-k-638291135",
-    status: "Draft ready",
+    status: "Sent",
     angle: "AI product experiences, frontend architecture, and polished customer journeys",
-    researchNote: "Faris is building Farisium, an AI powered creative ecosystem focused on scalable digital products and automation.",
-    message: "Hi Faris, I read about Farisium and its AI powered creative ecosystem. I like that you are treating the product as a full user experience instead of only an AI feature. I have around three years of React, Next.js, TypeScript, React Native and API driven product work, plus AI integrations and browser automation with Playwright and Puppeteer. If a frontend feature, dashboard or mobile surface ever needs support, I would be happy to share relevant work: https://github.com/HuzaifaBinShahid\n\nHuzaifa",
-    shared: "GitHub profile included · CV not attached"
+    researchNote: "Faris is building Farisium, an AI powered creative ecosystem focused on scalable digital products and automation. Free LinkedIn message sent Sep 25, 2026.",
+    message: "Hi Faris, I liked Farisium and its AI powered creative ecosystem. I have three years of React, Next.js, TypeScript, React Native and API driven product work, plus AI integrations. If a frontend or mobile feature needs support, I would be happy to help. https://github.com/HuzaifaBinShahid",
+    shared: "GitHub profile shared · CV not attached"
   },
   {
     id: "aakash-kumar",
@@ -306,11 +306,11 @@ const seededOutreach: Outreach[] = [
     title: "Founder",
     region: "New Delhi, India · product studio",
     linkedin: "https://www.linkedin.com/in/aakash-kumar-codezania",
-    status: "Draft ready",
+    status: "Sent",
     angle: "CRM and ERP delivery, responsive product interfaces, and client project capacity",
-    researchNote: "Aakash leads Codezania, which builds business websites, SaaS platforms, custom web applications, CRMs, and ERPs.",
-    message: "Hi Aakash, I came across Codezania and the work you are doing across CRMs, ERPs and custom web products. The mix of business systems and polished user facing interfaces stood out to me. I have around three years of React, Next.js, TypeScript, React Native and API driven product experience, plus AI integrations and Playwright and Puppeteer automation. If you ever need reliable frontend or mobile support on a client delivery, I would be happy to share relevant work: https://github.com/HuzaifaBinShahid\n\nHuzaifa",
-    shared: "GitHub profile included · CV not attached"
+    researchNote: "Aakash leads Codezania, which builds business websites, SaaS platforms, custom web applications, CRMs, and ERPs. Free LinkedIn message sent Sep 25, 2026.",
+    message: "Hi Aakash, I like Codezania's work across CRMs, ERPs and custom web products. I have three years of React, Next.js, TypeScript, React Native and API driven product experience. If a client delivery needs frontend or mobile support, I would be happy to help. https://github.com/HuzaifaBinShahid",
+    shared: "GitHub profile shared · CV not attached"
   },
   {
     id: "alfian-azzam",
@@ -319,11 +319,11 @@ const seededOutreach: Outreach[] = [
     title: "SaaS Founder",
     region: "Indonesia · product engineer",
     linkedin: "https://www.linkedin.com/in/alfian-azzam",
-    status: "Draft ready",
+    status: "Sent",
     angle: "Multi app SaaS products, real time interfaces, and mobile product delivery",
-    researchNote: "Alfian is building DizzBooth and DizzPOS, multi app SaaS products with real time and mobile product surfaces.",
-    message: "Hi Alfian, I saw DizzBooth and DizzPOS and liked the way you are building full product ecosystems rather than single apps. I have around three years of React, Next.js, TypeScript and React Native work, including real time features, notifications, maps and API integrations. I also work with AI integrations and Playwright and Puppeteer automation. If a user facing React or mobile surface ever needs extra support, I would be happy to share relevant work: https://github.com/HuzaifaBinShahid\n\nHuzaifa",
-    shared: "GitHub profile included · CV not attached"
+    researchNote: "Alfian is building DizzBooth and DizzPOS, multi app SaaS products with real time and mobile product surfaces. Free LinkedIn message sent Sep 25, 2026.",
+    message: "Hi Alfian, I saw DizzBooth and DizzPOS and liked what you are building. I have three years of React, Next.js, TypeScript and React Native work, including real time features, notifications and APIs. If a user facing React or mobile feature needs support, I would be happy to help. https://github.com/HuzaifaBinShahid",
+    shared: "GitHub profile shared · CV not attached"
   }
 ];
 
