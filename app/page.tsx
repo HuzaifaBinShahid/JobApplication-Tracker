@@ -259,6 +259,71 @@ const seededOutreach: Outreach[] = [
     researchNote: "Marian runs a development studio and has shipped web and cross-platform mobile products for clients.",
     message: "Hi Marian — I came across your work running a product-focused dev studio and the mix of React, Next.js, and React Native delivery. I’m a frontend and mobile engineer with around three years of experience in that same stack, including SaaS dashboards, APIs, real-time features, maps, and mobile notifications. If you ever need overflow support on a client delivery, I’d be happy to share work: https://github.com/HuzaifaBinShahid\n\nHuzaifa",
     shared: "GitHub profile included · CV not attached"
+  },
+  {
+    id: "arslan-mir",
+    name: "Arslan Mir",
+    company: "AssureLogix",
+    title: "Founder",
+    region: "United States · healthcare technology",
+    linkedin: "https://www.linkedin.com/in/arslanmir",
+    status: "Draft ready",
+    angle: "Healthcare revenue workflows, product dashboards, and clear user journeys",
+    researchNote: "Arslan is building AssureLogix, a healthcare technology platform focused on turning complex clinical data into revenue workflows.",
+    message: "Hi Arslan, I came across AssureLogix and liked the focus on turning complicated healthcare data into useful revenue workflows. I have around three years of React, Next.js, TypeScript, React Native and API driven product work. I also work with AI integrations and browser automation using Playwright and Puppeteer. If you ever need an extra pair of hands on a dashboard, a user flow or a mobile surface, I would be happy to share relevant work: https://github.com/HuzaifaBinShahid\n\nHuzaifa",
+    shared: "GitHub profile included · CV not attached"
+  },
+  {
+    id: "muhammad-sufyan",
+    name: "Muhammad Sufyan",
+    company: "CODEdinate",
+    title: "Founder & CEO",
+    region: "Multan, Pakistan · industrial technology",
+    linkedin: "https://www.linkedin.com/in/muhammad-sufyan-4175b7323",
+    status: "Draft ready",
+    angle: "AI powered management systems, real time product workflows, and user facing dashboards",
+    researchNote: "Muhammad is building CODEdinate, including a multimodal AI engine and management systems for industrial technology.",
+    message: "Hi Muhammad, I saw the CODEdinate work around AI powered management systems and the multimodal engine you are preparing for the cloud. Making complex AI workflows clear and useful for users is the kind of product work I enjoy. I have around three years of React, Next.js, TypeScript, React Native and API driven experience, along with AI integrations and Playwright and Puppeteer automation. If you ever need help with a dashboard, workflow or mobile surface, I would be happy to share relevant work: https://github.com/HuzaifaBinShahid\n\nHuzaifa",
+    shared: "GitHub profile included · CV not attached"
+  },
+  {
+    id: "m-faris",
+    name: "M. Faris D. K.",
+    company: "Farisium",
+    title: "Founder",
+    region: "Indonesia · AI product builder",
+    linkedin: "https://www.linkedin.com/in/m-faris-d-k-638291135",
+    status: "Draft ready",
+    angle: "AI product experiences, frontend architecture, and polished customer journeys",
+    researchNote: "Faris is building Farisium, an AI powered creative ecosystem focused on scalable digital products and automation.",
+    message: "Hi Faris, I read about Farisium and its AI powered creative ecosystem. I like that you are treating the product as a full user experience instead of only an AI feature. I have around three years of React, Next.js, TypeScript, React Native and API driven product work, plus AI integrations and browser automation with Playwright and Puppeteer. If a frontend feature, dashboard or mobile surface ever needs support, I would be happy to share relevant work: https://github.com/HuzaifaBinShahid\n\nHuzaifa",
+    shared: "GitHub profile included · CV not attached"
+  },
+  {
+    id: "aakash-kumar",
+    name: "Aakash Kumar",
+    company: "Codezania",
+    title: "Founder",
+    region: "New Delhi, India · product studio",
+    linkedin: "https://www.linkedin.com/in/aakash-kumar-codezania",
+    status: "Draft ready",
+    angle: "CRM and ERP delivery, responsive product interfaces, and client project capacity",
+    researchNote: "Aakash leads Codezania, which builds business websites, SaaS platforms, custom web applications, CRMs, and ERPs.",
+    message: "Hi Aakash, I came across Codezania and the work you are doing across CRMs, ERPs and custom web products. The mix of business systems and polished user facing interfaces stood out to me. I have around three years of React, Next.js, TypeScript, React Native and API driven product experience, plus AI integrations and Playwright and Puppeteer automation. If you ever need reliable frontend or mobile support on a client delivery, I would be happy to share relevant work: https://github.com/HuzaifaBinShahid\n\nHuzaifa",
+    shared: "GitHub profile included · CV not attached"
+  },
+  {
+    id: "alfian-azzam",
+    name: "Alfian Azzam Haryanto",
+    company: "DizzBooth / DizzPOS",
+    title: "SaaS Founder",
+    region: "Indonesia · product engineer",
+    linkedin: "https://www.linkedin.com/in/alfian-azzam",
+    status: "Draft ready",
+    angle: "Multi app SaaS products, real time interfaces, and mobile product delivery",
+    researchNote: "Alfian is building DizzBooth and DizzPOS, multi app SaaS products with real time and mobile product surfaces.",
+    message: "Hi Alfian, I saw DizzBooth and DizzPOS and liked the way you are building full product ecosystems rather than single apps. I have around three years of React, Next.js, TypeScript and React Native work, including real time features, notifications, maps and API integrations. I also work with AI integrations and Playwright and Puppeteer automation. If a user facing React or mobile surface ever needs extra support, I would be happy to share relevant work: https://github.com/HuzaifaBinShahid\n\nHuzaifa",
+    shared: "GitHub profile included · CV not attached"
   }
 ];
 
