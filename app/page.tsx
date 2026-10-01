@@ -124,6 +124,136 @@ const seededApplications: Application[] = [
     nextAction: "Revisit only if the employer repairs the application page",
     notes: "Submission returned an unexpected server error; no application was sent.",
     activity: [{ date: "Sep 22", text: "Application blocked by server error" }]
+  },
+  {
+    id: "codenzy",
+    company: "Codenzy",
+    role: "React Developer (TypeScript)",
+    location: "Lahore, Pakistan",
+    source: "Direct email",
+    stage: "Applied",
+    appliedOn: "2026-10-01",
+    nextAction: "Follow up if there is no response after 7–10 days",
+    due: "2026-10-11",
+    contact: "hr@codenzy.com",
+    link: "https://www.linkedin.com/jobs/view/4433637238/",
+    notes: "Tailored React and Next.js application emailed with CV attached and clickable GitHub and LinkedIn profile links.",
+    activity: [{ date: "Oct 1", text: "Application email sent" }]
+  },
+  {
+    id: "corvids-lab",
+    company: "Corvids Lab",
+    role: "Frontend Developer (React / Next.js)",
+    location: "Lahore, Pakistan · Remote-friendly",
+    source: "Direct email",
+    stage: "Applied",
+    appliedOn: "2026-10-01",
+    nextAction: "Follow up if there is no response after 7–10 days",
+    due: "2026-10-11",
+    contact: "careers@corvidslab.com",
+    link: "https://corvidslab.com/career/",
+    notes: "Tailored frontend application emailed with CV attached and clickable GitHub and LinkedIn profile links.",
+    activity: [{ date: "Oct 1", text: "Application email sent" }]
+  },
+  {
+    id: "carenexon",
+    company: "Carenexon",
+    role: "Frontend Developer",
+    location: "Lahore, Pakistan",
+    source: "Company careers form",
+    stage: "Closed",
+    appliedOn: "2026-10-01",
+    nextAction: "Revisit only if the employer repairs its careers form",
+    link: "https://www.carenexon.com/careers/apply?position=Frontend%20Developer",
+    notes: "The completed form returned “Failed to send email. Please try again.” No application was sent.",
+    activity: [{ date: "Oct 1", text: "Application blocked by company form error" }]
+  },
+  {
+    id: "qto-dev",
+    company: "QTO Dev",
+    role: "Senior Frontend Engineer",
+    location: "Pakistan · Remote-friendly",
+    source: "Company careers page",
+    stage: "Applied",
+    appliedOn: "2026-10-01",
+    nextAction: "Watch for an acknowledgement or recruiter reply",
+    due: "2026-10-08",
+    link: "https://qtodev.com/careers",
+    notes: "Submitted directly for the React, Next.js, TypeScript and Tailwind-focused role.",
+    activity: [{ date: "Oct 1", text: "Application submitted" }]
+  },
+  {
+    id: "trendbricks",
+    company: "TrendBricks",
+    role: "Frontend Engineer",
+    location: "Islamabad / Remote",
+    source: "Direct email",
+    stage: "Applied",
+    appliedOn: "2026-10-01",
+    nextAction: "Follow up if there is no response after 7–10 days",
+    due: "2026-10-11",
+    contact: "mawais31@gmail.com",
+    link: "https://www.trendbricks.com/careers.html",
+    notes: "Tailored application email sent with CV attached and clickable GitHub and LinkedIn profile links.",
+    activity: [{ date: "Oct 1", text: "Application email sent" }]
+  },
+  {
+    id: "wedx",
+    company: "WedX",
+    role: "Frontend Developer",
+    location: "Remote / Karachi, Pakistan",
+    source: "Company careers page",
+    stage: "Applied",
+    appliedOn: "2026-10-01",
+    nextAction: "Watch for an acknowledgement or recruiter reply",
+    due: "2026-10-08",
+    link: "https://wedx.pk/careers",
+    notes: "Submitted through WedX's Tech recruitment form using the React, Next.js, Tailwind and frontend experience profile.",
+    activity: [{ date: "Oct 1", text: "Application submitted" }]
+  },
+  {
+    id: "tbox-solutionz",
+    company: "TBox Solutionz",
+    role: "Mobile Engineer (React Native)",
+    location: "Remote / Lahore, Pakistan",
+    source: "Direct email",
+    stage: "Applied",
+    appliedOn: "2026-10-01",
+    nextAction: "Watch for their stated 48-hour response window",
+    due: "2026-10-03",
+    contact: "careers@tboxsolutionz.com",
+    link: "https://tboxsolutionz.com/careers.html",
+    notes: "Tailored Mobile Engineer application emailed with CV, GitHub profile and LinkedIn profile links.",
+    activity: [{ date: "Oct 1", text: "Application email sent" }]
+  },
+  {
+    id: "wordbitx",
+    company: "WordbitX",
+    role: "Next.js / React Engineer",
+    location: "Lahore, Pakistan · Remote inside Pakistan",
+    source: "Company careers page",
+    stage: "Applied",
+    appliedOn: "2026-10-01",
+    nextAction: "Watch for their stated one-business-day response window",
+    due: "2026-10-02",
+    contact: "info@wordbitxtech.com / WhatsApp",
+    link: "https://www.wordbitxtech.com/contact?intent=job&role=nextjs-engineer",
+    notes: "Submitted via the job form with GitHub profile and immediate availability, then followed up through the company WhatsApp channel.",
+    activity: [{ date: "Oct 1", text: "Application submitted and WhatsApp follow-up sent" }]
+  },
+  {
+    id: "grayphite",
+    company: "Grayphite",
+    role: "React Native Developer",
+    location: "Johar Town, Lahore, Pakistan",
+    source: "Direct email",
+    stage: "Applied",
+    appliedOn: "2026-10-01",
+    nextAction: "Watch for an acknowledgement or recruiter reply",
+    due: "2026-10-08",
+    contact: "careers@grayphite.com",
+    notes: "Tailored React Native application emailed with CV, GitHub profile, LinkedIn profile, and immediate availability.",
+    activity: [{ date: "Oct 1", text: "Application email sent" }]
   }
 ];
 
@@ -370,7 +500,10 @@ export default function Home() {
     if (saved) {
       try {
         const parsed = JSON.parse(saved) as Application[];
-        if (Array.isArray(parsed) && parsed.length) setApplications(parsed);
+        if (Array.isArray(parsed) && parsed.length) {
+          const newSeededApplications = seededApplications.filter((seeded) => !parsed.some((savedApplication) => savedApplication.id === seeded.id));
+          setApplications([...newSeededApplications, ...parsed]);
+        }
       } catch {
         // Keep the starter data if a saved record is invalid.
       }
