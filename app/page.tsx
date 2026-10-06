@@ -299,6 +299,22 @@ const seededApplications: Application[] = [
     link: "https://digixvalley.com/careers/",
     notes: "Tailored React application emailed with the CV attached and an embedded GitHub profile link.",
     activity: [{ date: "Oct 6", text: "Application email sent" }]
+  },
+  {
+    id: "ignisynclab",
+    company: "Ignisync Lab",
+    role: "Frontend Developer · Contract",
+    location: "Remote",
+    source: "Direct email + recruiter message",
+    stage: "Applied",
+    appliedOn: "2026-10-06",
+    compensation: "N400,000 fixed, milestone based contract · N30,000 paid assessment",
+    nextAction: "Wait for shortlist or paid assessment details",
+    due: "2026-10-13",
+    contact: "contact@ignisynclab.com",
+    link: "https://www.linkedin.com/company/ignisynclab/",
+    notes: "Tailored contract application sent with CV, embedded GitHub link, immediate availability, and a design-system-first approach to the supplied Figma work. Ali Imran, the recruiter who shared the opening, was also messaged on LinkedIn.",
+    activity: [{ date: "Oct 6", text: "Application email and recruiter message sent" }]
   }
 ];
 
