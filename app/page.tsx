@@ -315,6 +315,22 @@ const seededApplications: Application[] = [
     link: "https://www.linkedin.com/company/ignisynclab/",
     notes: "Tailored contract application sent with CV, embedded GitHub link, immediate availability, and a design-system-first approach to the supplied Figma work. Ali Imran, the recruiter who shared the opening, was also messaged on LinkedIn.",
     activity: [{ date: "Oct 6", text: "Application email and recruiter message sent" }]
+  },
+  {
+    id: "intellicore-tech",
+    company: "IntelliCore Tech",
+    role: "Front End Engineer",
+    location: "Lahore, Pakistan · Hybrid",
+    source: "Direct email",
+    stage: "Applied",
+    appliedOn: "2026-10-06",
+    compensation: "USD 700 to 1,000 per month",
+    nextAction: "Wait for an acknowledgement or interview invitation",
+    due: "2026-10-13",
+    contact: "hiring@intellicore.tech",
+    link: "https://intellicore.tech/careers",
+    notes: "Honest tailored application emailed with CV, embedded GitHub profile link, immediate availability, EST schedule flexibility, three years of production frontend and mobile experience, and automated browser testing experience with Playwright and Puppeteer.",
+    activity: [{ date: "Oct 6", text: "Application email sent" }]
   }
 ];
 
