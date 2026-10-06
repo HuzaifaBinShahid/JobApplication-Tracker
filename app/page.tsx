@@ -284,6 +284,21 @@ const seededApplications: Application[] = [
     link: "https://pk.linkedin.com/jobs/view/frontend-developer-next-js-%2B-ai-native-at-semexsoft-4461865043",
     notes: "Tailored Next.js and AI-assisted-development application emailed with CV attached and embedded Repo-cards and GitHub profile links.",
     activity: [{ date: "Oct 6", text: "Application email sent" }]
+  },
+  {
+    id: "digixvalley",
+    company: "Digixvalley",
+    role: "Associate Frontend React Developer",
+    location: "Lahore, Pakistan",
+    source: "Direct email",
+    stage: "Applied",
+    appliedOn: "2026-10-06",
+    nextAction: "Follow up if there is no response after 7–10 days",
+    due: "2026-10-16",
+    contact: "info@digixvalley.com",
+    link: "https://digixvalley.com/careers/",
+    notes: "Tailored React application emailed with the CV attached and an embedded GitHub profile link.",
+    activity: [{ date: "Oct 6", text: "Application email sent" }]
   }
 ];
 
