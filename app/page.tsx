@@ -254,6 +254,36 @@ const seededApplications: Application[] = [
     contact: "careers@grayphite.com",
     notes: "Tailored React Native application emailed with CV, GitHub profile, LinkedIn profile, and immediate availability.",
     activity: [{ date: "Oct 1", text: "Application email sent" }]
+  },
+  {
+    id: "newry-global",
+    company: "Newry Global",
+    role: "General application · Creative Technologist interest",
+    location: "Remote-friendly",
+    source: "Company careers page",
+    stage: "Applied",
+    appliedOn: "2026-10-06",
+    nextAction: "Wait for a reply from the Newry team",
+    due: "2026-10-13",
+    link: "https://newryglobal.com/careers",
+    notes: "Submitted through Newry's Join route. The note highlighted React, Next.js, React Native, automation workflows, Repo-cards, and the GitHub profile.",
+    activity: [{ date: "Oct 6", text: "General application message sent" }]
+  },
+  {
+    id: "semexsoft",
+    company: "Semexsoft",
+    role: "Frontend Developer · Next.js",
+    location: "Remote · Pakistan",
+    source: "Direct email",
+    stage: "Applied",
+    appliedOn: "2026-10-06",
+    compensation: "Previous USD 800/month; Expected PKR 280,000 to 420,000/month",
+    nextAction: "Follow up if there is no response after 7–10 days",
+    due: "2026-10-13",
+    contact: "careers@semexsoft.com",
+    link: "https://pk.linkedin.com/jobs/view/frontend-developer-next-js-%2B-ai-native-at-semexsoft-4461865043",
+    notes: "Tailored Next.js and AI-assisted-development application emailed with CV attached and embedded Repo-cards and GitHub profile links.",
+    activity: [{ date: "Oct 6", text: "Application email sent" }]
   }
 ];
 
