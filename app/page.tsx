@@ -419,6 +419,21 @@ const seededApplications: Application[] = [
     link: "https://eco-greendevelopers.com/careers/application-form",
     notes: "The application was completed with the CV, GitHub profile and tailored note, but the form returned “Origin is not allowed.” No application was submitted.",
     activity: [{ date: "Oct 7", text: "Application blocked by company form error" }]
+  },
+  {
+    id: "xws-solution",
+    company: "XWS Solution",
+    role: "Frontend Developer",
+    location: "Remote · Pakistan",
+    source: "Direct email",
+    stage: "Applied",
+    appliedOn: "2026-10-07",
+    nextAction: "Wait for an acknowledgement or interview invitation",
+    due: "2026-10-14",
+    contact: "mnaveed2862@gmail.com",
+    link: "https://xws.digital/career",
+    notes: "Tailored remote application emailed with the CV attached and embedded GitHub and LinkedIn profile links. It matched React, Next.js, TypeScript, Tailwind CSS, state management, mobile delivery and AI-assisted development workflows to the role.",
+    activity: [{ date: "Oct 7", text: "Application email sent" }]
   }
 ];
 
