@@ -406,6 +406,19 @@ const seededApplications: Application[] = [
     link: "https://pk.linkedin.com/jobs/view/frontend-react-js-%2B-next-js-developer-at-siliconnexus-4455863391",
     notes: "Tailored application emailed with the CV attached and embedded GitHub and LinkedIn profile links. It matched React, Next.js, TypeScript, Tailwind CSS, Redux Toolkit, Context API, TanStack Query, and API integration experience to the role.",
     activity: [{ date: "Oct 7", text: "Application email sent" }]
+  },
+  {
+    id: "eco-green-developers",
+    company: "Eco Green Developers",
+    role: "React/Next.js Frontend Developer",
+    location: "Lahore, Pakistan",
+    source: "Company careers form",
+    stage: "Closed",
+    appliedOn: "2026-10-07",
+    nextAction: "Revisit only if the employer repairs the application form",
+    link: "https://eco-greendevelopers.com/careers/application-form",
+    notes: "The application was completed with the CV, GitHub profile and tailored note, but the form returned “Origin is not allowed.” No application was submitted.",
+    activity: [{ date: "Oct 7", text: "Application blocked by company form error" }]
   }
 ];
 
