@@ -376,6 +376,21 @@ const seededApplications: Application[] = [
     link: "https://www.linkedin.com/posts/asimahmood_hiring-frontenddeveloper-reactjs-activity-7501634395859025921-xsem",
     notes: "Tailored application emailed with the CV attached and embedded GitHub and LinkedIn profile links. It highlighted three years of React, Next.js, JavaScript, TypeScript and React Native delivery, including SaaS dashboards, APIs, realtime features and map-based workflows.",
     activity: [{ date: "Oct 7", text: "Application email sent" }]
+  },
+  {
+    id: "entropy-and-co",
+    company: "Entropy And Co",
+    role: "Senior Frontend Developer",
+    location: "Lahore, Pakistan · Onsite",
+    source: "Direct email",
+    stage: "Applied",
+    appliedOn: "2026-10-07",
+    nextAction: "Wait for an acknowledgement or interview invitation",
+    due: "2026-10-14",
+    contact: "hassan@entropyand.co",
+    link: "https://www.linkedin.com/in/shaheerkhawaja/",
+    notes: "Tailored application emailed with the CV attached and an embedded GitHub profile link. It focused on three years of React, Next.js, JavaScript, TypeScript and React Native delivery, production SaaS work, AI assisted development workflows, and ownership through release.",
+    activity: [{ date: "Oct 7", text: "Application email sent" }]
   }
 ];
 
