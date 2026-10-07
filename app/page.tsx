@@ -391,6 +391,21 @@ const seededApplications: Application[] = [
     link: "https://www.linkedin.com/in/shaheerkhawaja/",
     notes: "Tailored application emailed with the CV attached and an embedded GitHub profile link. It focused on three years of React, Next.js, JavaScript, TypeScript and React Native delivery, production SaaS work, AI assisted development workflows, and ownership through release.",
     activity: [{ date: "Oct 7", text: "Application email sent" }]
+  },
+  {
+    id: "siliconnexus",
+    company: "SiliconNexus",
+    role: "Frontend Developer (React.js + Next.js)",
+    location: "Lahore, Pakistan",
+    source: "Direct email",
+    stage: "Applied",
+    appliedOn: "2026-10-07",
+    nextAction: "Wait for an acknowledgement or interview invitation",
+    due: "2026-10-14",
+    contact: "careers@silicon-nexus.com",
+    link: "https://pk.linkedin.com/jobs/view/frontend-react-js-%2B-next-js-developer-at-siliconnexus-4455863391",
+    notes: "Tailored application emailed with the CV attached and embedded GitHub and LinkedIn profile links. It matched React, Next.js, TypeScript, Tailwind CSS, Redux Toolkit, Context API, TanStack Query, and API integration experience to the role.",
+    activity: [{ date: "Oct 7", text: "Application email sent" }]
   }
 ];
 
