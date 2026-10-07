@@ -361,6 +361,21 @@ const seededApplications: Application[] = [
     link: "https://pk.linkedin.com/company/devmine",
     notes: "Tailored application emailed with the CV attached and an embedded GitHub profile link. It focused on React, Next.js, React Native, responsive SaaS dashboards, API integrations, realtime features, and maintainable state management.",
     activity: [{ date: "Oct 7", text: "Application email sent" }]
+  },
+  {
+    id: "goodtogo-frontend",
+    company: "Good To Go",
+    role: "Frontend Developer",
+    location: "DHA Phase 6, Lahore, Pakistan · Onsite",
+    source: "Direct email",
+    stage: "Applied",
+    appliedOn: "2026-10-07",
+    nextAction: "Wait for an acknowledgement or interview invitation",
+    due: "2026-10-14",
+    contact: "fahad.goodtogo@gmail.com",
+    link: "https://www.linkedin.com/posts/asimahmood_hiring-frontenddeveloper-reactjs-activity-7501634395859025921-xsem",
+    notes: "Tailored application emailed with the CV attached and embedded GitHub and LinkedIn profile links. It highlighted three years of React, Next.js, JavaScript, TypeScript and React Native delivery, including SaaS dashboards, APIs, realtime features and map-based workflows.",
+    activity: [{ date: "Oct 7", text: "Application email sent" }]
   }
 ];
 
