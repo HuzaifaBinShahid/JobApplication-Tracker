@@ -331,12 +331,55 @@ const seededApplications: Application[] = [
     link: "https://intellicore.tech/careers",
     notes: "Honest tailored application emailed with CV, embedded GitHub profile link, immediate availability, EST schedule flexibility, three years of production frontend and mobile experience, and automated browser testing experience with Playwright and Puppeteer.",
     activity: [{ date: "Oct 6", text: "Application email sent" }]
+  },
+  {
+    id: "codeit-devs",
+    company: "CodeIT Devs",
+    role: "Frontend Developer",
+    location: "Remote · Pakistan",
+    source: "Direct email",
+    stage: "Applied",
+    appliedOn: "2026-10-07",
+    nextAction: "Wait for an acknowledgement or interview invitation",
+    due: "2026-10-14",
+    contact: "info@codeitdevs.com",
+    link: "https://www.codeitdevs.com/",
+    notes: "Tailored application emailed with the CV attached and an embedded GitHub profile link. It highlighted React, Next.js, React Native, SaaS dashboards, API integrations, realtime features, and AI-assisted development workflows.",
+    activity: [{ date: "Oct 7", text: "Application email sent" }]
+  },
+  {
+    id: "devmine",
+    company: "Devmine",
+    role: "Front End Developer",
+    location: "Garden Town, Lahore, Pakistan · Onsite",
+    source: "Direct email",
+    stage: "Applied",
+    appliedOn: "2026-10-07",
+    nextAction: "Wait for an acknowledgement or interview invitation",
+    due: "2026-10-14",
+    contact: "talent@devmine.co",
+    link: "https://pk.linkedin.com/company/devmine",
+    notes: "Tailored application emailed with the CV attached and an embedded GitHub profile link. It focused on React, Next.js, React Native, responsive SaaS dashboards, API integrations, realtime features, and maintainable state management.",
+    activity: [{ date: "Oct 7", text: "Application email sent" }]
   }
 ];
 
 const githubProfile = "https://github.com/HuzaifaBinShahid";
 
 const seededOutreach: Outreach[] = [
+  {
+    id: "lobna-mahmoud",
+    name: "Lobna Mahmoud",
+    company: "Undisclosed startup",
+    title: "Recruitment Consultant",
+    region: "Remote role · Pakistan eligibility pending",
+    linkedin: "https://www.linkedin.com/in/lobna-mahmoud-41bbb991/",
+    status: "Draft ready",
+    angle: "React, Next.js, TypeScript, and three years of production frontend experience",
+    researchNote: "Lobna shared a remote mid-level Frontend Engineer opportunity. LinkedIn requires Premium InMail to message her directly because she is a second-degree connection, so no message or connection request was sent.",
+    message: "Hi Lobna, I saw your remote mid-level Frontend Engineer role. I have three years of experience building production work with React, Next.js and TypeScript, including SaaS dashboards, API integrations, realtime features and mobile workflows. I am based in Lahore, Pakistan. Could you let me know whether the role can hire remotely from Pakistan? I would be glad to share my CV and GitHub profile.",
+    shared: "CV and GitHub profile offered on reply · no message sent"
+  },
   {
     id: "zeno-rocha",
     name: "Zeno Rocha",
