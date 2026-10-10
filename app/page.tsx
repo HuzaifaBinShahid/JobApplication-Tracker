@@ -434,6 +434,22 @@ const seededApplications: Application[] = [
     link: "https://xws.digital/career",
     notes: "Tailored remote application emailed with the CV attached and embedded GitHub and LinkedIn profile links. It matched React, Next.js, TypeScript, Tailwind CSS, state management, mobile delivery and AI-assisted development workflows to the role.",
     activity: [{ date: "Oct 7", text: "Application email sent" }]
+  },
+  {
+    id: "parallax-labs",
+    company: "Parallax Labs",
+    role: "Frontend Developer",
+    location: "Remote · project-based",
+    source: "Company careers form",
+    stage: "Applied",
+    appliedOn: "2026-10-10",
+    compensation: "USD 1,000 to 1,500 per month",
+    nextAction: "Wait for an acknowledgement or interview invitation",
+    due: "2026-10-17",
+    contact: "careers@parallaxlab.site",
+    link: "https://www.parallaxlab.site/careers",
+    notes: "Submitted through the company careers form for the Frontend Developer opening with the CV attached, Lahore location, LinkedIn profile, and the stated salary range.",
+    activity: [{ date: "Oct 10", text: "Application submitted" }]
   }
 ];
 
