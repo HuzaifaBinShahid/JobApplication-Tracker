@@ -42,6 +42,20 @@ const stages: Stage[] = ["Applied", "Awaiting reply", "Interview", "Offer", "Rej
 
 const seededApplications: Application[] = [
   {
+    id: "welvaart-react-developer",
+    company: "Welvaart",
+    role: "React Developer",
+    location: "Remote · international applicant from Lahore, Pakistan",
+    source: "Welvaart careers",
+    stage: "Applied",
+    appliedOn: "2026-10-11",
+    link: "https://halike.welvaart.io/careers/7/",
+    nextAction: "Watch for Welvaart's stated response within 48 business hours",
+    due: "2026-10-14",
+    notes: "Applied through Welvaart's careers form with the latest live-app CV, Pakistan phone number, LinkedIn profile, and international location. The role lists 7+ years of frontend experience; the submitted CV accurately states three years.",
+    activity: [{ date: "Oct 11", text: "Application submitted" }]
+  },
+  {
     id: "micro1-senior-mobile-developer",
     company: "micro1",
     role: "Senior Mobile Developer",
