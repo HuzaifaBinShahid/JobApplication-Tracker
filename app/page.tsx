@@ -695,6 +695,19 @@ const seededOutreach: Outreach[] = [
     researchNote: "Alfian is building DizzBooth and DizzPOS, multi app SaaS products with real time and mobile product surfaces. Free LinkedIn message sent Sep 25, 2026.",
     message: "Hi Alfian, I saw DizzBooth and DizzPOS and liked what you are building. I have three years of React, Next.js, TypeScript and React Native work, including real time features, notifications and APIs. If a user facing React or mobile feature needs support, I would be happy to help. https://github.com/HuzaifaBinShahid",
     shared: "GitHub profile shared · CV not attached"
+  },
+  {
+    id: "glideups",
+    name: "Glideups team",
+    company: "Glideups",
+    title: "Contract development partnership",
+    region: "Karachi, Pakistan · remote contract work",
+    linkedin: "https://www.linkedin.com/company/glideups/",
+    status: "Sent",
+    angle: "React and React Native capacity for web and app delivery, real time product features, API integrations, and UI polish",
+    researchNote: "Glideups publicly asked freelancers and agencies to share portfolios for contract web and app work. A tailored portfolio comment was posted on Oct 11, 2026.",
+    message: "Hi Glideups team, I am interested in supporting your contract web and app work. I am a frontend and mobile engineer from Lahore with three years of production experience using React, Next.js, TypeScript and React Native. Recently I have delivered SaaS dashboards, API integrations, realtime chat and notification flows, mapping features, and mobile apps for live users. I can help with React web work, React Native apps, UI polish, integrations, and automation where needed. GitHub: https://github.com/HuzaifaBinShahid Recent project: https://github.com/HuzaifaBinShahid/Repo-cards Happy to discuss how I can help with the current workload.",
+    shared: "GitHub profile and Repo cards project link posted in a LinkedIn comment · CV not attached"
   }
 ];
 
@@ -753,7 +766,10 @@ export default function Home() {
     if (savedOutreach) {
       try {
         const parsed = JSON.parse(savedOutreach) as Outreach[];
-        if (Array.isArray(parsed) && parsed.length) setOutreach(parsed);
+        if (Array.isArray(parsed) && parsed.length) {
+          const newSeededOutreach = seededOutreach.filter((seeded) => !parsed.some((savedContact) => savedContact.id === seeded.id));
+          setOutreach([...newSeededOutreach, ...parsed]);
+        }
       } catch {
         // Keep the researched starter outreach if a saved record is invalid.
       }
