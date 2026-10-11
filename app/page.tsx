@@ -42,6 +42,24 @@ const stages: Stage[] = ["Applied", "Awaiting reply", "Interview", "Offer", "Rej
 
 const seededApplications: Application[] = [
   {
+    id: "micro1-senior-mobile-developer",
+    company: "micro1",
+    role: "Senior Mobile Developer",
+    location: "Remote · contractor",
+    source: "micro1 careers",
+    stage: "Interview",
+    appliedOn: "2026-10-11",
+    compensation: "USD 25/hour entered",
+    link: "https://jobs.micro1.ai/post/31dc936e-0f29-441f-baf9-91c2ff9cc7d4",
+    nextAction: "Complete the AI interview by Oct 13, 2026, 4:44 AM",
+    due: "2026-10-13",
+    notes: "Application submitted with the latest CV and GitHub portfolio. micro1 invited Huzaifa to an AI interview covering mobile-development experience, a core mobile language, testing, and debugging complex mobile applications.",
+    activity: [
+      { date: "Oct 11", text: "Application submitted" },
+      { date: "Oct 11", text: "AI interview invitation received" }
+    ]
+  },
+  {
     id: "writesonic",
     company: "Writesonic",
     role: "Senior Software Engineer (Frontend)",
