@@ -42,6 +42,21 @@ const stages: Stage[] = ["Applied", "Awaiting reply", "Interview", "Offer", "Rej
 
 const seededApplications: Application[] = [
   {
+    id: "glitch-devs-frontend-developer",
+    company: "Glitch Devs",
+    role: "Frontend Developer (React and Next.js)",
+    location: "Remote · international applicant from Lahore, Pakistan",
+    source: "Glitch Devs careers",
+    stage: "Applied",
+    appliedOn: "2026-10-12",
+    compensation: "USD 1,000/month entered",
+    link: "https://glitchdevs.com/jobs/frontend-developer-react-and-next-js-glitch-devs",
+    nextAction: "Watch for Glitch Devs' confirmation email or WhatsApp reply",
+    due: "2026-10-19",
+    notes: "Submitted with the latest live-app CV and a tailored note focused on production React, Next.js, TypeScript, Tailwind, responsive interfaces, Playwright and Puppeteer workflows, and Hopn real-time mobile features.",
+    activity: [{ date: "Oct 12", text: "Application submitted and receipt confirmed" }]
+  },
+  {
     id: "welvaart-react-developer",
     company: "Welvaart",
     role: "React Developer",
