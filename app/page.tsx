@@ -591,11 +591,11 @@ const seededOutreach: Outreach[] = [
     title: "CEO & Co-Founder",
     region: "Prague · startup studio",
     linkedin: "https://www.linkedin.com/in/vaclavikjan",
-    status: "Draft ready",
+    status: "Sent",
     angle: "MVP delivery across React web and React Native mobile",
-    researchNote: "Belcode focuses on turning startup concepts into shipped web and mobile products.",
-    message: "Hi Jan — Belcode’s mix of product discovery and rapid MVP delivery stood out to me. I’m a frontend and mobile engineer with around three years of React, Next.js, TypeScript, and React Native work, including SaaS dashboards, real-time product features, and reusable UI patterns. If your studio ever needs support on a web or mobile delivery, I’d be happy to share work and see whether I can help: https://github.com/HuzaifaBinShahid\n\nHuzaifa",
-    shared: "GitHub profile included · CV not attached"
+    researchNote: "Belcode focuses on turning startup concepts into shipped web and mobile products. A tailored LinkedIn InMail was sent on Oct 13, 2026.",
+    message: "Hi Jan, I came across Belcode and liked the mix of product discovery and rapid web and mobile delivery.\n\nI am a frontend and mobile engineer with three years of production experience in React, Next.js, TypeScript and React Native. Recently, I shipped airport ride sharing apps with live maps, real time chat, navigation, notifications and API integrations. I also build SaaS dashboards, booking workflows and payment integrations.\n\nIf Belcode ever needs reliable frontend or mobile capacity for a client delivery, I would be happy to share relevant work or help with a small scoped feature first.\n\nHuzaifa",
+    shared: "LinkedIn InMail sent · Relevant work offered on reply · No attachment"
   },
   {
     id: "william-bowman",
@@ -682,11 +682,11 @@ const seededOutreach: Outreach[] = [
     title: "Founder",
     region: "United States · healthcare technology",
     linkedin: "https://www.linkedin.com/in/arslanmir",
-    status: "Draft ready",
+    status: "Sent",
     angle: "Healthcare revenue workflows, product dashboards, and clear user journeys",
-    researchNote: "Arslan is building AssureLogix, a healthcare technology platform focused on turning complex clinical data into revenue workflows.",
-    message: "Hi Arslan, I came across AssureLogix and liked the focus on turning complicated healthcare data into useful revenue workflows. I have around three years of React, Next.js, TypeScript, React Native and API driven product work. I also work with AI integrations and browser automation using Playwright and Puppeteer. If you ever need an extra pair of hands on a dashboard, a user flow or a mobile surface, I would be happy to share relevant work: https://github.com/HuzaifaBinShahid\n\nHuzaifa",
-    shared: "GitHub profile included · CV not attached"
+    researchNote: "Arslan is building AssureLogix, a healthcare technology platform focused on turning complex clinical data into revenue workflows. A tailored LinkedIn InMail was sent on Oct 13, 2026.",
+    message: "Hi Arslan, I have been looking at AssureLogix and the goal of turning complicated healthcare data into useful revenue workflows.\n\nMaking complex information clear for operations teams is work I enjoy. I build React, Next.js, TypeScript and React Native product interfaces, with experience in dashboards, API integrations, real time status flows, maps, notifications and booking systems.\n\nIf a dashboard, workflow or mobile surface needs implementation support, I would be glad to share relevant work and start with a focused piece of work.\n\nHuzaifa",
+    shared: "LinkedIn InMail sent · Relevant work offered on reply · No attachment"
   },
   {
     id: "muhammad-sufyan",
