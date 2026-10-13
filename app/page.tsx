@@ -42,6 +42,20 @@ const stages: Stage[] = ["Applied", "Awaiting reply", "Interview", "Offer", "Rej
 
 const seededApplications: Application[] = [
   {
+    id: "constructor-retail-media",
+    company: "Constructor",
+    role: "Full Stack Engineer: Retail Media",
+    location: "Remote · EMEA · applied from Lahore, Pakistan",
+    source: "Constructor careers via Remote React",
+    stage: "Applied",
+    appliedOn: "2026-10-13",
+    link: "https://jobs.ashbyhq.com/constructor/815739c5-aba3-4b08-af02-57e0057a46b0",
+    nextAction: "Watch for a response from Constructor's Retail Media team",
+    due: "2026-10-20",
+    notes: "Submitted with the latest live-app CV, LinkedIn profile, and a focused cover letter. The application accurately highlights three years of React, TypeScript, Next.js, React Native, dashboards, real-time features, and production SaaS work, without claiming the role's Python, SQL, cloud, or senior-level requirements.",
+    activity: [{ date: "Oct 13", text: "Application submitted and receipt confirmed" }]
+  },
+  {
     id: "programmer-lab-javascript-developer",
     company: "Programmer Lab",
     role: "JavaScript Developer",
