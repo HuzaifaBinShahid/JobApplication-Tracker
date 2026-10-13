@@ -42,6 +42,21 @@ const stages: Stage[] = ["Applied", "Awaiting reply", "Interview", "Offer", "Rej
 
 const seededApplications: Application[] = [
   {
+    id: "programmer-lab-javascript-developer",
+    company: "Programmer Lab",
+    role: "JavaScript Developer",
+    location: "Lahore, Pakistan · remote post, Lahore-based company",
+    source: "Direct email from company LinkedIn post",
+    stage: "Applied",
+    appliedOn: "2026-10-13",
+    link: "https://www.linkedin.com/jobs/view/javascript-developer-at-programmer-lab-pvt-ltd-4475684647",
+    nextAction: "Watch for a reply from Programmer Lab's hiring team",
+    due: "2026-10-20",
+    contact: "careers@programmerlab.co",
+    notes: "The formal LinkedIn listing is closed, but the active company contact post explicitly invited CV applications by email. Sent the latest live-app CV and a tailored note connecting Hopn real-time mobile work, React and Next.js delivery, REST integrations, SaaS interfaces, and Playwright and Puppeteer workflows.",
+    activity: [{ date: "Oct 13", text: "Tailored application email sent with CV attached" }]
+  },
+  {
     id: "glitch-devs-frontend-developer",
     company: "Glitch Devs",
     role: "Frontend Developer (React and Next.js)",
