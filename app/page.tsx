@@ -42,6 +42,24 @@ const stages: Stage[] = ["Applied", "Awaiting reply", "Interview", "Offer", "Rej
 
 const seededApplications: Application[] = [
   {
+    id: "aklikx-technologies-website-developer",
+    company: "Aklikx Technologies",
+    role: "Website Developer · Project-based",
+    location: "Remote · Pakistan",
+    source: "Recruiter LinkedIn post · direct email + LinkedIn InMail",
+    stage: "Applied",
+    appliedOn: "2026-10-14",
+    link: "https://www.linkedin.com/posts/fatimah-tahir-332436239_hiring-webdeveloper-websitedevelopment-share-7515823689305600000-69sj/",
+    nextAction: "Wait for Fatimah Tahir or the Aklikx team to discuss project requirements",
+    due: "2026-10-21",
+    contact: "hrfatimahtahir@gmail.com",
+    notes: "Applied directly to the project-based remote Website Developer opening. The latest live-app CV was attached, with clickable GitHub and Repo Cards portfolio links in the email. Fatimah Tahir, Aklikx Technologies' technical recruiter, also received a concise LinkedIn InMail confirming the application.",
+    activity: [
+      { date: "Oct 14", text: "LinkedIn InMail sent to the recruiter" },
+      { date: "Oct 14", text: "Tailored application email sent with CV attached" }
+    ]
+  },
+  {
     id: "constructor-retail-media",
     company: "Constructor",
     role: "Full Stack Engineer: Retail Media",
