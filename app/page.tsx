@@ -76,14 +76,18 @@ const seededApplications: Application[] = [
     role: "Frontend Developer (React and Next.js)",
     location: "Remote · international applicant from Lahore, Pakistan",
     source: "Glitch Devs careers",
-    stage: "Applied",
+    stage: "Interview",
     appliedOn: "2026-10-12",
     compensation: "USD 1,000/month entered",
     link: "https://glitchdevs.com/jobs/frontend-developer-react-and-next-js-glitch-devs",
-    nextAction: "Watch for Glitch Devs' confirmation email or WhatsApp reply",
-    due: "2026-10-19",
-    notes: "Submitted with the latest live-app CV and a tailored note focused on production React, Next.js, TypeScript, Tailwind, responsive interfaces, Playwright and Puppeteer workflows, and Hopn real-time mobile features.",
-    activity: [{ date: "Oct 12", text: "Application submitted and receipt confirmed" }]
+    nextAction: "Wait for Glitch Devs to review the completed online assessment",
+    due: "2026-10-21",
+    notes: "Submitted with the latest live-app CV and a tailored note focused on production React, Next.js, TypeScript, Tailwind, responsive interfaces, Playwright and Puppeteer workflows, and Hopn real-time mobile features. Glitch Devs then invited Huzaifa to a 20-question, 30-minute online test, which he completed on Oct 14.",
+    activity: [
+      { date: "Oct 14", text: "Online assessment completed" },
+      { date: "Oct 14", text: "Shortlisted for the online assessment" },
+      { date: "Oct 12", text: "Application submitted and receipt confirmed" }
+    ]
   },
   {
     id: "welvaart-react-developer",
@@ -799,8 +803,12 @@ export default function Home() {
       try {
         const parsed = JSON.parse(saved) as Application[];
         if (Array.isArray(parsed) && parsed.length) {
-          const newSeededApplications = seededApplications.filter((seeded) => !parsed.some((savedApplication) => savedApplication.id === seeded.id));
-          setApplications([...newSeededApplications, ...parsed]);
+          const latestGlitchDevs = seededApplications.find((application) => application.id === "glitch-devs-frontend-developer");
+          const migratedApplications = parsed.map((application) => application.id === "glitch-devs-frontend-developer" && latestGlitchDevs
+            ? { ...application, ...latestGlitchDevs }
+            : application);
+          const newSeededApplications = seededApplications.filter((seeded) => !migratedApplications.some((savedApplication) => savedApplication.id === seeded.id));
+          setApplications([...newSeededApplications, ...migratedApplications]);
         }
       } catch {
         // Keep the starter data if a saved record is invalid.
