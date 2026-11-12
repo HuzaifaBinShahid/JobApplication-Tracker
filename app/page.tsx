@@ -548,6 +548,701 @@ const seededApplications: Application[] = [
     link: "https://www.parallaxlab.site/careers",
     notes: "Submitted through the company careers form for the Frontend Developer opening with the CV attached, Lahore location, LinkedIn profile, and the stated salary range.",
     activity: [{ date: "Oct 10", text: "Application submitted" }]
+  },
+  {
+    id: "devsinc-frontend",
+    company: "Devsinc",
+    role: "Software Engineer – Frontend",
+    location: "Lahore, Pakistan",
+    source: "Workable careers page",
+    stage: "Applied",
+    appliedOn: "2026-11-11",
+    link: "https://apply.workable.com/devsinc-17/j/2A641AD47B/apply/",
+    nextAction: "Wait for a reply from the hiring team",
+    due: "2026-11-18",
+    notes: "Submitted in Chrome with the Software Engineer CV; Workable sent a 'Thanks for applying' email the same evening.",
+    activity: [
+      {
+        date: "Nov 11",
+        text: "Application submitted; Workable confirmation email received"
+      }
+    ]
+  },
+  {
+    id: "devsinc-nodejs",
+    company: "Devsinc",
+    role: "Senior Software Engineer – Node.js",
+    location: "Lahore, Pakistan",
+    source: "Workable careers page",
+    stage: "Applied",
+    appliedOn: "2026-11-11",
+    link: "https://apply.workable.com/devsinc-17/j/20520C8A7E/apply/",
+    nextAction: "Wait for a reply from the hiring team",
+    due: "2026-11-18",
+    notes: "Submitted in Chrome with the Software Engineer CV; Workable sent a 'Thanks for applying' email the same evening.",
+    activity: [
+      {
+        date: "Nov 11",
+        text: "Application submitted; Workable confirmation email received"
+      }
+    ]
+  },
+  {
+    id: "creative-chaos-react-native",
+    company: "Creative Chaos",
+    role: "Software Engineer – React Native",
+    location: "Remote · Pakistan",
+    source: "Workable careers page",
+    stage: "Applied",
+    appliedOn: "2026-11-11",
+    link: "https://apply.workable.com/creativechaos/j/B08909851F/apply/",
+    nextAction: "Wait for a reply from the hiring team",
+    due: "2026-11-18",
+    notes: "Submitted in Chrome with the Software Engineer CV; Workable sent a 'Thanks for applying' email the same evening.",
+    activity: [
+      {
+        date: "Nov 11",
+        text: "Application submitted; Workable confirmation email received"
+      }
+    ]
+  },
+  {
+    id: "pavago-ai-automation-specialist",
+    company: "Pavago",
+    role: "AI Automation Specialist",
+    location: "Remote · Pakistan · US hours",
+    source: "Workable careers page",
+    stage: "Applied",
+    appliedOn: "2026-11-11",
+    link: "https://apply.workable.com/pavago/j/0451C10630/apply/",
+    nextAction: "Wait for a reply from the hiring team",
+    due: "2026-11-18",
+    notes: "Submitted in Chrome with the Software Engineer CV; Workable sent a 'Thanks for applying' email the same evening.",
+    activity: [
+      {
+        date: "Nov 11",
+        text: "Application submitted; Workable confirmation email received"
+      }
+    ]
+  },
+  {
+    id: "pavago-ai-engineer",
+    company: "Pavago",
+    role: "AI Engineer",
+    location: "Remote · Pakistan · US hours",
+    source: "Workable careers page",
+    stage: "Applied",
+    appliedOn: "2026-11-11",
+    link: "https://apply.workable.com/pavago/j/4ABDEC0BF1/apply/",
+    nextAction: "Wait for a reply from the hiring team",
+    due: "2026-11-18",
+    notes: "Submitted in Chrome with the Software Engineer CV; Workable sent a 'Thanks for applying' email the same evening.",
+    activity: [
+      {
+        date: "Nov 11",
+        text: "Application submitted; Workable confirmation email received"
+      }
+    ]
+  },
+  {
+    id: "proskillshr-app-developer-ai-automation",
+    company: "PROSkillsHR (for a mental-health client)",
+    role: "App Developer & AI Automation Specialist",
+    location: "Remote · international client",
+    source: "Recruiter post · direct email",
+    stage: "Applied",
+    appliedOn: "2026-11-11",
+    nextAction: "Wait for the paid task or a call",
+    due: "2026-11-18",
+    contact: "careers@proskillshr.com",
+    notes: "Tailored email sent from Gmail with the Software Engineer CV attached, covering Hopn React Native apps, Boolmind AI SaaS and agents, n8n and LLM APIs, and privacy-first handling of personal data.",
+    activity: [
+      {
+        date: "Nov 11",
+        text: "Application email sent with CV"
+      }
+    ]
+  },
+  {
+    id: "awisee-frontend-nextjs",
+    company: "AWISEE",
+    role: "Frontend Developer (Next.js)",
+    location: "Remote",
+    source: "X post · Zoho Recruit form",
+    stage: "Applied",
+    appliedOn: "2026-11-12",
+    compensation: "USD 1,500/month entered",
+    nextAction: "Wait for a reply",
+    due: "2026-11-19",
+    notes: "Zoho application filled with the Software Engineer CV and LinkedIn; Huzaifa completed the CAPTCHA and submitted it himself.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Application submitted"
+      }
+    ]
+  },
+  {
+    id: "brilliant-boss-full-stack-riyadh",
+    company: "Brilliant Boss HR Consultancy",
+    role: "Full Stack Developer (Laravel, NestJS, Next.js)",
+    location: "Riyadh, Saudi Arabia · relocation",
+    source: "Recruiter post · direct email",
+    stage: "Awaiting reply",
+    appliedOn: "2026-11-12",
+    compensation: "SAR 4,000–6,000/month (their range)",
+    nextAction: "Proceed only if the employer pays the recruitment fee; otherwise drop it",
+    due: "2026-11-19",
+    contact: "marketing.bbhrc@gmail.com",
+    notes: "Applied by email with the Software Engineer CV, honest about 3.5 years and limited Laravel. The agency replied asking for a recruitment service charge of one month's gross salary paid by the candidate; the reply answered every question, said 'can consider SAR 4,000–6,000', asked what the package covers, and declined the fee (Saudi law puts recruitment costs on the employer).",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Reply sent declining the candidate-paid recruitment fee"
+      },
+      {
+        date: "Nov 12",
+        text: "Agency asked for a one-month-salary service charge"
+      },
+      {
+        date: "Nov 12",
+        text: "Application email sent with CV"
+      }
+    ]
+  },
+  {
+    id: "anushay-meer-part-time-developer",
+    company: "Anushay Meer (hiring post)",
+    role: "Part-Time Developer (project-based, remote)",
+    location: "Remote",
+    source: "LinkedIn post · direct email",
+    stage: "Applied",
+    appliedOn: "2026-11-12",
+    nextAction: "Send the LinkedIn DM if not done yet; wait for a reply",
+    due: "2026-11-19",
+    contact: "anushaymeer99@gmail.com",
+    notes: "Emailed with the Software Engineer CV and portfolio links. The post listed a 'gamil.com' address (a look-alike domain that accepts mail), so the email went to the gmail.com address with a P.S. explaining why.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Application email sent with CV"
+      }
+    ]
+  },
+  {
+    id: "derby-digital-product-designer-react",
+    company: "Derby Digital",
+    role: "Product Designer / React Developer (DerbyFlow)",
+    location: "Remote · Pakistan",
+    source: "LinkedIn post · direct email",
+    stage: "Applied",
+    appliedOn: "2026-11-12",
+    nextAction: "Prepare for the trial task (React booking or guest-list screen)",
+    due: "2026-11-19",
+    contact: "jahan@derbydigital.us",
+    notes: "Emailed with the Software Engineer CV: Brokr bookings, Boolmind AI SaaS, Hopn apps, small-business client work, AI-assisted workflow (Claude Code, repocards).",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Application email sent with CV"
+      }
+    ]
+  },
+  {
+    id: "wizdaa-senior-react-native-react-pk",
+    company: "Wizdaa",
+    role: "Senior React Native & React Engineer PK",
+    location: "Remote · Pakistan",
+    source: "Recruitee careers page",
+    stage: "Applied",
+    appliedOn: "2026-11-12",
+    compensation: "USD 1,500/month entered",
+    link: "https://wizdaa.recruitee.com/o/senior-react-native-react-engineer-pk-1",
+    nextAction: "Wait for a reply",
+    due: "2026-11-19",
+    notes: "Answered honestly: 3.5 years total, React Native about 1 year, React 3 years, no GraphQL or TDD.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Application submitted with the Software Engineer CV"
+      }
+    ]
+  },
+  {
+    id: "remotepeople-full-stack-apac",
+    company: "Remote People",
+    role: "Full Stack Engineer (APAC)",
+    location: "Remote · APAC",
+    source: "Greenhouse (found via FrontendEngineers.com)",
+    stage: "Applied",
+    appliedOn: "2026-11-12",
+    compensation: "RMB 130,000/year entered (about USD 18,000)",
+    link: "https://job-boards.eu.greenhouse.io/remotepeople/jobs/5011829101",
+    nextAction: "Wait for a reply",
+    due: "2026-11-19",
+    notes: "CV pasted as text because the file upload failed. Stated Python about 1 year for scripting and no Java.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Application submitted with the Software Engineer CV"
+      }
+    ]
+  },
+  {
+    id: "startale-senior-frontend",
+    company: "Startale",
+    role: "Senior Frontend Engineer",
+    location: "Remote · Asia",
+    source: "Greenhouse (found via FrontendEngineers.com)",
+    stage: "Applied",
+    appliedOn: "2026-11-12",
+    compensation: "USD 18,000/year entered (negotiable)",
+    link: "https://job-boards.greenhouse.io/startale/jobs/5026706008",
+    nextAction: "Wait for a reply",
+    due: "2026-11-19",
+    notes: "CV pasted as text. Noted no web3 experience yet; 3 years + selected.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Application submitted with the Software Engineer CV"
+      }
+    ]
+  },
+  {
+    id: "quirkybit-frontend-react",
+    company: "QuirkyBit",
+    role: "Frontend Developer (React)",
+    location: "Lahore, Pakistan",
+    source: "QuirkyBit careers form (found via FrontendEngineers.com)",
+    stage: "Applied",
+    appliedOn: "2026-11-12",
+    link: "https://www.quirkybit.io/careers/apply?id=frontend-developer-react",
+    nextAction: "Wait for a reply",
+    due: "2026-11-19",
+    notes: "Cover letter honest about no D3 or WebGL depth; CV attached.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Application submitted with the Software Engineer CV"
+      }
+    ]
+  },
+  {
+    id: "mintlayer-frontend-mws-console",
+    company: "Mintlayer",
+    role: "Frontend Engineer (React/TS) – MWS Console",
+    location: "Remote or Abu Dhabi",
+    source: "Mintlayer careers form (found via FrontendEngineers.com)",
+    stage: "Applied",
+    appliedOn: "2026-11-12",
+    link: "https://www.mintlayer.com/career/frontend-engineer-react-ts---mws-console/",
+    nextAction: "Wait for a reply",
+    due: "2026-11-19",
+    notes: "Stated 3.5 years against their 4+ and no web3 yet. They reply within 2–3 weeks.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Application submitted with the Software Engineer CV"
+      }
+    ]
+  },
+  {
+    id: "huzzle-frontend-engineer",
+    company: "Huzzle",
+    role: "Frontend Engineer",
+    location: "Remote · Pakistan",
+    source: "FrontendEngineers.com batch / company careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-12",
+    compensation: "USD 1,500/month (planned)",
+    link: "https://apply.workable.com/huzzle/j/0FEAC9B744/apply/",
+    nextAction: "Submit in Chrome with the Software Engineer CV",
+    due: "2026-11-13",
+    notes: "Answers prepared from the CV; submit in Chrome because the in-app browser cannot pass Workable's Cloudflare check.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Answers prepared; ready to submit"
+      }
+    ]
+  },
+  {
+    id: "huzzle-full-stack-developer",
+    company: "Huzzle",
+    role: "Full-stack Developer",
+    location: "Remote · Pakistan",
+    source: "FrontendEngineers.com batch / company careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-12",
+    compensation: "USD 1,500/month (planned)",
+    link: "https://apply.workable.com/huzzle/j/CD16BBB82C/apply/",
+    nextAction: "Submit in Chrome with the Software Engineer CV",
+    due: "2026-11-13",
+    notes: "Answers prepared from the CV; submit in Chrome because the in-app browser cannot pass Workable's Cloudflare check.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Answers prepared; ready to submit"
+      }
+    ]
+  },
+  {
+    id: "huzzle-full-stack-python-react-ai",
+    company: "Huzzle",
+    role: "Full-Stack Developer (Python, React, AI)",
+    location: "Remote · Pakistan",
+    source: "FrontendEngineers.com batch / company careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-12",
+    compensation: "PKR 420,000/month (planned)",
+    link: "https://apply.workable.com/huzzle/j/E950529CC8/apply/",
+    nextAction: "Submit in Chrome with the Software Engineer CV",
+    due: "2026-11-13",
+    notes: "Answers prepared from the CV; submit in Chrome because the in-app browser cannot pass Workable's Cloudflare check.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Answers prepared; ready to submit"
+      }
+    ]
+  },
+  {
+    id: "pavago-full-stack-nextjs-python",
+    company: "Pavago",
+    role: "Full-Stack Developer – Next.js & Python",
+    location: "Remote · Pakistan · US hours",
+    source: "FrontendEngineers.com batch / company careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-12",
+    compensation: "USD 1,500/month (planned)",
+    link: "https://apply.workable.com/pavago/j/A2AE27B5CA/apply/",
+    nextAction: "Submit in Chrome with the Software Engineer CV",
+    due: "2026-11-13",
+    notes: "Answers prepared from the CV; submit in Chrome because the in-app browser cannot pass Workable's Cloudflare check.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Answers prepared; ready to submit"
+      }
+    ]
+  },
+  {
+    id: "pavago-ai-product-engineer",
+    company: "Pavago",
+    role: "AI Product Engineer (Full Stack)",
+    location: "Remote · Pakistan · US hours",
+    source: "FrontendEngineers.com batch / company careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-12",
+    compensation: "USD 1,500/month (planned)",
+    link: "https://apply.workable.com/pavago/j/F280D10F6F/apply/",
+    nextAction: "Submit in Chrome with the Software Engineer CV",
+    due: "2026-11-13",
+    notes: "Answers prepared from the CV; submit in Chrome because the in-app browser cannot pass Workable's Cloudflare check.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Answers prepared; ready to submit"
+      }
+    ]
+  },
+  {
+    id: "pavago-full-stack-developer-app-router",
+    company: "Pavago",
+    role: "Full-Stack Developer (Next.js App Router, Postgres)",
+    location: "Remote · Pakistan · US hours",
+    source: "FrontendEngineers.com batch / company careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-12",
+    compensation: "USD 1,500/month (planned)",
+    link: "https://apply.workable.com/pavago/j/3DDACF04AF/apply/",
+    nextAction: "Submit in Chrome with the Software Engineer CV",
+    due: "2026-11-13",
+    notes: "Answers prepared from the CV; submit in Chrome because the in-app browser cannot pass Workable's Cloudflare check.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Answers prepared; ready to submit"
+      }
+    ]
+  },
+  {
+    id: "creative-chaos-senior-react",
+    company: "Creative Chaos",
+    role: "Senior Software Engineer – React",
+    location: "Remote · Pakistan",
+    source: "FrontendEngineers.com batch / company careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-12",
+    compensation: "PKR 250,000/month (planned)",
+    link: "https://apply.workable.com/creativechaos/j/AAD5AB52B8/apply/",
+    nextAction: "Submit in Chrome with the Software Engineer CV",
+    due: "2026-11-13",
+    notes: "Answers prepared from the CV; submit in Chrome because the in-app browser cannot pass Workable's Cloudflare check.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Answers prepared; ready to submit"
+      }
+    ]
+  },
+  {
+    id: "creative-chaos-full-stack-developer",
+    company: "Creative Chaos",
+    role: "Full Stack Developer",
+    location: "Remote · Pakistan",
+    source: "FrontendEngineers.com batch / company careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-12",
+    compensation: "PKR 250,000/month (planned)",
+    link: "https://apply.workable.com/creativechaos/j/2D0FAD9D9A/apply/",
+    nextAction: "Submit in Chrome with the Software Engineer CV",
+    due: "2026-11-13",
+    notes: "Answers prepared from the CV; submit in Chrome because the in-app browser cannot pass Workable's Cloudflare check.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Answers prepared; ready to submit"
+      }
+    ]
+  },
+  {
+    id: "creative-chaos-senior-node-react",
+    company: "Creative Chaos",
+    role: "Senior Software Engineer – Node + React",
+    location: "Remote · Pakistan",
+    source: "FrontendEngineers.com batch / company careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-12",
+    compensation: "PKR 250,000/month (planned)",
+    link: "https://apply.workable.com/creativechaos/j/7398AAB742/apply/",
+    nextAction: "Submit in Chrome with the Software Engineer CV",
+    due: "2026-11-13",
+    notes: "Answers prepared from the CV; submit in Chrome because the in-app browser cannot pass Workable's Cloudflare check.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Answers prepared; ready to submit"
+      }
+    ]
+  },
+  {
+    id: "creative-chaos-software-engineer-react",
+    company: "Creative Chaos",
+    role: "Software Engineer – React",
+    location: "Remote · Pakistan",
+    source: "FrontendEngineers.com batch / company careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-12",
+    compensation: "PKR 250,000/month (planned)",
+    link: "https://apply.workable.com/creativechaos/j/D3FF3CD9DB/apply/",
+    nextAction: "Submit in Chrome with the Software Engineer CV",
+    due: "2026-11-13",
+    notes: "Answers prepared from the CV; submit in Chrome because the in-app browser cannot pass Workable's Cloudflare check.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Answers prepared; ready to submit"
+      }
+    ]
+  },
+  {
+    id: "creative-chaos-full-stack-node-python-react",
+    company: "Creative Chaos",
+    role: "Full Stack Engineer (Node/Python and React)",
+    location: "Remote · Pakistan",
+    source: "FrontendEngineers.com batch / company careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-12",
+    compensation: "PKR 250,000/month (planned)",
+    link: "https://apply.workable.com/creativechaos/j/5CFC3C7A9D/apply/",
+    nextAction: "Submit in Chrome with the Software Engineer CV",
+    due: "2026-11-13",
+    notes: "Answers prepared from the CV; submit in Chrome because the in-app browser cannot pass Workable's Cloudflare check.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Answers prepared; ready to submit"
+      }
+    ]
+  },
+  {
+    id: "creative-chaos-full-stack-python-react",
+    company: "Creative Chaos",
+    role: "Full Stack Engineer – Python + React",
+    location: "Remote · Pakistan",
+    source: "FrontendEngineers.com batch / company careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-12",
+    compensation: "PKR 250,000/month (planned)",
+    link: "https://apply.workable.com/creativechaos/j/CF255B7989/apply/",
+    nextAction: "Submit in Chrome with the Software Engineer CV",
+    due: "2026-11-13",
+    notes: "Answers prepared from the CV; submit in Chrome because the in-app browser cannot pass Workable's Cloudflare check.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Answers prepared; ready to submit"
+      }
+    ]
+  },
+  {
+    id: "pavago-full-stack-ai-developer",
+    company: "Pavago",
+    role: "Full Stack AI Developer",
+    location: "Remote · Pakistan · US hours",
+    source: "FrontendEngineers.com batch / company careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-12",
+    compensation: "USD 1,500/month (planned)",
+    link: "https://apply.workable.com/pavago/j/4E1D88E8BB/apply/",
+    nextAction: "Submit in Chrome with the Software Engineer CV",
+    due: "2026-11-13",
+    notes: "Answers prepared from the CV; submit in Chrome because the in-app browser cannot pass Workable's Cloudflare check.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Answers prepared; ready to submit"
+      }
+    ]
+  },
+  {
+    id: "pavago-full-stack-developer-ai-assistant",
+    company: "Pavago",
+    role: "Full-Stack Developer (AI assistant for home-service businesses)",
+    location: "Remote · Pakistan · US hours",
+    source: "FrontendEngineers.com batch / company careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-12",
+    compensation: "USD 1,500/month (planned)",
+    link: "https://apply.workable.com/pavago/j/B27DE28C51/apply/",
+    nextAction: "Submit in Chrome with the Software Engineer CV",
+    due: "2026-11-13",
+    notes: "Answers prepared from the CV; submit in Chrome because the in-app browser cannot pass Workable's Cloudflare check.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Answers prepared; ready to submit"
+      }
+    ]
+  },
+  {
+    id: "pavago-senior-full-stack-developer",
+    company: "Pavago",
+    role: "Senior Full Stack Developer (React, Node.js, TypeScript)",
+    location: "Remote · Pakistan · US hours",
+    source: "FrontendEngineers.com batch / company careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-12",
+    compensation: "USD 1,500/month (planned)",
+    link: "https://apply.workable.com/pavago/j/06FB8DFD7B/apply/",
+    nextAction: "Submit in Chrome with the Software Engineer CV",
+    due: "2026-11-13",
+    notes: "Answers prepared from the CV; submit in Chrome because the in-app browser cannot pass Workable's Cloudflare check.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Answers prepared; ready to submit"
+      }
+    ]
+  },
+  {
+    id: "motive-general-application-pakistan",
+    company: "Motive",
+    role: "General application – Engineering (Remote, Pakistan)",
+    location: "Remote · Pakistan",
+    source: "FrontendEngineers.com batch / company careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-12",
+    link: "https://job-boards.greenhouse.io/gomotive/jobs/5476318002",
+    nextAction: "Submit in Chrome with the Software Engineer CV",
+    due: "2026-11-13",
+    notes: "Answers prepared from the CV; submit in Chrome because the in-app browser cannot pass Workable's Cloudflare check.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Answers prepared; ready to submit"
+      }
+    ]
+  },
+  {
+    id: "tether-frontend-software-engineer",
+    company: "Tether",
+    role: "Frontend Software Engineer (100% remote, worldwide)",
+    location: "Remote · worldwide",
+    source: "FrontendEngineers.com batch / company careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-12",
+    compensation: "USD 18,000/year (planned)",
+    link: "https://tether.recruitee.com/o/frontend-software-engineer-100-remote-worldwide/c/new",
+    nextAction: "Submit in Chrome with the Software Engineer CV",
+    due: "2026-11-13",
+    notes: "The form forbids AI-written answers, so the essay questions must be written by Huzaifa himself; the factual fields are prepared.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Answers prepared; ready to submit"
+      }
+    ]
+  },
+  {
+    id: "tether-frontend-desktop-engineer",
+    company: "Tether",
+    role: "Frontend Desktop Engineer (100% remote, worldwide)",
+    location: "Remote · worldwide",
+    source: "FrontendEngineers.com batch / company careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-12",
+    compensation: "USD 18,000/year (planned)",
+    link: "https://tether.recruitee.com/o/frontend-desktop-engineer-100-remote-worldwide/c/new",
+    nextAction: "Submit in Chrome with the Software Engineer CV",
+    due: "2026-11-13",
+    notes: "The form forbids AI-written answers, so the essay questions must be written by Huzaifa himself; the factual fields are prepared.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Answers prepared; ready to submit"
+      }
+    ]
+  },
+  {
+    id: "tether-mobile-engineer-react-native",
+    company: "Tether",
+    role: "Mobile Engineer – React Native (100% remote, worldwide)",
+    location: "Remote · worldwide",
+    source: "FrontendEngineers.com batch / company careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-12",
+    compensation: "USD 18,000/year (planned)",
+    link: "https://tether.recruitee.com/o/mobile-engineer-react-native-100-remote-worldwide/c/new",
+    nextAction: "Submit in Chrome with the Software Engineer CV",
+    due: "2026-11-13",
+    notes: "The form forbids AI-written answers, so the essay questions must be written by Huzaifa himself; the factual fields are prepared.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Answers prepared; ready to submit"
+      }
+    ]
+  },
+  {
+    id: "canonical-web-frontend-engineer",
+    company: "Canonical",
+    role: "Web Frontend Engineer – JS, CSS, React, Flutter",
+    location: "Remote · worldwide",
+    source: "FrontendEngineers.com batch / company careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-12",
+    link: "https://job-boards.greenhouse.io/canonical/jobs/5150422",
+    nextAction: "Submit in Chrome with the Software Engineer CV",
+    due: "2026-11-13",
+    notes: "The form forbids AI-written answers, so the essay questions must be written by Huzaifa himself; the factual fields are prepared.",
+    activity: [
+      {
+        date: "Nov 12",
+        text: "Answers prepared; ready to submit"
+      }
+    ]
   }
 ];
 
