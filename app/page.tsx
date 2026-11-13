@@ -1300,6 +1300,84 @@ const seededApplications: Application[] = [
         text: "Application email sent with CV"
       }
     ]
+  },
+  {
+    id: "nessovo-agentic-ai-mobile-application",
+    company: "Nessovo Technologies",
+    role: "Agentic AI Mobile App Developer (React Native / Expo)",
+    location: "Lahore (Johar Town) · on-site",
+    source: "LinkedIn company post · direct email (daily scan)",
+    stage: "Applied",
+    appliedOn: "2026-11-13",
+    link: "https://www.linkedin.com/company/nessovo-technologies/",
+    nextAction: "Wait for a reply; be ready to show LenaDena and talk about AI agents",
+    due: "2026-11-20",
+    contact: "hr@nessovo.com",
+    notes: "CV tailored to React Native + AI: Hopn apps on both stores in 4 months, Boolmind scheduled AI agents and LLM integration, LenaDena (Expo + Fastify + Supabase), Claude Code and Claude 101. Their post also wants EAS Build/Submit and streaming chat UIs, which the CV does not claim. Sent with GitHub, LenaDena and repocards links.",
+    activity: [
+      {
+        date: "Nov 13",
+        text: "Email sent with a CV tailored to the role"
+      }
+    ]
+  },
+  {
+    id: "innovex-ai-junior-full-stack-application",
+    company: "Innovex AI",
+    role: "Junior Full-Stack Developer (React, Next.js, TypeScript, Node.js, Supabase)",
+    location: "UAE company · asked whether remote is possible",
+    source: "LinkedIn post · direct email (daily scan)",
+    stage: "Applied",
+    appliedOn: "2026-11-13",
+    nextAction: "Wait for a reply on remote eligibility",
+    due: "2026-11-20",
+    notes: "CV tailored to Next.js + Supabase full-stack work: the Upwork resume-tailoring app (Next.js, TypeScript, Supabase) and the costing app (Next.js, Node.js, PostgreSQL), LenaDena, 2 production AI SaaS platforms. Framed 3.5 years as owning features from day one.",
+    activity: [
+      {
+        date: "Nov 13",
+        text: "Email sent with a CV tailored to the role"
+      }
+    ]
+  },
+  {
+    id: "wondertree-react-native-application",
+    company: "WonderTree",
+    role: "React Native developer for their new mobile app (no posted role)",
+    location: "Pakistan · asked about full-time or contract",
+    source: "Funding news (GSMA Innovation Fund grant) · direct email (daily scan)",
+    stage: "Applied",
+    appliedOn: "2026-11-13",
+    link: "https://insideai.news/news/ai-in-business/gsma-innovation-fund-for-impactful-ai/15152/",
+    nextAction: "Wait for a reply; offered a 15-minute call this week",
+    due: "2026-11-20",
+    contact: "hello@wondertree.co",
+    notes: "Speculative email after their GSMA Innovation Fund for Impactful AI grant, which funds a mobile app for their AR therapy games. CV tailored to shipping React Native apps (Hopn: both stores in 4 months).",
+    activity: [
+      {
+        date: "Nov 13",
+        text: "Email sent with a CV tailored to the role"
+      }
+    ]
+  },
+  {
+    id: "icosynth-fullstack-application",
+    company: "Icosynth",
+    role: "Fullstack Developer (4-day work week)",
+    location: "Sri Lanka · asked whether remote from Lahore is possible",
+    source: "LinkedIn company post · direct email (daily scan)",
+    stage: "Applied",
+    appliedOn: "2026-11-13",
+    link: "https://www.linkedin.com/company/icosynth/",
+    nextAction: "Wait for a reply on remote eligibility",
+    due: "2026-11-20",
+    contact: "hireme@icosynth.com",
+    notes: "CV tailored to full-stack + AI and automation: Boolmind AI SaaS front ends and Node APIs, scheduled AI agents, LLM integrations, n8n, repocards (about 2,400 npm downloads), Upwork Top Rated.",
+    activity: [
+      {
+        date: "Nov 13",
+        text: "Email sent with a CV tailored to the role"
+      }
+    ]
   }
 ];
 
