@@ -1281,6 +1281,25 @@ const seededApplications: Application[] = [
         text: "Answers prepared; ready to submit"
       }
     ]
+  },
+  {
+    id: "solulab-react-native-shopify",
+    company: "Solulab",
+    role: "React Native Developer (Shopify & Mobile Commerce)",
+    location: "Remote · 3 PM–12 AM IST (2:30–11:30 PM PKT)",
+    source: "LinkedIn post · direct email",
+    stage: "Applied",
+    appliedOn: "2026-11-13",
+    nextAction: "Wait for a reply; read up on the Shopify Storefront API and Checkout Kit before any call",
+    due: "2026-11-20",
+    contact: "aditii@solulab.co",
+    notes: "Emailed with the updated Software Engineer CV (with Claude 101): Hopn React Native apps with Android and iOS builds and releases in 4 months, LenaDena (Expo), Boolmind AI SaaS front ends. Said honestly that he hasn't integrated Shopify APIs yet. 3.5 years against their 2–5. No bounce.",
+    activity: [
+      {
+        date: "Nov 13",
+        text: "Application email sent with CV"
+      }
+    ]
   }
 ];
 
