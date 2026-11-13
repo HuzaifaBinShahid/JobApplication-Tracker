@@ -1534,11 +1534,11 @@ const seededOutreach: Outreach[] = [
     title: "Agentic AI Mobile App Developer (React Native / Expo)",
     region: "Lahore · Johar Town · on-site",
     linkedin: "https://www.linkedin.com/company/nessovo-technologies/",
-    status: "Draft ready",
+    status: "Sent",
     angle: "Shipped two React Native apps to both stores in 4 months (Hopn) plus LLM/AI-agent work, the exact React Native + Expo + LLM mix they ask for",
     researchNote: "LinkedIn company post, about 18 h old on Nov 13, 2026: 2 yrs React Native + Expo, EAS Build/Submit, OpenAI/Anthropic APIs, AI agents, streaming chat; nice to have Node, Supabase, Claude Code. Email in the private daily file.",
-    message: "Not drafted: write 4–5 lines in your own words (see angle)",
-    shared: "Nothing sent"
+    message: "Email sent Nov 13 from Gmail with a CV tailored to the role (text in the private applications file, section 13)",
+    shared: "Tailored CV, GitHub and project links · emailed Nov 13"
   },
   {
     id: "wondertree-mobile-app-grant-2026-11-13",
@@ -1547,11 +1547,11 @@ const seededOutreach: Outreach[] = [
     title: "Mobile app build funded by a GSMA AI grant",
     region: "Pakistan · UAE presence · remote or Pakistan to confirm",
     linkedin: "https://www.linkedin.com/in/mwwaqas/",
-    status: "Draft ready",
+    status: "Sent",
     angle: "Their grant pays for a new mobile app; he is a mobile dev who shipped two React Native apps to both stores in 4 months",
     researchNote: "GSMA Innovation Fund for Impactful AI grant of up to £250,000, announced Nov 13, 2026 (insideai.news), to build a mobile app for their AR therapy games for children with special needs. No careers page or job-board openings. Email (from their website) in the private daily file.",
-    message: "Not drafted: write 4–5 lines in your own words (see angle)",
-    shared: "Nothing sent"
+    message: "Email sent Nov 13 from Gmail with a CV tailored to the role (text in the private applications file, section 13)",
+    shared: "Tailored CV, GitHub and project links · emailed Nov 13"
   },
   {
     id: "cogent-labs-full-stack-2026-11-13",
@@ -1612,11 +1612,11 @@ const seededOutreach: Outreach[] = [
     title: "Fullstack Developer (4-day week)",
     region: "Sri Lanka · remote not stated",
     linkedin: "https://www.linkedin.com/company/icosynth/",
-    status: "Draft ready",
+    status: "Sent",
     angle: "React/Next.js + Node plus AI/automation (n8n, scheduled AI agents); UTC+5:30 is close to Lahore. Ask about remote first",
     researchNote: "LinkedIn company post, about 2 h old on Nov 13, 2026: React/Next.js, Node/Python, APIs, databases, AI and automation; Monday–Thursday week. Email in the private daily file.",
-    message: "Not drafted: write 4–5 lines in your own words (see angle)",
-    shared: "Nothing sent"
+    message: "Email sent Nov 13 from Gmail with a CV tailored to the role (text in the private applications file, section 13)",
+    shared: "Tailored CV, GitHub and project links · emailed Nov 13"
   },
   {
     id: "enfu-solutions-mern-2026-11-13",
@@ -1638,11 +1638,11 @@ const seededOutreach: Outreach[] = [
     title: "Junior Full-Stack Developer",
     region: "UAE · remote or on-site to confirm",
     linkedin: "https://www.linkedin.com/company/innovex-ai/",
-    status: "Draft ready",
+    status: "Sent",
     angle: "Their stack (React, Next.js, TypeScript, Node, Supabase, PostgreSQL) matches LenaDena and his Next.js + Supabase work",
     researchNote: "LinkedIn company post, about 23 min old at the first scan on Nov 13, 2026. Email in the private daily file.",
-    message: "Not drafted: write 4–5 lines in your own words (see angle)",
-    shared: "Nothing sent"
+    message: "Email sent Nov 13 from Gmail with a CV tailored to the role (text in the private applications file, section 13)",
+    shared: "Tailored CV, GitHub and project links · emailed Nov 13"
   },
   {
     id: "metal-usman-gul-2026-11-13",
@@ -1745,8 +1745,14 @@ export default function Home() {
       try {
         const parsed = JSON.parse(savedOutreach) as Outreach[];
         if (Array.isArray(parsed) && parsed.length) {
-          const newSeededOutreach = seededOutreach.filter((seeded) => !parsed.some((savedContact) => savedContact.id === seeded.id));
-          setOutreach([...newSeededOutreach, ...parsed]);
+          const migratedOutreach = parsed.map((savedContact) => {
+            const seeded = seededOutreach.find((candidate) => candidate.id === savedContact.id);
+            return seeded && seeded.status !== "Draft ready" && savedContact.status === "Draft ready"
+              ? { ...savedContact, status: seeded.status, message: seeded.message, shared: seeded.shared }
+              : savedContact;
+          });
+          const newSeededOutreach = seededOutreach.filter((seeded) => !migratedOutreach.some((savedContact) => savedContact.id === seeded.id));
+          setOutreach([...newSeededOutreach, ...migratedOutreach]);
         }
       } catch {
         // Keep the researched starter outreach if a saved record is invalid.
