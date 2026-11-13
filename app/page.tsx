@@ -1262,6 +1262,25 @@ const seededApplications: Application[] = [
         text: "Application email sent with CV"
       }
     ]
+  },
+  {
+    id: "lucidya-10x-software-engineer",
+    company: "Lucidya",
+    role: "10x Software Engineer",
+    location: "On-site · Riyadh, Saudi Arabia · relocation",
+    source: "LinkedIn post · Workable",
+    stage: "Draft",
+    appliedOn: "2026-11-13",
+    link: "https://apply.workable.com/lucidya/j/5294DA8CF4/apply/",
+    nextAction: "Submit in Chrome with the Software Engineer CV and the prepared answers",
+    due: "2026-11-14",
+    notes: "AI-powered customer experience platform (pre-IPO). Backend-heavy role: Ruby on Rails, Python, PostgreSQL, Elasticsearch, RabbitMQ, Kubernetes. A stretch for a TypeScript/React/Node profile; answers say so honestly. Lucidya's other roles (DevOps, Senior DevOps, DBA, AI Tech Lead) do not fit. The Kopius MATLAB role from the same day was skipped: Latin America only, 10+ years, MATLAB.",
+    activity: [
+      {
+        date: "Nov 13",
+        text: "Answers prepared; ready to submit"
+      }
+    ]
   }
 ];
 
