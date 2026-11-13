@@ -1243,6 +1243,25 @@ const seededApplications: Application[] = [
         text: "Answers prepared; ready to submit"
       }
     ]
+  },
+  {
+    id: "riverhouse-technologies-mern-full-stack",
+    company: "Riverhouse Technologies",
+    role: "Full Stack Developer (MERN Stack)",
+    location: "Not stated in the post",
+    source: "LinkedIn post · direct email",
+    stage: "Applied",
+    appliedOn: "2026-11-13",
+    nextAction: "Wait for a reply from Riverhouse HR",
+    due: "2026-11-20",
+    contact: "hr@riverhousetechnologies.com",
+    notes: "AI product development and MVP studio. Emailed with the Software Engineer CV attached: React front ends of 2 production AI SaaS platforms, Node.js REST APIs and MongoDB data models at Boolmind, scheduled AI agents and LLM integration, Hopn React Native apps, Upwork Top Rated. 3.5 years against their 3–5. No bounce.",
+    activity: [
+      {
+        date: "Nov 13",
+        text: "Application email sent with CV"
+      }
+    ]
   }
 ];
 
