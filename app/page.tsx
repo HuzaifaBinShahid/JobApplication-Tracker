@@ -1378,6 +1378,160 @@ const seededApplications: Application[] = [
         text: "Email sent with a CV tailored to the role"
       }
     ]
+  },
+  {
+    id: "laam-react-native-application",
+    company: "LAAM",
+    role: "Software Engineer – React Native",
+    location: "Lahore (NASTP) · on-site",
+    source: "LAAM careers (PeopleForce) · seed-funded startup",
+    stage: "Applied",
+    appliedOn: "2026-11-14",
+    link: "https://laam.peopleforce.io/careers/v/124675-software-engineer-react-native",
+    nextAction: "Wait for a reply",
+    due: "2026-11-21",
+    notes: "Seed-funded ($5.5M, Jul 2026). React Native CV. Cover letter honest: 3.5 years against their 4+, React Native and React rather than Vue/Nuxt so far.",
+    activity: [
+      {
+        date: "Nov 14",
+        text: "Application submitted with a CV tailored to the role"
+      }
+    ]
+  },
+  {
+    id: "laam-frontend-application",
+    company: "LAAM",
+    role: "Software Engineer – Frontend",
+    location: "Lahore (NASTP) · on-site",
+    source: "LAAM careers (PeopleForce)",
+    stage: "Draft",
+    appliedOn: "2026-11-14",
+    link: "https://laam.peopleforce.io/careers/v/137380-software-engineer-frontend",
+    nextAction: "Pick your gender (required; only Male/Female) and click Apply in the open browser tab",
+    due: "2026-11-15",
+    notes: "Everything else is filled with the Frontend CV: Lahore, GCU BS Computer Science 2023, 3 years (whole numbers only), Hopn / React Native Developer, PKR 200,000 current, PKR 250,000 expected, notice 0 days.",
+    activity: [
+      {
+        date: "Nov 14",
+        text: "Form filled; waiting for the gender choice"
+      }
+    ]
+  },
+  {
+    id: "darkthorn-labs-software-engineer",
+    company: "Darkthorn Labs",
+    role: "Software Engineer (Node.js + React)",
+    location: "Lahore · on-site",
+    source: "LinkedIn Easy Apply",
+    stage: "Applied",
+    appliedOn: "2026-11-14",
+    compensation: "PKR 250,000/month entered",
+    link: "https://www.linkedin.com/jobs/view/4489003621/",
+    nextAction: "Wait for a reply",
+    due: "2026-11-21",
+    notes: "Full-stack CV. Answers: Node.js 2 yrs, React 3, on-site yes, BS yes, expected 250,000 PKR, 8 months of hands-on AI agentic coding.",
+    activity: [
+      {
+        date: "Nov 14",
+        text: "Application submitted with a CV tailored to the role"
+      }
+    ]
+  },
+  {
+    id: "smart-prop-firm-junior-software-engineer",
+    company: "Smart Prop Firm",
+    role: "Junior Software Engineer",
+    location: "Pakistan · remote",
+    source: "LinkedIn Easy Apply",
+    stage: "Applied",
+    appliedOn: "2026-11-14",
+    link: "https://www.linkedin.com/jobs/view/4488549816/",
+    nextAction: "Wait for a reply",
+    due: "2026-11-21",
+    notes: "Full-stack CV. Answers: software engineering practices 3 yrs, Next.js 3 yrs.",
+    activity: [
+      {
+        date: "Nov 14",
+        text: "Application submitted with a CV tailored to the role"
+      }
+    ]
+  },
+  {
+    id: "rowanbridge-ai-automation-engineer",
+    company: "The Rowanbridge Group",
+    role: "AI Automation & No-Code Systems Engineer",
+    location: "Remote (UK company, Pakistan eligible)",
+    source: "LinkedIn Easy Apply",
+    stage: "Applied",
+    appliedOn: "2026-11-14",
+    link: "https://www.linkedin.com/jobs/view/4488234095/",
+    nextAction: "Wait for a reply; brush up on Make, Airtable/Softr and Twilio in case of a call",
+    due: "2026-11-21",
+    notes: "Builds lead-automation for UK car dealerships with Make/n8n, LLM email parsing and a dashboard. Full-stack CV; answered Yes to Make/n8n experience (n8n).",
+    activity: [
+      {
+        date: "Nov 14",
+        text: "Application submitted with a CV tailored to the role"
+      }
+    ]
+  },
+  {
+    id: "remotefolio-ai-training-full-stack",
+    company: "Remotefolio",
+    role: "Sr. Full-Stack Software Engineer (AI training, part-time contract)",
+    location: "Remote",
+    source: "LinkedIn Easy Apply",
+    stage: "Applied",
+    appliedOn: "2026-11-14",
+    compensation: "USD 50–100/hr (their range)",
+    link: "https://www.linkedin.com/jobs/view/4488273567/",
+    nextAction: "Wait for a reply",
+    due: "2026-11-21",
+    notes: "Task-based AI-training gig at USD 50–100/hr, not a full-time job.",
+    activity: [
+      {
+        date: "Nov 14",
+        text: "Application submitted with a CV tailored to the role"
+      }
+    ]
+  },
+  {
+    id: "broadstone-full-stack-application",
+    company: "Broadstone Technologies",
+    role: "Software Engineer (Full Stack), freshers to 3 yrs",
+    location: "Lahore · on-site",
+    source: "LinkedIn post · Google Form",
+    stage: "Draft",
+    appliedOn: "2026-11-14",
+    link: "https://forms.gle/8yjCJtJQvjH8bewc6",
+    nextAction: "Fill the Google Form yourself (needs your CGPA and a CV upload from Drive)",
+    due: "2026-11-15",
+    notes: "Form: name, contact, email, position = Software Engineer (Full Stack), on-site Lahore yes, university, CGPA, city, graduating year 2023, experience 3-5 years, CV upload.",
+    activity: [
+      {
+        date: "Nov 14",
+        text: "Checked the form; needs CGPA and a Drive upload"
+      }
+    ]
+  },
+  {
+    id: "businessmentor-ai-agents-full-stack",
+    company: "BusinessMentor.com",
+    role: "Senior Full-Stack Developer, AI Agents (React/TypeScript/Express/Puppeteer)",
+    location: "Pakistan · remote",
+    source: "LinkedIn Easy Apply",
+    stage: "Draft",
+    appliedOn: "2026-11-14",
+    link: "https://www.linkedin.com/jobs/view/4482768100/",
+    nextAction: "Apply only if all 4 conditions in the post are true for you (99% of coding with AI agents, scrapers, external dependencies, solo ownership)",
+    due: "2026-11-15",
+    notes: "Strong stack match (React, TypeScript, Express, Puppeteer, scrapers: your Crawlee scraper). Not submitted because the post asks applicants to self-certify conditions only you can confirm.",
+    activity: [
+      {
+        date: "Nov 14",
+        text: "Shortlisted; waiting for your decision"
+      }
+    ]
   }
 ];
 
