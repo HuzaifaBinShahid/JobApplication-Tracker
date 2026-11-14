@@ -498,12 +498,16 @@ const seededApplications: Application[] = [
     source: "Direct email",
     stage: "Applied",
     appliedOn: "2026-10-07",
-    nextAction: "Wait for an acknowledgement or interview invitation",
-    due: "2026-10-14",
+    nextAction: "Fill their Frontend pre-screener form, then reply ACK in the Oct 7 thread (they asked for this after each application)",
+    due: "2026-11-16",
     contact: "careers@silicon-nexus.com",
     link: "https://pk.linkedin.com/jobs/view/frontend-react-js-%2B-next-js-developer-at-siliconnexus-4455863391",
     notes: "Tailored application emailed with the CV attached and embedded GitHub and LinkedIn profile links. It matched React, Next.js, TypeScript, Tailwind CSS, Redux Toolkit, Context API, TanStack Query, and API integration experience to the role.",
-    activity: [{ date: "Oct 7", text: "Application email sent" }]
+    activity: [
+      { date: "Oct 7", text: "Application email sent" },
+      { date: "Oct 7", text: "HR replied the same day with a pre-screening form and asked for an ACK reply" },
+      { date: "Nov 14", text: "New hiring post seen (Frontend and React Native roles); the pre-screener is still not filled" }
+    ]
   },
   {
     id: "eco-green-developers",
