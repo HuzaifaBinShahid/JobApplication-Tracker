@@ -1407,13 +1407,17 @@ const seededApplications: Application[] = [
     stage: "Draft",
     appliedOn: "2026-11-14",
     link: "https://laam.peopleforce.io/careers/v/137380-software-engineer-frontend",
-    nextAction: "Pick your gender (required; only Male/Female) and click Apply in the open browser tab",
+    nextAction: "Fill the form yourself: the filled copy was lost when the browser restarted (gender is required; only Male/Female)",
     due: "2026-11-15",
     notes: "Everything else is filled with the Frontend CV: Lahore, GCU BS Computer Science 2023, 3 years (whole numbers only), Hopn / React Native Developer, PKR 200,000 current, PKR 250,000 expected, notice 0 days.",
     activity: [
       {
         date: "Nov 14",
         text: "Form filled; waiting for the gender choice"
+      },
+      {
+        date: "Nov 14",
+        text: "Filled form lost when the browser restarted; needs filling again"
       }
     ]
   },
@@ -1530,6 +1534,63 @@ const seededApplications: Application[] = [
       {
         date: "Nov 14",
         text: "Shortlisted; waiting for your decision"
+      }
+    ]
+  },
+  {
+    id: "railway-senior-full-stack-product",
+    company: "Railway",
+    role: "Senior Full-Stack Engineer – Product",
+    location: "Remote · worldwide",
+    source: "Hacker News Who is Hiring (Nov 2026) · Ashby",
+    stage: "Applied",
+    appliedOn: "2026-11-14",
+    link: "https://jobs.ashbyhq.com/Railway/6ddcfe47-6cce-469b-ba6d-4f0e83440c9d",
+    nextAction: "Wait for a reply",
+    due: "2026-11-28",
+    notes: "Full-stack CV tailored to the role (TypeScript, Next.js, Node.js, real-time dashboards, repocards first). The 'Why Railway?' answer is honest: no Temporal, GraphQL or Rust in production yet, and 3.5 years for a senior role.",
+    activity: [
+      {
+        date: "Nov 14",
+        text: "Application submitted on Railway's Ashby form with a tailored CV"
+      }
+    ]
+  },
+  {
+    id: "collabify-senior-full-stack-contract",
+    company: "Collabify",
+    role: "Senior Full-Stack Engineer (backend-heavy), 4–5 month contract",
+    location: "Remote · worldwide",
+    source: "Hacker News Who is Hiring (Nov 2026) · Google Form",
+    stage: "Draft",
+    appliedOn: "2026-11-14",
+    link: "https://forms.gle/yJAabKvLKtJmfz21A",
+    nextAction: "Fill the Google Form yourself if you have personally shipped a multi-tenant SaaS",
+    due: "2026-11-16",
+    notes: "First engineer; TypeScript, React/Next.js, Node.js, PostgreSQL; tenant isolation with row-level security, several sign-in flows, subdomain client portals, large video uploads. 20–30+ h/week, 3 h daily overlap. Process: short form, live walkthrough of something you built, a paid tenant-isolation exercise.",
+    activity: [
+      {
+        date: "Nov 14",
+        text: "Shortlisted; the form asks about your own multi-tenant work"
+      }
+    ]
+  },
+  {
+    id: "tether-ai-harness-engineer",
+    company: "Tether",
+    role: "AI Harness Engineer",
+    location: "Remote · worldwide",
+    source: "Hacker News Who is Hiring (Oct 2026) · Tether careers",
+    stage: "Draft",
+    appliedOn: "2026-11-14",
+    link: "https://tether.recruitee.com/o/ai-harness-engineer-100-remote-worldwide-4",
+    nextAction: "Apply yourself in your own words (Tether does not accept AI-written answers)",
+    due: "2026-11-17",
+    notes: "JavaScript/TypeScript plus hands-on LLM work, agent harnesses, local inference or P2P. Your matches: repocards (a tool for AI coding assistants), AI-Video-Maker (local models on an M1), scheduled AI agents at Boolmind. Still published on Nov 14.",
+    activity: [
+      {
+        date: "Nov 14",
+        text: "Shortlisted from Hacker News; left for you to write"
       }
     ]
   }
