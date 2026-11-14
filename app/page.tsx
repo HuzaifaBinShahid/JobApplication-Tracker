@@ -1646,6 +1646,24 @@ const seededApplications: Application[] = [
         text: "Application emailed with a tailored CV"
       }
     ]
+  },
+  {
+    id: "siliconnexus-react-native-developer",
+    company: "SiliconNexus",
+    role: "React Native Developer",
+    location: "Lahore, Pakistan · on-site",
+    source: "LinkedIn post · email",
+    stage: "Applied",
+    appliedOn: "2026-11-14",
+    nextAction: "Watch for their pre-screener form; fill it and reply ACK",
+    due: "2026-11-17",
+    notes: "React Native CV tailored to the role (Hopn's two store-released apps first, LenaDena, Claude Code and repocards for their AI-native ask). Honest that React Native work started in Mar 2026, on top of 3.5 years of React. Separate from the earlier Frontend application.",
+    activity: [
+      {
+        date: "Nov 14",
+        text: "Application emailed with a tailored CV"
+      }
+    ]
   }
 ];
 
