@@ -1489,13 +1489,17 @@ const seededApplications: Application[] = [
     appliedOn: "2026-11-14",
     compensation: "USD 50–100/hr (their range)",
     link: "https://www.linkedin.com/jobs/view/4488273567/",
-    nextAction: "Wait for a reply",
-    due: "2026-11-21",
-    notes: "Task-based AI-training gig at USD 50–100/hr, not a full-time job.",
+    nextAction: "Finish the micro1 application yourself: form, 2 screening questions, then a 30-minute AI interview",
+    due: "2026-11-16",
+    notes: "Task-based AI-training gig at USD 50–100/hr, not a full-time job. Remotefolio is an aggregator; the real role is micro1's (paid per accepted task, weekly minimum of tasks). Pakistan is eligible.",
     activity: [
       {
         date: "Nov 14",
         text: "Application submitted with a CV tailored to the role"
+      },
+      {
+        date: "Nov 14",
+        text: "Remotefolio replied by DM: next step is micro1's application and AI interview"
       }
     ]
   },
@@ -1618,6 +1622,24 @@ const seededApplications: Application[] = [
       {
         date: "Nov 14",
         text: "Resent to their support address with the same CV"
+      }
+    ]
+  },
+  {
+    id: "decodex-react-developer-remote",
+    company: "Decodex Technology & Consulting",
+    role: "React.js Developer",
+    location: "Remote",
+    source: "LinkedIn post · email",
+    stage: "Applied",
+    appliedOn: "2026-11-14",
+    nextAction: "Wait for a reply",
+    due: "2026-11-21",
+    notes: "React CV tailored to their list (Redux and Context API, REST and third-party integrations, responsive UI, debugging). The post asks for 6 years; the email says honestly that you have 3.5.",
+    activity: [
+      {
+        date: "Nov 14",
+        text: "Application emailed with a tailored CV"
       }
     ]
   }
