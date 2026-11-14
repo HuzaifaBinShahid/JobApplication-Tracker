@@ -1600,16 +1600,20 @@ const seededApplications: Application[] = [
     role: "Senior Frontend Developer",
     location: "Remote · EU hours (10:00–19:00 CET)",
     source: "LinkedIn post · email",
-    stage: "Applied",
+    stage: "Draft",
     appliedOn: "2026-11-14",
     link: "https://trustedtrucks.com",
-    nextAction: "Wait for a reply; they start on Monday 23 Nov",
-    due: "2026-11-19",
+    nextAction: "Email bounced (their jobs@ mailbox is full): DM the poster on LinkedIn or resend later",
+    due: "2026-11-16",
     notes: "European freight network on Next.js. Frontend CV tailored to the role (dashboards, map tracking, frontend architecture, Lighthouse 82 to 100). Honest about 3.5 years for a senior role. Hours are 14:00–23:00 in Pakistan.",
     activity: [
       {
         date: "Nov 14",
         text: "Application emailed with a tailored CV"
+      },
+      {
+        date: "Nov 14",
+        text: "Bounced: their jobs@ mailbox is full, so it was not delivered"
       }
     ]
   }
