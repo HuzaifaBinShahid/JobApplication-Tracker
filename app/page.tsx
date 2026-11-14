@@ -1691,8 +1691,8 @@ const seededApplications: Application[] = [
     source: "LinkedIn post · email",
     stage: "Applied",
     appliedOn: "2026-11-11",
-    nextAction: "Send a short follow-up with portfolio links if there's no reply",
-    due: "2026-11-17",
+    nextAction: "Wait for a reply to the follow-up",
+    due: "2026-11-19",
     notes: "AI-first role (Cursor, Lovable, Bolt, Replit, prompt-based building). Applied on Nov 11; the same post was shared again on Nov 14, so no second application was sent.",
     activity: [
       {
@@ -1702,6 +1702,10 @@ const seededApplications: Application[] = [
       {
         date: "Nov 14",
         text: "Post seen again; not re-sent because the Nov 11 application is still open"
+      },
+      {
+        date: "Nov 14",
+        text: "Follow-up sent in the same thread (Claude 101 certificate, offer of a short practical test)"
       }
     ]
   },
