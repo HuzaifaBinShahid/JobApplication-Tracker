@@ -1664,6 +1664,65 @@ const seededApplications: Application[] = [
         text: "Application emailed with a tailored CV"
       }
     ]
+  },
+  {
+    id: "crojungle-ai-developer",
+    company: "CroJungle",
+    role: "AI Developer",
+    location: "Lahore, Pakistan",
+    source: "Direct email",
+    stage: "Applied",
+    appliedOn: "2026-11-09",
+    nextAction: "Wait for a reply",
+    due: "2026-11-16",
+    notes: "Emailed on Nov 9. Logged on Nov 14 when the Vibe Coding post came up again.",
+    activity: [
+      {
+        date: "Nov 9",
+        text: "Application email sent"
+      }
+    ]
+  },
+  {
+    id: "crojungle-vibe-coding-developer",
+    company: "CroJungle",
+    role: "Vibe Coding Developer",
+    location: "Johar Town, Lahore · on-site",
+    source: "LinkedIn post · email",
+    stage: "Applied",
+    appliedOn: "2026-11-11",
+    nextAction: "Send a short follow-up with portfolio links if there's no reply",
+    due: "2026-11-17",
+    notes: "AI-first role (Cursor, Lovable, Bolt, Replit, prompt-based building). Applied on Nov 11; the same post was shared again on Nov 14, so no second application was sent.",
+    activity: [
+      {
+        date: "Nov 11",
+        text: "Application email sent"
+      },
+      {
+        date: "Nov 14",
+        text: "Post seen again; not re-sent because the Nov 11 application is still open"
+      }
+    ]
+  },
+  {
+    id: "enablr-full-stack-typescript-ai",
+    company: "Enablr Therapy",
+    role: "Full-Stack Engineer (TypeScript, AI)",
+    location: "Remote (US hours, 6pm–2am PKT) · Pakistan hub",
+    source: "Google Form",
+    stage: "Draft",
+    appliedOn: "2026-11-14",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSdv_A14dNch1PhXY5BcPXtP7yrMrsD3S8t4dY--77JjRu0Xzg/viewform",
+    nextAction: "Finish the saved draft: ratings, 4 written answers, CV upload, 1–2 minute video, then Submit",
+    due: "2026-11-16",
+    notes: "Therapy platform for schools and clinics; TypeScript, React/Next.js, PostgreSQL, Hasura, GraphQL Codegen, LLM APIs. Contact details, links, the project link and the 'why I fit' answer are already filled in the saved draft.",
+    activity: [
+      {
+        date: "Nov 14",
+        text: "Form partly filled and saved as a draft; the rest needs your own answers and a video"
+      }
+    ]
   }
 ];
 
