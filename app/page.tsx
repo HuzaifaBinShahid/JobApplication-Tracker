@@ -1975,6 +1975,97 @@ const seededOutreach: Outreach[] = [
     researchNote: "$5.5M seed led by disrupt.com, Jul 2026 (Dealroom). The funds go to AI discovery and logistics tools; 37 openings at laam.peopleforce.io/careers (check for engineering roles).",
     message: "Not drafted: write 4–5 lines in your own words (see angle)",
     shared: "Nothing sent"
+  },
+  {
+    id: "gaps-japan-anil-gyawali-2026-11-14",
+    name: "Anil Gyawali",
+    company: "GAPS JAPAN",
+    title: "CEO",
+    region: "Japan · remote not stated (ask) · React Native app",
+    linkedin: "https://www.linkedin.com/in/anil-gyawali-440aa387/",
+    status: "Draft ready",
+    angle: "Only mobile dev who shipped Hopn's two React Native apps to both stores in 4 months; they need an RN app built and released on iOS + Android",
+    researchNote: "LinkedIn post by the CEO, about 7 h old on 2026-11-14: looking for a React Native developer to build and release the JOHO PORTAL app (React Native, TypeScript, API integration, App Store + Google Play). The post asks for a DM with app links. No email published.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "aurix-tech-frontend-2026-11-14",
+    name: "Hiring team",
+    company: "Aurix Tech",
+    title: "Frontend Developer (3–6 yrs)",
+    region: "Lahore · on-site",
+    linkedin: "https://www.linkedin.com/company/lahore-jobs/",
+    status: "Draft ready",
+    angle: "3.5 years of React/Next.js front ends (two AI SaaS platforms at Boolmind, Lighthouse 82 to 100 on a client's Next.js site) fits their 3–6 year frontend role",
+    researchNote: "Job ad reposted by Lahore Jobs, Pakistan IT Jobs and Job Ads Pakistan on LinkedIn, 17–23 h old on 2026-11-14. Hashtags: React, Next.js, Node, TypeScript, Tailwind, Python/Django; 'global projects'. Also hiring backend (3–6) and a senior architect. Email in the private daily file; aurixtech.com did not load.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "la-viral-studio-alexandre-2026-11-14",
+    name: "Alexandre (@buildwithalex)",
+    company: "La Viral Studio",
+    title: "Founder, Chief Vibe Coding Officer",
+    region: "Remote · Montreal ideally, open to remote",
+    linkedin: "https://x.com/buildwithalex/status/2121335521779524003",
+    status: "Draft ready",
+    angle: "Their stack is exactly yours (TypeScript, React Native, Next.js, Node.js) and they ship consumer mobile apps and AI products",
+    researchNote: "X post, about 7 h old on 2026-11-14: hiring a software engineer, Montreal ideally, open to remote; says 'send me a DM'. Studio builds mobile apps (Flashloop, Buy Beaver), viral web products and AI agents. No email published; careers page on Notion did not render.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "multipolitan-founders-2026-11-14",
+    name: "Nirbhay Handa / Lee Smith",
+    company: "Multipolitan",
+    title: "Founders",
+    region: "Remote? · UAE / Singapore / India team · consumer app",
+    linkedin: "https://www.linkedin.com/company/multipolitan/",
+    status: "Draft ready",
+    angle: "Their consumer app launches in December (document expiry alerts, flight tracking); you shipped two React Native apps in 4 months with push and live tracking",
+    researchNote: "$2M pre-seed led by EmergentX, 10 Nov 2026 (Wamda). 40+ people across UAE, India, Singapore; plans to expand the team. 1 job on LinkedIn, none in Pakistan. A general contact email is published on their site (in the private daily file).",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "grabrfi-founders-2026-11-14",
+    name: "Artem Fedyaev / Daria Rebenok",
+    company: "GrabrFi",
+    title: "Co-founders",
+    region: "Remote? · fintech for people outside the US",
+    linkedin: "",
+    status: "Draft ready",
+    angle: "You are their user (a remote engineer outside the US paid in USD via Upwork) and you build mobile apps and dashboards",
+    researchNote: "$6M led by Bling Capital, 13 Nov 2026 (Dealroom). Dollar accounts for people outside the US; 100,000+ accounts; adding business and euro accounts and credit. Top markets Argentina and Nigeria. No email or openings found; site behind a Cloudflare check. Reach the founders on LinkedIn.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "mawsool-founders-2026-11-14",
+    name: "Osama Abdelhadi / Oday Ali",
+    company: "Mawsool",
+    title: "Co-founders",
+    region: "Riyadh · remote? (UTC+3)",
+    linkedin: "",
+    status: "Draft ready",
+    angle: "Front end of a LinkedIn recruiting platform and scheduled AI agents at Boolmind match their AI prospecting and lead-generation product",
+    researchNote: "Undisclosed pre-seed (Parachute16, THANAWI, angels), 10 Nov 2026 (Wamda). AI-driven B2B sales intelligence; funds go to technology and MENA expansion. No website or email found; reach the founders on LinkedIn.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "sbs-junior-full-stack-2026-11-14",
+    name: "Hiring team",
+    company: "SBS (sbsol.net)",
+    title: "Junior Full Stack Developer (1–2 yrs)",
+    region: "Islamabad · on-site likely",
+    linkedin: "https://www.linkedin.com/company/sbsdistribution/",
+    status: "Draft ready",
+    angle: "React + Node/Express + MongoDB, the Boolmind stack; low priority (junior, Islamabad)",
+    researchNote: "Company LinkedIn post, about 15 h old on 2026-11-14, 24 reactions: React, Node/Express, MySQL or MongoDB, REST, Git. Email in the private daily file.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
   }
 ];
 
