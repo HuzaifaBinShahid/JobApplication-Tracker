@@ -2221,19 +2221,6 @@ const seededOutreach: Outreach[] = [
     shared: "Nothing sent"
   },
   {
-    id: "third-mile-labs-react-native-2026-11-15",
-    name: "Hiring team",
-    company: "Third Mile Labs",
-    title: "React Native Developer",
-    region: "Lahore · on-site",
-    linkedin: "https://www.linkedin.com/company/third-mile-labs/",
-    status: "Draft ready",
-    angle: "They want RN + TypeScript with at least one store-published app; you shipped Hopn's two ride-sharing apps to both stores, and their own product Svvari is a ride-hailing app",
-    researchNote: "Company LinkedIn post, about 16 h old on 2026-11-15, 24 reactions: React Native, TypeScript, REST, real-time features, App Store + Google Play releases; Expo/Firebase a plus; 10 AM–7 PM. Lahore studio building AI agents, LLM apps, web and mobile (Svvari, Specfire). Email in the private daily file (subject line \"React Native\").",
-    message: "Not drafted: write 4–5 lines in your own words (see angle)",
-    shared: "Nothing sent"
-  },
-  {
     id: "lahore-fintech-jbutt-frontend-2026-11-15",
     name: "J. Butt (recruiter)",
     company: "Lahore fintech (name not given)",
