@@ -2219,6 +2219,97 @@ const seededOutreach: Outreach[] = [
     researchNote: "Company LinkedIn post, about 15 h old on 2026-11-14, 24 reactions: React, Node/Express, MySQL or MongoDB, REST, Git. Email in the private daily file.",
     message: "Not drafted: write 4–5 lines in your own words (see angle)",
     shared: "Nothing sent"
+  },
+  {
+    id: "third-mile-labs-react-native-2026-11-15",
+    name: "Hiring team",
+    company: "Third Mile Labs",
+    title: "React Native Developer",
+    region: "Lahore · on-site",
+    linkedin: "https://www.linkedin.com/company/third-mile-labs/",
+    status: "Draft ready",
+    angle: "They want RN + TypeScript with at least one store-published app; you shipped Hopn's two ride-sharing apps to both stores, and their own product Svvari is a ride-hailing app",
+    researchNote: "Company LinkedIn post, about 16 h old on 2026-11-15, 24 reactions: React Native, TypeScript, REST, real-time features, App Store + Google Play releases; Expo/Firebase a plus; 10 AM–7 PM. Lahore studio building AI agents, LLM apps, web and mobile (Svvari, Specfire). Email in the private daily file (subject line \"React Native\").",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "lahore-fintech-jbutt-frontend-2026-11-15",
+    name: "J. Butt (recruiter)",
+    company: "Lahore fintech (name not given)",
+    title: "Frontend Developer – Fintech (React/TypeScript)",
+    region: "Lahore · office",
+    linkedin: "https://www.linkedin.com/in/j-butt-1581713b3/",
+    status: "Draft ready",
+    angle: "React + TypeScript front end with Node/TypeScript backend experience; they also have Backend and Platform (Node.js/TypeScript) openings",
+    researchNote: "LinkedIn post by a recruiter, about 2 min old on 2026-11-15, posting on behalf of a Lahore fintech: Frontend (React/TS), Backend and Platform Engineer (Node.js/TS), QA, Graphic Designer. Company not named; contact route (DM) in the private daily file.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "per-diem-react-native-2026-11-15",
+    name: "Tomer Molovinsky / Doron Segal",
+    company: "Per Diem (YC W21)",
+    title: "React Native Engineer",
+    region: "Remote · no country restriction listed",
+    linkedin: "https://www.ycombinator.com/companies/per-diem/jobs/yTpvIRZ-per-diem-is-expending-and-looking-for-a-react-native-experience-developer",
+    status: "Draft ready",
+    angle: "RN + Node, store publishing and push notifications for restaurant apps: Hopn's two store apps; stretch because they ask 6+ years",
+    researchNote: "YC Work at a Startup job, about 6 days old on 2026-11-15: React Native + Node.js, publish to both stores; USD 60K + equity, US visa not required; 6+ years asked. White-label ordering/rewards apps for restaurants on Square; ~25 people, NYC. Apply on the YC page; no email published.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "wyxan-react-native-2026-11-15",
+    name: "Hiring team",
+    company: "Wyxan",
+    title: "React Native Developer (3 yrs)",
+    region: "Islamabad · on-site (Gulberg Greens)",
+    linkedin: "https://infonicai.com/tech-jobs/jobs-in-islamabad/react-native-developer-at-wyxan-islamabad/",
+    status: "Draft ready",
+    angle: "3 years of RN asked, you have 3.5 with two shipped store apps; downside is Islamabad on-site",
+    researchNote: "InfonicAI job post shared on LinkedIn, about 4 h old on 2026-11-15; job posted 15 Nov, deadline 22 Nov 2026; full-time, 9 AM–6 PM. Wyxan is an AI app development agency (Upwork profile: React Native, React, Node/Express, Firebase). Apply through their screening form (link in the private daily file).",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "squatwolf-mobile-developer-2026-11-15",
+    name: "Hiring team",
+    company: "SQUATWOLF",
+    title: "Mobile Application Developer (React Native, 1–3 yrs)",
+    region: "Karachi · on-site",
+    linkedin: "https://www.linkedin.com/company/apextech-career/",
+    status: "Draft ready",
+    angle: "High-performance cross-platform RN apps for a consumer brand; your two shipped store apps; low priority (Karachi on-site)",
+    researchNote: "Job shared by the ApexTech Career LinkedIn page, about 22 h old on 2026-11-15: React Native, 1–3 years, Karachi on-site. Apply through the job link in that post or SQUATWOLF's careers page; no email published.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "mondrio-founders-2026-11-15",
+    name: "Gregor Biljardt / Joep van den Nieuwenhoff",
+    company: "Mondrio",
+    title: "Founders",
+    region: "Amsterdam / San Francisco · remote? (UTC+1)",
+    linkedin: "https://mondrio.io",
+    status: "Draft ready",
+    angle: "They are expanding engineering and AI teams for an agentic B2B pricing platform; you built front ends of 2 AI SaaS platforms with live dashboards and scheduled agents",
+    researchNote: "USD 3.75M seed led by Heartcore Capital, 12 Nov 2026 (TheSaaSNews). Pricing Studio + Deal Engine; funds go to engineering/AI teams and US/EU sales. No open roles found (no careers page; none on Greenhouse/Lever/Ashby/Workable). General email in the private daily file.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "careerfly-trading-platform-2026-11-15",
+    name: "Careerfly (recruiter)",
+    company: "Careerfly (client: unnamed trading platform)",
+    title: "Senior Full-Stack Developer",
+    region: "Remote · worldwide (Pakistan listed)",
+    linkedin: "https://www.linkedin.com/company/careerflyonline/",
+    status: "Draft ready",
+    angle: "React + TypeScript, WebSockets, React Native/Expo and LLM integration match; stretch on seniority, fintech charting and the Python/FastAPI backend",
+    researchNote: "LinkedIn post, about 22 h old on 2026-11-15: trading platform with charting, AI stock research (Gemini, RAG), web + iOS/Android + desktop; React/TS, Python/FastAPI, PostgreSQL, Redis, RN/Expo, Tauri. Recruiter's email in the private daily file; ask the client name and pay first.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
   }
 ];
 
