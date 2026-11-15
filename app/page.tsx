@@ -1727,6 +1727,25 @@ const seededApplications: Application[] = [
         text: "Form partly filled and saved as a draft; the rest needs your own answers and a video"
       }
     ]
+  },
+  {
+    id: "third-mile-labs-react-native",
+    company: "Third Mile Labs",
+    role: "React Native Developer",
+    location: "Lahore, Pakistan · on-site",
+    source: "Job post · email",
+    stage: "Applied",
+    appliedOn: "2026-11-15",
+    link: "https://thirdmilelabs.com/careers",
+    nextAction: "Check for a bounce (their domain has no mail record); if it bounces, message them on LinkedIn",
+    due: "2026-11-18",
+    notes: "Software studio (AI automations, LLM apps, web and mobile). React Native CV tailored to the role, with links to the Hopn passenger and driver apps on both stores.",
+    activity: [
+      {
+        date: "Nov 15",
+        text: "Application emailed with a tailored CV and published-app links"
+      }
+    ]
   }
 ];
 
