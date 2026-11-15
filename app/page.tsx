@@ -1746,6 +1746,24 @@ const seededApplications: Application[] = [
         text: "Application emailed with a tailored CV and published-app links"
       }
     ]
+  },
+  {
+    id: "noustiq-full-stack-developer",
+    company: "Noustiq",
+    role: "Full Stack Developer",
+    location: "Pakistan",
+    source: "Job post · email",
+    stage: "Applied",
+    appliedOn: "2026-11-15",
+    nextAction: "Wait for a reply",
+    due: "2026-11-22",
+    notes: "Enterprise systems, AI agents and business automation. Full-stack CV tailored to the role (dashboards, Node.js APIs on PostgreSQL, scheduled AI agents, n8n and Python automation); portfolio links to GitHub, repocards and AI-Video-Maker.",
+    activity: [
+      {
+        date: "Nov 15",
+        text: "Application emailed with a tailored CV"
+      }
+    ]
   }
 ];
 
