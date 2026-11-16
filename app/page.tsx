@@ -1908,16 +1908,20 @@ const seededApplications: Application[] = [
     role: "Product Engineer",
     location: "Remote · Pakistan only (Karachi preferred)",
     source: "Manatal careers page",
-    stage: "Draft",
+    stage: "Applied",
     appliedOn: "2026-11-17",
     link: "https://careers-page.com/proto/job/Y673R9WV",
-    nextAction: "Approve accepting their terms and privacy policy, then submit (form is filled)",
-    due: "2026-11-18",
+    nextAction: "Wait for a reply",
+    due: "2026-11-24",
     notes: "AI agent platform for governments and businesses in emerging markets. React, TypeScript, Node; Python/FastAPI and AWS are gaps (said so in the cover letter).",
     activity: [
       {
         date: "Nov 17",
         text: "Form filled with a tailored CV and cover letter; waiting for your OK on their terms checkbox"
+      },
+      {
+        date: "Nov 17",
+        text: "Submitted after your OK on their terms (second try; the first CV upload timed out on their side)"
       }
     ]
   }
