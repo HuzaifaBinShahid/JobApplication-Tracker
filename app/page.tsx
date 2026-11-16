@@ -2315,6 +2315,84 @@ const seededOutreach: Outreach[] = [
     researchNote: "LinkedIn post, about 22 h old on 2026-11-15: trading platform with charting, AI stock research (Gemini, RAG), web + iOS/Android + desktop; React/TS, Python/FastAPI, PostgreSQL, Redis, RN/Expo, Tauri. Recruiter's email in the private daily file; ask the client name and pay first.",
     message: "Not drafted: write 4–5 lines in your own words (see angle)",
     shared: "Nothing sent"
+  },
+  {
+    id: "escalo-ai-fullstack-2026-11-16",
+    name: "Rania Jawad (poster)",
+    company: "Escalo AI",
+    title: "FullStack Software Engineer (2+ years)",
+    region: "Remote · Pakistan (Islamabad, Rawalpindi, Lahore)",
+    linkedin: "https://www.linkedin.com/in/rania-jawad/",
+    status: "Draft ready",
+    angle: "Their stack is yours almost line by line (Next.js, React, React Native, TS, Node/Express/Fastify, Postgres/MongoDB, Supabase, Firebase); Hopn + LenaDena show web and mobile ownership",
+    researchNote: "LinkedIn post, about 1 h old on 2026-11-16, 13 reactions. Escalo AI (escalo.ai, 11-50 people, HQ Melbourne) wants end-to-end ownership incl. AWS/Docker/server work (be honest about that part). Email written in the post, in the private daily file; subject 'FullStack Engineer'.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "lomi-labs-senior-fullstack-2026-11-16",
+    name: "Hiring team (posts by Yash Makhija, Nafis Reza)",
+    company: "Lomi Labs",
+    title: "Senior Full-Stack Engineer",
+    region: "Remote · USD 3,000–4,500/month",
+    linkedin: "https://lomilabs.ai/careers/senior-full-stack-engineer",
+    status: "Draft ready",
+    angle: "TypeScript/Node/React/Next.js + MongoDB/Firebase + LLM APIs (Anthropic, OpenAI) match Boolmind and your Claude 101; parallel client projects match your Upwork record",
+    researchNote: "X posts of 14 Nov 2026 (2 days old at the scan). Apply by the form on the careers page (CV, GitHub, note on the most interesting system you built); process: take-home, interviews, short trial. Stretch: 'Senior'. General email in the private daily file.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "curexa-crewedge-fullstack-2026-11-16",
+    name: "Crew Edge (recruiter)",
+    company: "Curexa Health (via Crew Edge)",
+    title: "Full Stack Developer (2–3 years)",
+    region: "Lahore · on-site (Tricon Tower)",
+    linkedin: "https://www.linkedin.com/company/crewedge/",
+    status: "Draft ready",
+    angle: "React + TypeScript + Node REST + PostgreSQL match; React Native for their tablet/mobile app is your strongest card (Hopn)",
+    researchNote: "Crew Edge LinkedIn post, about 1 h old on 2026-11-16, for 'one of the leading pharmaceutical companies in Pakistan' (HR address is at curexa.com.pk). Also asks CI/CD, testing, OWASP, OAuth/SSO. Two emails written in the post, in the private daily file.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "8folk-fullstack-2026-11-16",
+    name: "Hiring team",
+    company: "8Folk",
+    title: "Full Stack Developer (1–3 years)",
+    region: "Karachi · on-site (ask about remote)",
+    linkedin: "https://www.linkedin.com/company/8folk/",
+    status: "Draft ready",
+    angle: "Agency building client sites, web apps and dashboards in React/Next.js + Node; your Lighthouse 82→100 Next.js work and Boolmind dashboards fit",
+    researchNote: "8Folk LinkedIn post, about 1 h old on 2026-11-16 (React/Next.js, Node.js, SQL, Prisma a plus, WordPress a bonus). On-site in Karachi: ask about remote/hybrid first. Email written in the post, in the private daily file; subject 'Full Stack Developer'.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "toutix-founders-2026-11-16",
+    name: "Dillane Wehbe / Daniel Zhang",
+    company: "Toutix",
+    title: "Co-founders (CEO / CTO)",
+    region: "New York / London · remote?",
+    linkedin: "https://linkedin.com/company/toutix",
+    status: "Draft ready",
+    angle: "Their Fan Passport lives inside sports teams' own apps, plus CRM dashboards and an AI assistant: your React Native apps, live dashboards and LLM API work",
+    researchNote: "USD 3M seed led by Evolution Equity Partners, 10 Nov 2026 (AlleyWatch, TheSaaSNews). Fan data, sponsor CRM and ticketing for sports clubs; small team. No careers page or open roles found. Only a support inbox is published (in the private daily file): LinkedIn is the better route.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "nectar-social-lahore-2026-11-16",
+    name: "Misbah Uraizee / Farah Uraizee",
+    company: "Nectar Social",
+    title: "Founders (CEO / co-founder)",
+    region: "Lahore engineering hub · Palo Alto HQ",
+    linkedin: "https://www.techjuice.pk/nectar-social-30m-series-a-pakistan-lahore-engineering-hub/",
+    status: "Draft ready",
+    angle: "US AI startup (agents for social listening and commerce) with a Lahore engineering team; they hire React Native engineers and you shipped two RN apps plus AI SaaS front ends",
+    researchNote: "USD 30M Series A (TechJuice, about 4 months ago: older than the 7-day window). Lahore engineers work on the same codebase as the Bay Area team. No Lahore role on their Ashby board (US roles only, incl. Mobile React Native) and no published email: reach out on LinkedIn.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
   }
 ];
 
