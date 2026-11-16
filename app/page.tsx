@@ -1655,13 +1655,17 @@ const seededApplications: Application[] = [
     source: "LinkedIn post · email",
     stage: "Applied",
     appliedOn: "2026-11-14",
-    nextAction: "Watch for their pre-screener form; fill it and reply ACK",
-    due: "2026-11-17",
+    nextAction: "Fill their React Native pre-screener form, then reply ACK in the thread",
+    due: "2026-11-18",
     notes: "React Native CV tailored to the role (Hopn's two store-released apps first, LenaDena, Claude Code and repocards for their AI-native ask). Honest that React Native work started in Mar 2026, on top of 3.5 years of React. Separate from the earlier Frontend application.",
     activity: [
       {
         date: "Nov 14",
         text: "Application emailed with a tailored CV"
+      },
+      {
+        date: "Nov 16",
+        text: "HR replied with the React Native pre-screening form and asked for an ACK reply"
       }
     ]
   },
@@ -1762,6 +1766,62 @@ const seededApplications: Application[] = [
       {
         date: "Nov 15",
         text: "Application emailed with a tailored CV"
+      }
+    ]
+  },
+  {
+    id: "escalo-ai-fullstack-application",
+    company: "Escalo AI",
+    role: "FullStack Software Engineer",
+    location: "Remote · Pakistan",
+    source: "LinkedIn post · email",
+    stage: "Applied",
+    appliedOn: "2026-11-16",
+    nextAction: "Wait for a reply",
+    due: "2026-11-23",
+    notes: "Stack match: Next.js, React Native, TypeScript, Node/Fastify, PostgreSQL, Supabase, Stripe. Tailored CV plus the Hopn store links. Honest that AWS servers, Nginx and PM2 are new.",
+    activity: [
+      {
+        date: "Nov 16",
+        text: "Application emailed with a tailored CV"
+      }
+    ]
+  },
+  {
+    id: "curexa-health-full-stack-application",
+    company: "Curexa Health (via Crew Edge)",
+    role: "Full Stack Developer",
+    location: "Lahore (Tricon Tower) · on-site",
+    source: "LinkedIn post · email",
+    stage: "Applied",
+    appliedOn: "2026-11-16",
+    nextAction: "Wait for a reply",
+    due: "2026-11-23",
+    notes: "Pharma company. React + TypeScript, Node.js, PostgreSQL; React Native for tablet and mobile is a bonus. Tailored CV plus the Hopn store links. Honest about CI/CD, SSO and testing.",
+    activity: [
+      {
+        date: "Nov 16",
+        text: "Application emailed to both addresses in the post"
+      }
+    ]
+  },
+  {
+    id: "lomi-labs-senior-full-stack-application",
+    company: "Lomi Labs",
+    role: "Senior Full-Stack Engineer",
+    location: "Remote",
+    source: "Careers form",
+    stage: "Applied",
+    appliedOn: "2026-11-16",
+    link: "https://lomilabs.ai/careers/senior-full-stack-engineer",
+    compensation: "USD 3,000–4,500/month (their range)",
+    nextAction: "Watch for a take-home assignment",
+    due: "2026-11-23",
+    notes: "Agency-style product engineering (Next.js, Node.js, Postgres/Prisma, Docker, GCP/AWS, Terraform, LLM APIs). Note covered Hopn's real-time system; honest about 3.5 years and no AWS/GCP or Terraform yet.",
+    activity: [
+      {
+        date: "Nov 16",
+        text: "Applied through the careers form; confirmation email sent"
       }
     ]
   }
@@ -2323,11 +2383,11 @@ const seededOutreach: Outreach[] = [
     title: "FullStack Software Engineer (2+ years)",
     region: "Remote · Pakistan (Islamabad, Rawalpindi, Lahore)",
     linkedin: "https://www.linkedin.com/in/rania-jawad/",
-    status: "Draft ready",
+    status: "Sent",
     angle: "Their stack is yours almost line by line (Next.js, React, React Native, TS, Node/Express/Fastify, Postgres/MongoDB, Supabase, Firebase); Hopn + LenaDena show web and mobile ownership",
     researchNote: "LinkedIn post, about 1 h old on 2026-11-16, 13 reactions. Escalo AI (escalo.ai, 11-50 people, HQ Melbourne) wants end-to-end ownership incl. AWS/Docker/server work (be honest about that part). Email written in the post, in the private daily file; subject 'FullStack Engineer'.",
-    message: "Not drafted: write 4–5 lines in your own words (see angle)",
-    shared: "Nothing sent"
+    message: "Email sent Nov 16 from Gmail with a CV tailored to the role (text in the private applications file, section 24)",
+    shared: "Tailored CV, Hopn store links, GitHub · emailed Nov 16"
   },
   {
     id: "lomi-labs-senior-fullstack-2026-11-16",
@@ -2336,11 +2396,11 @@ const seededOutreach: Outreach[] = [
     title: "Senior Full-Stack Engineer",
     region: "Remote · USD 3,000–4,500/month",
     linkedin: "https://lomilabs.ai/careers/senior-full-stack-engineer",
-    status: "Draft ready",
+    status: "Sent",
     angle: "TypeScript/Node/React/Next.js + MongoDB/Firebase + LLM APIs (Anthropic, OpenAI) match Boolmind and your Claude 101; parallel client projects match your Upwork record",
     researchNote: "X posts of 14 Nov 2026 (2 days old at the scan). Apply by the form on the careers page (CV, GitHub, note on the most interesting system you built); process: take-home, interviews, short trial. Stretch: 'Senior'. General email in the private daily file.",
-    message: "Not drafted: write 4–5 lines in your own words (see angle)",
-    shared: "Nothing sent"
+    message: "Applied through their careers form on Nov 16 (note on Hopn's real-time system; section 24)",
+    shared: "Tailored CV, GitHub, LinkedIn, Hopn links · form Nov 16"
   },
   {
     id: "curexa-crewedge-fullstack-2026-11-16",
@@ -2349,11 +2409,11 @@ const seededOutreach: Outreach[] = [
     title: "Full Stack Developer (2–3 years)",
     region: "Lahore · on-site (Tricon Tower)",
     linkedin: "https://www.linkedin.com/company/crewedge/",
-    status: "Draft ready",
+    status: "Sent",
     angle: "React + TypeScript + Node REST + PostgreSQL match; React Native for their tablet/mobile app is your strongest card (Hopn)",
     researchNote: "Crew Edge LinkedIn post, about 1 h old on 2026-11-16, for 'one of the leading pharmaceutical companies in Pakistan' (HR address is at curexa.com.pk). Also asks CI/CD, testing, OWASP, OAuth/SSO. Two emails written in the post, in the private daily file.",
-    message: "Not drafted: write 4–5 lines in your own words (see angle)",
-    shared: "Nothing sent"
+    message: "Email sent Nov 16 to both addresses in the post with a CV tailored to the role (section 24)",
+    shared: "Tailored CV, Hopn store links, GitHub · emailed Nov 16"
   },
   {
     id: "8folk-fullstack-2026-11-16",
