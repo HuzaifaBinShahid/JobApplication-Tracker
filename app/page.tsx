@@ -1882,6 +1882,44 @@ const seededApplications: Application[] = [
         text: "Interest emailed with examples of work"
       }
     ]
+  },
+  {
+    id: "supabase-ai-tooling-engineer",
+    company: "Supabase",
+    role: "Software Engineer – AI Tooling",
+    location: "Remote · global",
+    source: "RemoteOK · Ashby",
+    stage: "Applied",
+    appliedOn: "2026-11-17",
+    link: "https://jobs.ashbyhq.com/supabase/0055f731-cffa-4c74-9c00-8abfa579873d",
+    nextAction: "Wait for a reply",
+    due: "2026-12-01",
+    notes: "Owns the MCP server, agent skills and evals. Stretch: asks 5+ years and eval-framework experience. CV led with repocards (developer tool for AI coding agents). Supabase allows 3 applications per 60 days.",
+    activity: [
+      {
+        date: "Nov 17",
+        text: "Application submitted on Ashby with a tailored CV"
+      }
+    ]
+  },
+  {
+    id: "proto-product-engineer",
+    company: "Proto",
+    role: "Product Engineer",
+    location: "Remote · Pakistan only (Karachi preferred)",
+    source: "Manatal careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-17",
+    link: "https://careers-page.com/proto/job/Y673R9WV",
+    nextAction: "Approve accepting their terms and privacy policy, then submit (form is filled)",
+    due: "2026-11-18",
+    notes: "AI agent platform for governments and businesses in emerging markets. React, TypeScript, Node; Python/FastAPI and AWS are gaps (said so in the cover letter).",
+    activity: [
+      {
+        date: "Nov 17",
+        text: "Form filled with a tailored CV and cover letter; waiting for your OK on their terms checkbox"
+      }
+    ]
   }
 ];
 
@@ -2379,7 +2417,7 @@ const seededOutreach: Outreach[] = [
     status: "Draft ready",
     angle: "RN + Node, store publishing and push notifications for restaurant apps: Hopn's two store apps; stretch because they ask 6+ years",
     researchNote: "YC Work at a Startup job, about 6 days old on 2026-11-15: React Native + Node.js, publish to both stores; USD 60K + equity, US visa not required; 6+ years asked. White-label ordering/rewards apps for restaurants on Square; ~25 people, NYC. Apply on the YC page; no email published.",
-    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    message: "Connection note: Hi Tomer, I saw Per Diem's React Native opening. I built a ride-booking company's two React Native apps with push and real-time features, live on both stores. Open to a chat?",
     shared: "Nothing sent"
   },
   {
@@ -2496,7 +2534,7 @@ const seededOutreach: Outreach[] = [
     status: "Draft ready",
     angle: "Their Fan Passport lives inside sports teams' own apps, plus CRM dashboards and an AI assistant: your React Native apps, live dashboards and LLM API work",
     researchNote: "USD 3M seed led by Evolution Equity Partners, 10 Nov 2026 (AlleyWatch, TheSaaSNews). Fan data, sponsor CRM and ticketing for sports clubs; small team. No careers page or open roles found. Only a support inbox is published (in the private daily file): LinkedIn is the better route.",
-    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    message: "Connection note: Hi Dillane, congrats on the seed round. I'm a React Native and React developer in Pakistan with two apps live on both stores. If Toutix needs help on the Fan Passport, let's talk.",
     shared: "Nothing sent"
   },
   {
@@ -2509,7 +2547,150 @@ const seededOutreach: Outreach[] = [
     status: "Draft ready",
     angle: "US AI startup (agents for social listening and commerce) with a Lahore engineering team; they hire React Native engineers and you shipped two RN apps plus AI SaaS front ends",
     researchNote: "USD 30M Series A (TechJuice, about 4 months ago: older than the 7-day window). Lahore engineers work on the same codebase as the Bay Area team. No Lahore role on their Ashby board (US roles only, incl. Mobile React Native) and no published email: reach out on LinkedIn.",
-    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    message: "Connection note: Hi Misbah, I read about Nectar's Lahore engineering hub. I'm a React Native and React developer in Lahore (two apps live on both stores, AI SaaS front ends). Would love to connect.",
+    shared: "Nothing sent"
+  },
+  {
+    id: "escalo-connect-2026-11-17",
+    name: "Rania Jawad",
+    company: "Escalo AI",
+    title: "Person behind the job post",
+    region: "LinkedIn",
+    linkedin: "",
+    status: "Draft ready",
+    angle: "Follow-up to the application: short connection request",
+    researchNote: "Send from LinkedIn with a personal note (200 characters max). Find the person on the job post.",
+    message: "Hi Rania, I emailed my CV for the FullStack Engineer role at Escalo AI. Next.js, React Native, Fastify and Supabase are my daily stack, and I'd be glad to connect.",
+    shared: "Nothing sent"
+  },
+  {
+    id: "lomi-connect-2026-11-17",
+    name: "Yash Makhija",
+    company: "Lomi Labs",
+    title: "Person behind the job post",
+    region: "LinkedIn",
+    linkedin: "",
+    status: "Draft ready",
+    angle: "Follow-up to the application: short connection request",
+    researchNote: "Send from LinkedIn with a personal note (200 characters max). Find the person on the job post.",
+    message: "Hi Yash, I applied for the Senior Full-Stack Engineer role at Lomi Labs after your post. TypeScript, Next.js, Node and LLM APIs are my daily work. Would love to connect.",
+    shared: "Nothing sent"
+  },
+  {
+    id: "curexa-connect-2026-11-17",
+    name: "The Crew Edge recruiter who posted it",
+    company: "Crew Edge / Curexa Health",
+    title: "Person behind the job post",
+    region: "LinkedIn",
+    linkedin: "",
+    status: "Draft ready",
+    angle: "Follow-up to the application: short connection request",
+    researchNote: "Send from LinkedIn with a personal note (200 characters max). Find the person on the job post.",
+    message: "Hi, I applied for the Full Stack Developer role at Curexa Health you posted: React, TypeScript, Node.js, PostgreSQL, plus React Native for the tablet app. Glad to connect.",
+    shared: "Nothing sent"
+  },
+  {
+    id: "siliconnexus-connect-2026-11-17",
+    name: "Abdullah Ali",
+    company: "Silicon Nexus",
+    title: "Person behind the job post",
+    region: "LinkedIn",
+    linkedin: "",
+    status: "Draft ready",
+    angle: "Follow-up to the application: short connection request",
+    researchNote: "Send from LinkedIn with a personal note (200 characters max). Find the person on the job post.",
+    message: "Hi Abdullah, thanks for the pre-screening form for the React Native role. I'll send it with an ACK shortly. I built two ride-booking apps live on both stores. Glad to connect.",
+    shared: "Nothing sent"
+  },
+  {
+    id: "vogent-connect-2026-11-17",
+    name: "The Vogent Labs person who posted the job",
+    company: "Vogent Labs",
+    title: "Person behind the job post",
+    region: "LinkedIn",
+    linkedin: "",
+    status: "Draft ready",
+    angle: "Follow-up to the application: short connection request",
+    researchNote: "Send from LinkedIn with a personal note (200 characters max). Find the person on the job post.",
+    message: "Hi, I applied for the Part-Time Full Stack Developer role (React, TypeScript, Firebase). I built and maintain two live ride-booking apps. Would be glad to connect.",
+    shared: "Nothing sent"
+  },
+  {
+    id: "bisviews-connect-2026-11-17",
+    name: "The Bisviews poster",
+    company: "Bisviews",
+    title: "Person behind the job post",
+    region: "LinkedIn",
+    linkedin: "",
+    status: "Draft ready",
+    angle: "Follow-up to the application: short connection request",
+    researchNote: "Send from LinkedIn with a personal note (200 characters max). Find the person on the job post.",
+    message: "Hi, I applied for the Senior Frontend Engineer contract at Bisviews. React, Next.js, TypeScript, TanStack Query and Zod are my daily tools. Happy to connect.",
+    shared: "Nothing sent"
+  },
+  {
+    id: "cloutara-connect-2026-11-17",
+    name: "The Cloutara founder who posted",
+    company: "Cloutara",
+    title: "Person behind the job post",
+    region: "LinkedIn",
+    linkedin: "",
+    status: "Draft ready",
+    angle: "Follow-up to the application: short connection request",
+    researchNote: "Send from LinkedIn with a personal note (200 characters max). Find the person on the job post.",
+    message: "Hi, I emailed about building Cloutara's new website. I'm a Next.js developer in Lahore and would be glad to share ideas for a gaming creator agency site. Let's connect.",
+    shared: "Nothing sent"
+  },
+  {
+    id: "noustiq-connect-2026-11-17",
+    name: "The Noustiq poster",
+    company: "Noustiq",
+    title: "Person behind the job post",
+    region: "LinkedIn",
+    linkedin: "",
+    status: "Draft ready",
+    angle: "Follow-up to the application: short connection request",
+    researchNote: "Send from LinkedIn with a personal note (200 characters max). Find the person on the job post.",
+    message: "Hi, I applied for the Full Stack Developer role at Noustiq. I build React and Next.js apps, Node.js APIs and AI agents. Would be glad to connect.",
+    shared: "Nothing sent"
+  },
+  {
+    id: "thirdmile-connect-2026-11-17",
+    name: "The Third Mile Labs poster",
+    company: "Third Mile Labs",
+    title: "Person behind the job post",
+    region: "LinkedIn",
+    linkedin: "",
+    status: "Draft ready",
+    angle: "Follow-up to the application: short connection request",
+    researchNote: "Send from LinkedIn with a personal note (200 characters max). Find the person on the job post.",
+    message: "Hi, I applied for the React Native Developer role at Third Mile Labs. I built two ride-booking apps that are live on the App Store and Google Play. Glad to connect.",
+    shared: "Nothing sent"
+  },
+  {
+    id: "trustedtrucks-connect-2026-11-17",
+    name: "The TrustedTrucks poster",
+    company: "TrustedTrucks",
+    title: "Person behind the job post",
+    region: "LinkedIn",
+    linkedin: "",
+    status: "Draft ready",
+    angle: "Follow-up to the application: short connection request",
+    researchNote: "Send from LinkedIn with a personal note (200 characters max). Find the person on the job post.",
+    message: "Hi, I applied for the Senior Frontend role. Your jobs@ inbox was full, so I resent it to support@. React, Next.js, TypeScript and live map tracking. Glad to connect.",
+    shared: "Nothing sent"
+  },
+  {
+    id: "proto-connect-2026-11-17",
+    name: "A Proto founder or engineering lead",
+    company: "Proto",
+    title: "Person behind the job post",
+    region: "LinkedIn",
+    linkedin: "",
+    status: "Draft ready",
+    angle: "Follow-up to the application: short connection request",
+    researchNote: "Send from LinkedIn with a personal note (200 characters max). Find the person on the job post.",
+    message: "Hi, I applied for the Product Engineer role at Proto. I build AI product features in React, TypeScript and Node.js and I'm based in Lahore. Would love to connect.",
     shared: "Nothing sent"
   }
 ];
@@ -2581,8 +2762,12 @@ export default function Home() {
         if (Array.isArray(parsed) && parsed.length) {
           const migratedOutreach = parsed.map((savedContact) => {
             const seeded = seededOutreach.find((candidate) => candidate.id === savedContact.id);
-            return seeded && seeded.status !== "Draft ready" && savedContact.status === "Draft ready"
-              ? { ...savedContact, status: seeded.status, message: seeded.message, shared: seeded.shared }
+            if (seeded && seeded.status !== "Draft ready" && savedContact.status === "Draft ready") {
+              return { ...savedContact, status: seeded.status, message: seeded.message, shared: seeded.shared };
+            }
+            // A note drafted later replaces the "Not drafted" placeholder.
+            return seeded && savedContact.status === "Draft ready" && savedContact.message.startsWith("Not drafted") && !seeded.message.startsWith("Not drafted")
+              ? { ...savedContact, message: seeded.message }
               : savedContact;
           });
           const newSeededOutreach = seededOutreach.filter((seeded) => !migratedOutreach.some((savedContact) => savedContact.id === seeded.id));
