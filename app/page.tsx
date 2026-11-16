@@ -758,17 +758,21 @@ const seededApplications: Application[] = [
     role: "Senior React Native & React Engineer PK",
     location: "Remote · Pakistan",
     source: "Recruitee careers page",
-    stage: "Applied",
+    stage: "Rejected",
     appliedOn: "2026-11-12",
     compensation: "USD 1,500/month entered",
     link: "https://wizdaa.recruitee.com/o/senior-react-native-react-engineer-pk-1",
-    nextAction: "Wait for a reply",
+    nextAction: "None: they chose other candidates",
     due: "2026-11-19",
     notes: "Answered honestly: 3.5 years total, React Native about 1 year, React 3 years, no GraphQL or TDD.",
     activity: [
       {
         date: "Nov 12",
         text: "Application submitted with the Software Engineer CV"
+      },
+      {
+        date: "Nov 16",
+        text: "Rejected by email: they moved forward with other candidates"
       }
     ]
   },
@@ -1824,6 +1828,60 @@ const seededApplications: Application[] = [
         text: "Applied through the careers form; confirmation email sent"
       }
     ]
+  },
+  {
+    id: "vogent-labs-part-time-full-stack",
+    company: "Vogent Labs (client: AI web product)",
+    role: "Part-Time Full Stack Developer (React, TypeScript, Firebase)",
+    location: "Remote · Pakistan",
+    source: "LinkedIn post · email",
+    stage: "Applied",
+    appliedOn: "2026-11-17",
+    nextAction: "Wait for a reply",
+    due: "2026-11-24",
+    notes: "Lead engineer for a live AI product moving from Vue 3 to React and TanStack Start, on Firebase. Sent the Hopn store links as the production app, and about 4–5 hours on most weekdays (20–25 a week) as availability. Honest: no Vue 3, no framework migration, no realtime voice yet.",
+    activity: [
+      {
+        date: "Nov 17",
+        text: "Application emailed with a tailored CV and production app links"
+      }
+    ]
+  },
+  {
+    id: "bisviews-senior-frontend-contract",
+    company: "Bisviews",
+    role: "Senior Frontend Engineer (contract)",
+    location: "Remote",
+    source: "LinkedIn post · email",
+    stage: "Applied",
+    appliedOn: "2026-11-17",
+    nextAction: "Wait for a reply",
+    due: "2026-11-24",
+    notes: "Business review platform; audit and extend a React, Next.js and TypeScript codebase (TanStack Query, Zod, Radix, Tailwind). Asked 4+ years; honest about 3.5, no Radix yet and light automated testing.",
+    activity: [
+      {
+        date: "Nov 17",
+        text: "Application emailed with a tailored CV"
+      }
+    ]
+  },
+  {
+    id: "cloutara-website-project",
+    company: "Cloutara",
+    role: "Website build (freelance project)",
+    location: "Remote · Pakistan",
+    source: "LinkedIn post · email",
+    stage: "Applied",
+    appliedOn: "2026-11-17",
+    nextAction: "Wait for a reply; if they answer, ask about pages and design before quoting",
+    due: "2026-11-24",
+    notes: "Gaming influencer marketing agency wants a simple, clean website. Sent the Lighthouse 82 to 100 example, Hopn apps, repocards, GitHub and the CV; offered an approach and timeline once they share the pages.",
+    activity: [
+      {
+        date: "Nov 17",
+        text: "Interest emailed with examples of work"
+      }
+    ]
   }
 ];
 
@@ -2501,9 +2559,14 @@ export default function Home() {
         const parsed = JSON.parse(saved) as Application[];
         if (Array.isArray(parsed) && parsed.length) {
           const latestGlitchDevs = seededApplications.find((application) => application.id === "glitch-devs-frontend-developer");
-          const migratedApplications = parsed.map((application) => application.id === "glitch-devs-frontend-developer" && latestGlitchDevs
-            ? { ...application, ...latestGlitchDevs }
-            : application);
+          const migratedApplications = parsed.map((application) => {
+            if (application.id === "glitch-devs-frontend-developer" && latestGlitchDevs) return { ...application, ...latestGlitchDevs };
+            const seeded = seededApplications.find((candidate) => candidate.id === application.id);
+            // Pull in updates made to the seed later (new activity such as a reply or rejection).
+            return seeded && seeded.activity.length > application.activity.length
+              ? { ...application, stage: seeded.stage, nextAction: seeded.nextAction, due: seeded.due, notes: seeded.notes, activity: seeded.activity }
+              : application;
+          });
           const newSeededApplications = seededApplications.filter((seeded) => !migratedApplications.some((savedApplication) => savedApplication.id === seeded.id));
           setApplications([...newSeededApplications, ...migratedApplications]);
         }
