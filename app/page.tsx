@@ -1982,6 +1982,28 @@ const seededApplications: Application[] = [
         text: "Application submitted on Lever"
       }
     ]
+  },
+  {
+    id: "aurix-ai-full-stack-intern",
+    company: "Aurix Tech",
+    role: "AI Full-Stack Development Intern (also asked about Frontend Developer 3–6 yrs)",
+    location: "Faisal Town, Lahore · on-site",
+    source: "LinkedIn post · email",
+    stage: "Applied",
+    appliedOn: "2026-11-17",
+    nextAction: "Wait for a reply",
+    due: "2026-11-24",
+    notes: "Internship; email says honestly you have 3.5 years and asks to be considered for their Frontend Developer (3–6 yrs) role too. You applied for Frontend Developer at Aurix in April 2026 (no reply). CV named for the role.",
+    activity: [
+      {
+        date: "Apr 17",
+        text: "Earlier application for Frontend Developer emailed"
+      },
+      {
+        date: "Nov 17",
+        text: "Applied for the AI Full-Stack Development Intern role by email"
+      }
+    ]
   }
 ];
 
