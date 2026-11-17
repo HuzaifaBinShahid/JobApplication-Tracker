@@ -2083,6 +2083,33 @@ const seededApplications: Application[] = [
         text: "Applied by email with the Web Developer CV"
       }
     ]
+  },
+  {
+    id: "viastack-ride-hailing-rfq",
+    company: "ViaStack Systems",
+    role: "Freelance: Customer + Rider apps (RFQ)",
+    location: "Karachi · remote freelance",
+    source: "Post · email · RFQ",
+    stage: "Draft",
+    appliedOn: "2026-11-16",
+    link: "https://viastacksystems.com",
+    nextAction: "Send the RFQ questions drafted in Gmail; then quote the app rows",
+    due: "2026-11-19",
+    notes: "Fixed-price RFQ for a whole ride-hailing platform (.NET 10 API, two Expo apps, portals, Go service, GCP/Cloudflare). Your fit: the two apps (Hopn is nearly the same), optionally portals and website. Questions drafted: existing code, partial quote, backend timeline, design, deadline.",
+    activity: [
+      {
+        date: "Nov 16",
+        text: "Emailed interest with the Hopn store links"
+      },
+      {
+        date: "Nov 16",
+        text: "Received the RFQ document"
+      },
+      {
+        date: "Nov 18",
+        text: "Reply with five questions drafted in Gmail"
+      }
+    ]
   }
 ];
 
