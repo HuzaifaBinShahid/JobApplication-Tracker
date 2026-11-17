@@ -1924,6 +1924,44 @@ const seededApplications: Application[] = [
         text: "Submitted after your OK on their terms (second try; the first CV upload timed out on their side)"
       }
     ]
+  },
+  {
+    id: "arjun-bhandari-mobile-project",
+    company: "Arjun Bhandari (project in Nepal)",
+    role: "Mobile App Developer (1–2 month paid project)",
+    location: "Kathmandu, Nepal (asked about remote)",
+    source: "LinkedIn post · email",
+    stage: "Applied",
+    appliedOn: "2026-11-17",
+    nextAction: "Wait for a reply; optional WhatsApp nudge",
+    due: "2026-11-21",
+    notes: "Flutter, React Native, Android or iOS welcome. Sent a React Native CV and the Hopn store links, and asked whether remote from Lahore works.",
+    activity: [
+      {
+        date: "Nov 17",
+        text: "Emailed with a React Native CV"
+      }
+    ]
+  },
+  {
+    id: "eventmobi-front-end-engineer",
+    company: "EventMobi",
+    role: "Front End Engineer (remote, contract)",
+    location: "Remote · Pakistan focus · EST hours",
+    source: "BambooHR careers page",
+    stage: "Draft",
+    appliedOn: "2026-11-17",
+    link: "https://eventmobi.bamboohr.com/careers/458",
+    compensation: "CAD 40,000/year asked (their range CAD 40–65k)",
+    nextAction: "Send your street address and postal code so the form can be refilled and submitted",
+    due: "2026-11-18",
+    notes: "Best open fit (3–5 yrs, React/TypeScript, React Query, async-first). Answers ready: EST hours yes, 3+ years yes, AI-assisted development, why a fit.",
+    activity: [
+      {
+        date: "Nov 17",
+        text: "Form filled, then lost when the browser pane closed; waiting for the address"
+      }
+    ]
   }
 ];
 
@@ -2695,6 +2733,19 @@ const seededOutreach: Outreach[] = [
     angle: "Follow-up to the application: short connection request",
     researchNote: "Send from LinkedIn with a personal note (200 characters max). Find the person on the job post.",
     message: "Hi, I applied for the Product Engineer role at Proto. I build AI product features in React, TypeScript and Node.js and I'm based in Lahore. Would love to connect.",
+    shared: "Nothing sent"
+  },
+  {
+    id: "fb-web-app-developer-whatsapp-2026-11-17",
+    name: "Poster of the Facebook post",
+    company: "Unnamed (web and app development project)",
+    title: "Looking for an expert web and app developer",
+    region: "WhatsApp (number in the post and the private log)",
+    linkedin: "",
+    status: "Draft ready",
+    angle: "Websites, web platforms and Android/iOS apps: Hopn apps plus React/Next.js web work",
+    researchNote: "Facebook post, 102 reactions, 137 comments. Contact by WhatsApp only.",
+    message: "Assalam o Alaikum, I saw your post looking for an expert web and app developer. I'm Huzaifa, a developer in Lahore with 3.5 years in React, Next.js, Node.js and React Native...",
     shared: "Nothing sent"
   }
 ];
