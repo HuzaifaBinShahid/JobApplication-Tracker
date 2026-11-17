@@ -2064,6 +2064,25 @@ const seededApplications: Application[] = [
         text: "Tried to apply; Educative's Lever job board is down (404)"
       }
     ]
+  },
+  {
+    id: "intelithic-web-developer",
+    company: "Intelithic Solutions",
+    role: "Web Developer",
+    location: "Johar Town, Lahore · on-site, 5 PM – 1 AM",
+    source: "LinkedIn post · email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.linkedin.com/company/intelithic-solutions/",
+    nextAction: "Wait for a reply; follow up if nothing by Nov 25",
+    due: "2026-11-25",
+    notes: "2–4 years, CMS platforms, strong frontend. Sent with a new Web Developer CV (Lighthouse 82 to 100, Figma/PSD to responsive pages). CMS is the gap: the email asks which CMS they use instead of claiming it.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Applied by email with the Web Developer CV"
+      }
+    ]
   }
 ];
 
