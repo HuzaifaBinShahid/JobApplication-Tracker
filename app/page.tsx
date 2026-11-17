@@ -2004,6 +2004,24 @@ const seededApplications: Application[] = [
         text: "Applied for the AI Full-Stack Development Intern role by email"
       }
     ]
+  },
+  {
+    id: "aurix-frontend-developer-2026-11-17",
+    company: "Aurix Tech",
+    role: "Frontend Developer (3–6 years)",
+    location: "Lahore · on-site",
+    source: "LinkedIn job ad · email",
+    stage: "Applied",
+    appliedOn: "2026-11-17",
+    nextAction: "Wait for a reply",
+    due: "2026-11-24",
+    notes: "React, Next.js, Node.js, TypeScript, Tailwind; global projects. Frontend CV named for the role. Sent the same morning as the intern application, which it mentions.",
+    activity: [
+      {
+        date: "Nov 17",
+        text: "Application emailed to the address in the job ad"
+      }
+    ]
   }
 ];
 
@@ -2407,11 +2425,11 @@ const seededOutreach: Outreach[] = [
     title: "Frontend Developer (3–6 yrs)",
     region: "Lahore · on-site",
     linkedin: "https://www.linkedin.com/company/lahore-jobs/",
-    status: "Draft ready",
+    status: "Sent",
     angle: "3.5 years of React/Next.js front ends (two AI SaaS platforms at Boolmind, Lighthouse 82 to 100 on a client's Next.js site) fits their 3–6 year frontend role",
     researchNote: "Job ad reposted by Lahore Jobs, Pakistan IT Jobs and Job Ads Pakistan on LinkedIn, 17–23 h old on 2026-11-14. Hashtags: React, Next.js, Node, TypeScript, Tailwind, Python/Django; 'global projects'. Also hiring backend (3–6) and a senior architect. Email in the private daily file; aurixtech.com did not load.",
-    message: "Not drafted: write 4–5 lines in your own words (see angle)",
-    shared: "Nothing sent"
+    message: "Applied by email on Nov 17 with a Frontend Developer CV (private applications file, section 28)",
+    shared: "Tailored CV, GitHub, LinkedIn · emailed Nov 17"
   },
   {
     id: "la-viral-studio-alexandre-2026-11-14",
