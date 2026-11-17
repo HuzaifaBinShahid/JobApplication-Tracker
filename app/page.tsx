@@ -2107,7 +2107,7 @@ const seededApplications: Application[] = [
       },
       {
         date: "Nov 18",
-        text: "Full-platform quotation drafted: PKR 12.84M, 24 weeks, team of 9"
+        text: "Full-platform quotation drafted: PKR 50 lakh, 24 weeks, team of 9"
       }
     ]
   }
