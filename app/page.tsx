@@ -2087,15 +2087,15 @@ const seededApplications: Application[] = [
   {
     id: "viastack-ride-hailing-rfq",
     company: "ViaStack Systems",
-    role: "Freelance: Customer + Rider apps (RFQ)",
+    role: "Team quote: full ride-hailing platform (RFQ)",
     location: "Karachi · remote freelance",
     source: "Post · email · RFQ",
     stage: "Draft",
     appliedOn: "2026-11-16",
     link: "https://viastacksystems.com",
-    nextAction: "Send the RFQ questions drafted in Gmail; then quote the app rows",
+    nextAction: "Review and send the quotation draft in Gmail (2 PDFs attached)",
     due: "2026-11-19",
-    notes: "Fixed-price RFQ for a whole ride-hailing platform (.NET 10 API, two Expo apps, portals, Go service, GCP/Cloudflare). Your fit: the two apps (Hopn is nearly the same), optionally portals and website. Questions drafted: existing code, partial quote, backend timeline, design, deadline.",
+    notes: "Fixed-price RFQ for a whole ride-hailing platform (.NET 10 API, two Expo apps, portals, Go service, GCP/Cloudflare). Your fit: the two apps (Hopn is nearly the same), optionally portals and website. Quote drafted for the whole platform as a team: fixed price, 24 weeks, milestones, support plans.",
     activity: [
       {
         date: "Nov 16",
@@ -2107,7 +2107,7 @@ const seededApplications: Application[] = [
       },
       {
         date: "Nov 18",
-        text: "Reply with five questions drafted in Gmail"
+        text: "Full-platform quotation drafted: PKR 12.84M, 24 weeks, team of 9"
       }
     ]
   }
