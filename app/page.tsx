@@ -1962,6 +1962,26 @@ const seededApplications: Application[] = [
         text: "Form filled, then lost when the browser pane closed; waiting for the address"
       }
     ]
+  },
+  {
+    id: "us-mobile-product-support-engineer-lahore",
+    company: "US Mobile",
+    role: "Product Support Engineer",
+    location: "Lahore · on-site",
+    source: "Instagram post · Lever",
+    stage: "Applied",
+    appliedOn: "2026-11-17",
+    link: "https://jobs.lever.co/USMobile/802d525d-ba2c-4ed8-8078-e78dba727536",
+    compensation: "PKR 150,000–300,000/month (their range)",
+    nextAction: "Wait for a reply",
+    due: "2026-11-24",
+    notes: "US mobile carrier with a Lahore office. Customer support role (chat, phone, email) with decision authority, not engineering. Support-focused CV: client communication, fixing production issues, AI tools.",
+    activity: [
+      {
+        date: "Nov 17",
+        text: "Application submitted on Lever"
+      }
+    ]
   }
 ];
 
