@@ -2747,6 +2747,84 @@ const seededOutreach: Outreach[] = [
     researchNote: "Facebook post, 102 reactions, 137 comments. Contact by WhatsApp only.",
     message: "Assalam o Alaikum, I saw your post looking for an expert web and app developer. I'm Huzaifa, a developer in Lahore with 3.5 years in React, Next.js, Node.js and React Native...",
     shared: "Nothing sent"
+  },
+  {
+    id: "guardara-ai-founding-product-engineer-2026-11-17",
+    name: "Owen L.",
+    company: "Guardara AI",
+    title: "Founder & CEO (hiring a Founding Product Engineer)",
+    region: "Remote · full-time",
+    linkedin: "https://www.linkedin.com/in/owenlu88/",
+    status: "Draft ready",
+    angle: "Founding role building dashboards to backend end to end, React and AI/LLM a plus: your AI SaaS front ends, live dashboards and Node APIs at Boolmind",
+    researchNote: "LinkedIn post, 17 Nov 2026 (about 7 h old at scan, 3 reactions). Cloud-security and compliance platform (AWS/Azure/GCP) with AI governance; guardara.ai. Must-haves also include hands-on AWS/Azure. Email in the private daily file.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "buggcy-mern-developer-2026-11-17",
+    name: "Hiring team",
+    company: "Buggcy",
+    title: "Mid-Level MERN Stack Developer (2–4 yrs)",
+    region: "Lahore · Park View City, remote then on-site",
+    linkedin: "https://www.linkedin.com/company/buggcy/",
+    status: "Draft ready",
+    angle: "Lahore team that builds Next.js/Node/MongoDB and React Native products for Canada/US clients: your MERN + AI SaaS work and Hopn's real-time apps",
+    researchNote: "LinkedIn company post, 17 Nov 2026 (about 1 h old at scan, 9 reactions). Apply on buggcy.com/careers by 30 Nov 2026; a Front-end React Developer (2+ yrs) role is open too. Website email in the private daily file.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "dekode-global-full-stack-2026-11-17",
+    name: "Hiring team",
+    company: "DEKODE GLOBAL",
+    title: "Full Stack Software Engineer (3–5 yrs)",
+    region: "Remote · full-time",
+    linkedin: "https://www.linkedin.com/company/dekodeglobal/",
+    status: "Draft ready",
+    angle: "React + Node.js consultancy building web and mobile apps for Australian start-ups; Claude Code / AI-assisted work is a plus: your Claude 101 certificate and LLM work",
+    researchNote: "LinkedIn company post, 17 Nov 2026 (about 1 h old at scan). AI strategy and custom software (dekodeglobal.com); asks for stack, experience and notice period. Testing/TDD and CI/CD are on their list. Email in the private daily file.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "mumtaz-tharani-rn-sleep-app-2026-11-17",
+    name: "Mumtaz Tharani",
+    company: "Wearable sleep-tracking app (project)",
+    title: "Looking for a React Native developer",
+    region: "Remote · project, rate-based",
+    linkedin: "https://www.linkedin.com/in/mumtaz-tharani-9340a3450/",
+    status: "Draft ready",
+    angle: "React Native + TypeScript app that turns sleep data into charts: Hopn's two store apps and your Boolmind dashboards",
+    researchNote: "LinkedIn post, 17 Nov 2026 (about 2 h old at scan). Asks for a DM with app examples, experience, availability and rate. BLE / device SDK is a strong plus. No email published.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "zamir-khotov-senior-frontend-2026-11-17",
+    name: "Zamir Khotov",
+    company: "Unnamed developer tool (code-review findings)",
+    title: "Senior Frontend Engineer",
+    region: "Remote · worldwide",
+    linkedin: "https://x.com/ZamDeveloper/status/2122370237924298788",
+    status: "Draft ready",
+    angle: "React/TypeScript/TanStack frontend for a dev tool: your Lighthouse 82 to 100 Next.js job and repocards on npm",
+    researchNote: "X post, 16 Nov 2026 (about 12 h old at scan, ~1K views). Company not named: ask in a reply or DM. Stretch: senior-level ownership. No email published.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "hatz-ai-founders-2026-11-17",
+    name: "Jimmy Hatzell / Aidan Kehoe",
+    company: "Hatz AI",
+    title: "Co-founders (CEO / co-founder)",
+    region: "US · remote policy not stated",
+    linkedin: "https://linkedin.com/company/hatz-ai",
+    status: "Draft ready",
+    angle: "AI platform for small businesses with chat and shared client Spaces, hiring engineers after a Series A: your AI SaaS front ends, WebSockets chat and LLM API work",
+    researchNote: "USD 24M Series A led by Nadia Partners, 12 Nov 2026 (Channel Insider, SiliconANGLE); about 35 people; sold through IT service providers. No job board or email found; LinkedIn is the route.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
   }
 ];
 
