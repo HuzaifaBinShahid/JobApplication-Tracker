@@ -2022,6 +2022,48 @@ const seededApplications: Application[] = [
         text: "Application emailed to the address in the job ad"
       }
     ]
+  },
+  {
+    id: "xeven-frontend-engineer-react-2026-11-17",
+    company: "Xeven Solutions",
+    role: "Frontend Engineer (React)",
+    location: "Johar Town, Lahore · on-site or remote",
+    source: "Company careers page · email",
+    stage: "Applied",
+    appliedOn: "2026-11-17",
+    link: "https://xevensolutions.com/careers",
+    nextAction: "Wait for a reply; message their HR on LinkedIn too",
+    due: "2026-11-24",
+    notes: "AI company (Taqwi AI, OmniReacher). You reached their final interview for a Next.js role in April 2025; the email mentions it and what you have done since. Frontend CV named for the role.",
+    activity: [
+      {
+        date: "Apr 17, 2025",
+        text: "Final interview for the Next.js role"
+      },
+      {
+        date: "Nov 17",
+        text: "Applied by email to HR for Frontend Engineer (React)"
+      }
+    ]
+  },
+  {
+    id: "educative-software-engineer-experienced",
+    company: "Educative",
+    role: "Software Engineer (Experienced)",
+    location: "Lahore",
+    source: "Lever (board currently broken)",
+    stage: "Draft",
+    appliedOn: "2026-11-17",
+    link: "https://www.educative.io/careers",
+    nextAction: "Message their talent team on LinkedIn; their Lever pages return 404 today",
+    due: "2026-11-20",
+    notes: "Nice to haves match you: React, Redux, React Native, TypeScript, Next.js, Tailwind, Node.js, Docker. Could not apply because every Lever page of theirs returns 404.",
+    activity: [
+      {
+        date: "Nov 17",
+        text: "Tried to apply; Educative's Lever job board is down (404)"
+      }
+    ]
   }
 ];
 
