@@ -2893,6 +2893,101 @@ const seededApplications: Application[] = [
         text: "Found; needs your videos"
       }
     ]
+  },
+  {
+    id: "digiamplify-web-developer-2026-11-18",
+    company: "DigiAmplify",
+    role: "Web Developer (Remote)",
+    location: "Remote · 9-6 PKT",
+    source: "LinkedIn post · email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.linkedin.com/search/results/content/",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "React/TS/Vite/Node/Express/MySQL.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Applied by email from the hiring post"
+      }
+    ]
+  },
+  {
+    id: "purelyworks-full-stack-2026-11-18",
+    company: "Purely Works",
+    role: "Full-Stack Developer (AI-powered products)",
+    location: "Remote · Pakistan only",
+    source: "LinkedIn post · email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.linkedin.com/search/results/content/",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Gave PKR 250,000 expected and immediate start, as the post asked. 4+ yrs asked.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Applied by email from the hiring post"
+      }
+    ]
+  },
+  {
+    id: "fiveloop-full-stack-ai-2026-11-18",
+    company: "FiveLoop",
+    role: "Senior Full Stack Developer (AI)",
+    location: "Lahore · on-site",
+    source: "LinkedIn post · HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.linkedin.com/search/results/content/",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "3+ yrs, LLM/AI APIs, Next.js.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Applied by email from the hiring post"
+      }
+    ]
+  },
+  {
+    id: "mobikart-web-developer-2026-11-18",
+    company: "MobiKart.pk",
+    role: "Web Developer (Next.js, Supabase)",
+    location: "Islamabad (asked remote/hybrid)",
+    source: "LinkedIn post · email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.linkedin.com/search/results/content/",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Next.js 16, React 19, TS, Supabase; 2-4 yrs.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Applied by email from the hiring post"
+      }
+    ]
+  },
+  {
+    id: "migoaxis-full-stack-2026-11-18",
+    company: "MIGO AXIS",
+    role: "Full-Stack Engineer",
+    location: "Islamabad (asked hybrid)",
+    source: "LinkedIn post · email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.linkedin.com/search/results/content/",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Next/React/TS/Node/Supabase.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Applied by email from the hiring post"
+      }
+    ]
   }
 ];
 
