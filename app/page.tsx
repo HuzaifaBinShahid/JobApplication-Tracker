@@ -3641,16 +3641,16 @@ const seededApplications: Application[] = [
     role: "React/Next/Node developer (speculative)",
     location: "Lahore",
     source: "Company careers/HR email",
-    stage: "Applied",
+    stage: "Closed",
     appliedOn: "2026-11-18",
     link: "https://bitlogicx.com/careers",
-    nextAction: "Wait for a reply; follow up once on Nov 25",
+    nextAction: "Email bounced: the address on their site does not work; reach them on LinkedIn if wanted",
     due: "2026-11-25",
     notes: "Healthcare/fintech/ecommerce/logistics software; React/Next/Node stack. Emailed HR with a Full-Stack-Developer CV.",
     activity: [
       {
         date: "Nov 18",
-        text: "Emailed HR with CV"
+        text: "Emailed HR with CV; it bounced"
       }
     ]
   },
@@ -3698,16 +3698,16 @@ const seededApplications: Application[] = [
     role: "React Native / React (speculative)",
     location: "Lahore",
     source: "Company careers/HR email",
-    stage: "Applied",
+    stage: "Closed",
     appliedOn: "2026-11-18",
     link: "https://codingpixel.com/career",
-    nextAction: "Wait for a reply; follow up once on Nov 25",
+    nextAction: "Email bounced: the address on their site does not work; reach them on LinkedIn if wanted",
     due: "2026-11-25",
     notes: "Web and mobile app agency. Emailed HR with a React-Native-Developer CV.",
     activity: [
       {
         date: "Nov 18",
-        text: "Emailed HR with CV"
+        text: "Emailed HR with CV; it bounced"
       }
     ]
   },
@@ -3812,16 +3812,16 @@ const seededApplications: Application[] = [
     role: "React / React Native (speculative)",
     location: "Karachi (asked remote/hybrid)",
     source: "Company careers/HR email",
-    stage: "Applied",
+    stage: "Closed",
     appliedOn: "2026-11-18",
     link: "https://dawaai.pk/careers",
-    nextAction: "Wait for a reply; follow up once on Nov 25",
+    nextAction: "Email bounced: the address on their site does not work; reach them on LinkedIn if wanted",
     due: "2026-11-25",
     notes: "Online pharmacy. Emailed HR with a Full-Stack-Developer CV.",
     activity: [
       {
         date: "Nov 18",
-        text: "Emailed HR with CV"
+        text: "Emailed HR with CV; it bounced"
       }
     ]
   },
@@ -3850,16 +3850,16 @@ const seededApplications: Application[] = [
     role: "Developer for AI products (speculative)",
     location: "Pakistan",
     source: "Company careers/HR email",
-    stage: "Applied",
+    stage: "Closed",
     appliedOn: "2026-11-18",
     link: "https://bitsclan.com/contact-us",
-    nextAction: "Wait for a reply; follow up once on Nov 25",
+    nextAction: "Email bounced: the address on their site does not work; reach them on LinkedIn if wanted",
     due: "2026-11-25",
     notes: "AI/ML and custom software. Emailed HR with a Full-Stack-Developer CV.",
     activity: [
       {
         date: "Nov 18",
-        text: "Emailed HR with CV"
+        text: "Emailed HR with CV; it bounced"
       }
     ]
   }
