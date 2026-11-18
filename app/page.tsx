@@ -2703,6 +2703,25 @@ const seededApplications: Application[] = [
         text: "Emailed the founders with CV"
       }
     ]
+  },
+  {
+    id: "serpapi-junior-fullstack-2026-11-18",
+    company: "SerpApi",
+    role: "Junior Fullstack Engineer",
+    location: "Remote (worldwide, contractor)",
+    source: "Careers page · email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://serpapi.com/careers/junior-fullstack-engineer",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Ruby/Rails, MongoDB, JavaScript; scraping and browser tech are a plus (his Crawlee/Playwright scraper). Said plainly: no Ruby in production. USD 80-100K + profit share.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Applied by email with the Fullstack Engineer CV"
+      }
+    ]
   }
 ];
 
