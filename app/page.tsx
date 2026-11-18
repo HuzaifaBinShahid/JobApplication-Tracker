@@ -2114,6 +2114,595 @@ const seededApplications: Application[] = [
         text: "Quotation and filled RFQ sent to ViaStack"
       }
     ]
+  },
+  {
+    id: "e2e-founding-engineer-2026-11-18",
+    company: "e2e",
+    role: "Founding Engineer",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/e2e/jobs/E1pts33-founding-engineer",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Spring 2026; remote incl. Warsaw, no US visa needed. Emailed the founders (Szymon Rybczak (CEO), Oskar Kwaśniewski (CTO)) with a Founding Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "metal-engineer-lahore-2026-11-18",
+    company: "Metal",
+    role: "Engineer (cold, Lahore)",
+    location: "Lahore · on-site",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.metal.so/careers-metal",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Seed $4.5M Sep 2026; Lahore office. Emailed the founders (Usman Gul (founder)) with a Full-Stack Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "anywhere-fenn-rn-2026-11-18",
+    company: "Anywhere (Fenn)",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/anywhere",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Fall 2026; social map app. Emailed the founders (Charly Delaroche (CEO)) with a React Native Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "mochatrade-rn-2026-11-18",
+    company: "MochaTrade",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/mochatrade",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Spring 2026 + seed $5.5M. Emailed the founders (Utkarsh Sinha, Parth Maheshwari) with a React Native Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "stoa-mts-2026-11-18",
+    company: "Stoa",
+    role: "Member of Technical Staff",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/stoa/jobs/mWhPwXI-member-of-technical-staff",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Summer 2026; remote in US time zones; Python/SQL gap stated. Emailed the founders (Berat Celik, Kaan Yigit) with a Member of Technical Staff CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "databuddy-fs-2026-11-18",
+    company: "Databuddy",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/databuddy",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Fall 2026; fully remote. Emailed the founders (Issa Nassar) with a Full-Stack Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "truemile-fs-2026-11-18",
+    company: "TrueMile",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/truemile",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Fall 2026; AI trucking. Emailed the founders (Harpreet Dhaliwal) with a Full-Stack Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "veeza-fs-2026-11-18",
+    company: "Veeza AI",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/veeza-ai",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Fall 2026; visas for weak passports. Emailed the founders (Aly Moursy) with a Full-Stack Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "quippy-rn-2026-11-18",
+    company: "Quippy",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/quippy",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Fall 2026; AI social-skills app. Emailed the founders (Jonathan Li) with a React Native Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "imperfect-rn-2026-11-18",
+    company: "Imperfect",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/imperfect",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Spring 2026; AI training coach app. Emailed the founders (Matin Tamizi) with a React Native Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "kebra-rn-2026-11-18",
+    company: "Kebra",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/kebra",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Summer 2026; field technicians. Emailed the founders (Luca Hadife, Mohamed Hosny) with a React Native Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "fleety-fs-2026-11-18",
+    company: "Fleety",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/fleety",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Fall 2026; AI dispatcher. Emailed the founders (Ben Zhou) with a Full-Stack Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "trynearby-fs-2026-11-18",
+    company: "TryNearby",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Draft",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/trynearby",
+    nextAction: "Email bounced (members-only group): send the founder a LinkedIn note",
+    due: "2026-11-20",
+    notes: "YC Summer 2026; creator marketplace. Emailed the founders (Yousef Abdelfattah, Ahmad Ibrahim) with a Full-Stack Engineer CV and the Hopn links. The address is a members-only Google Group and bounced.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Founder email bounced"
+      }
+    ]
+  },
+  {
+    id: "snag-fs-2026-11-18",
+    company: "Snag",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://joinsnag.com",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Seed $4M Oct 2026; sublet marketplace. Emailed the founders (Selin Sonmez, Niko Georgantas) with a Full-Stack Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "bilt-rn-2026-11-18",
+    company: "Bilt.me",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://bilt.me",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Pre-seed $700K Sep 2026; AI app builder. Emailed the founders (Uku Joost Annus) with a React Native Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "multipolitan-rn-2026-11-18",
+    company: "Multipolitan",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://multipolitan.com",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Pre-seed $2M Nov 2026; consumer app. Emailed the founders (Nirbhay Handa) with a React Native Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "wondering-rn-2026-11-18",
+    company: "Wondering",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/wondering",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Summer 2026; AI micro-lessons app. Emailed the founders (Cheng-Wei Hu, Angelica Kosasih) with a React Native Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "trepo-rn-2026-11-18",
+    company: "Trepo",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/trepo",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Fall 2026; agentic grocery app. Emailed the founders (Matt Taylor) with a React Native Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "peer-fs-2026-11-18",
+    company: "Peer",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/peer",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Summer 2026; AI freight brokerage. Emailed the founders (Aaron Zhang, Felix Peng) with a Full-Stack Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "arbital-rn-2026-11-18",
+    company: "Arbital",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/arbital",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Summer 2026; social trading app. Emailed the founders (Karon Pangestu) with a React Native Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "yam-rn-2026-11-18",
+    company: "Yam",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/yam",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Fall 2026; AI game app. Emailed the founders (Shan Zhong, Yu Qin) with a React Native Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "cyclon-rn-2026-11-18",
+    company: "Cyclon",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/cyclon",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Fall 2026; agent phone. Emailed the founders (Adam Zinebi, Thomas Kiefer) with a React Native Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "deepinteractions-fs-2026-11-18",
+    company: "Deep Interactions",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/deep-interactions",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Spring 2026; multiplayer AI app builder. Emailed the founders (Sruthi Viswanathan) with a Full-Stack Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "rezora-fs-2026-11-18",
+    company: "Rezora IO",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/rezora-io",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Fall 2026; AI voice receptionists. Emailed the founders (Yevgeniy Matsay (CTO)) with a Full-Stack Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "bernard-fs-2026-11-18",
+    company: "Bernard",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Draft",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/bernard",
+    nextAction: "Email bounced (members-only group): send the founder a LinkedIn note",
+    due: "2026-11-20",
+    notes: "YC Summer 2026; AI employees for repair firms. Emailed the founders (Dan Katzman, David Goodfellow) with a Full-Stack Engineer CV and the Hopn links. The address is a members-only Google Group and bounced.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Founder email bounced"
+      }
+    ]
+  },
+  {
+    id: "aucert-rn-2026-11-18",
+    company: "Aucert",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/aucert",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Fall 2026; agents that test mobile apps. Emailed the founders (Vivek Soneja, Rajesh Kumar) with a React Native Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "simulithic-rn-2026-11-18",
+    company: "Simulithic",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/simulithic",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Fall 2026; AI app testing. Emailed the founders (Ryan Ning) with a React Native Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "pairio-rn-2026-11-18",
+    company: "Pairio",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/pairio",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Spring 2026; AI app for factory technicians. Emailed the founders (Tim Zinkl) with a React Native Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "bloom-fs-2026-11-18",
+    company: "Bloom",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://bloomnetwork.ai",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Seed $3.6M Oct 2026; supply-chain marketplace. Emailed the founders (Justin Kosmides) with a Full-Stack Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "ekho-fs-2026-11-18",
+    company: "Ekho Labs",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/ekho-labs",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Summer 2026; freight world model. Emailed the founders (Alina Park) with a Full-Stack Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "opera-fs-2026-11-18",
+    company: "OpEra",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/opera",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Fall 2026; logistics optimisation. Emailed the founders (Hindy Rossignol, Bernardo Chalita) with a Full-Stack Engineer CV and the Hopn links.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
   }
 ];
 
