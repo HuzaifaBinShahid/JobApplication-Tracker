@@ -3463,6 +3463,405 @@ const seededApplications: Application[] = [
         text: "Emailed the founders with CV"
       }
     ]
+  },
+  {
+    id: "softpers-se2-2026-11-18",
+    company: "Softpers",
+    role: "Software Engineer Level II",
+    location: "Lahore DHA, on-site",
+    source: "Company careers/HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://jobs.smartrecruiters.com/SoftpersInteractive/744000144465889-software-engineer-level-ii",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Matching role (React/Next/Node); AI agents and automation company. Emailed HR with a Software-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed HR with CV"
+      }
+    ]
+  },
+  {
+    id: "contour-fs-2026-11-18",
+    company: "Contour Software",
+    role: "Intermediate Full Stack Developer (asked React roles too)",
+    location: "Lahore",
+    source: "Company careers/HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.contour-software.com/careers/",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Role needs .NET/C#: gap stated; Constellation Software centre. Emailed HR with a Full-Stack-Developer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed HR with CV"
+      }
+    ]
+  },
+  {
+    id: "vaival-fe-2026-11-18",
+    company: "Vaival Technologies",
+    role: "Front End Developer",
+    location: "Lahore, Garden Town",
+    source: "Company careers/HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://vaivaltech.com/career",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Listing may be stale; asked for any upcoming front-end role. Emailed HR with a Front-End-Developer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed HR with CV"
+      }
+    ]
+  },
+  {
+    id: "i2c-spec-2026-11-18",
+    company: "i2c Inc.",
+    role: "Front-end / full-stack (speculative)",
+    location: "Lahore",
+    source: "Company careers/HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.i2cinc.com/contact-us/",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Payments platform; no matching opening listed. Emailed HR with a Full-Stack-Developer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed HR with CV"
+      }
+    ]
+  },
+  {
+    id: "pf-spec-2026-11-18",
+    company: "Programmers Force",
+    role: "Talent pool (speculative)",
+    location: "Lahore, Johar Town",
+    source: "Company careers/HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.programmersforce.com/contact-us",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "AI/software for banking and public sector. Emailed HR with a Full-Stack-Developer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed HR with CV"
+      }
+    ]
+  },
+  {
+    id: "ssi-spec-2026-11-18",
+    company: "Strategic Systems International",
+    role: "Web/AI developer (speculative)",
+    location: "Lahore",
+    source: "Company careers/HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ssidecisions.com/careers/",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Engineering, data and AI delivery since 1992. Emailed HR with a Full-Stack-Developer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed HR with CV"
+      }
+    ]
+  },
+  {
+    id: "clustox-spec-2026-11-18",
+    company: "Clustox",
+    role: "Software engineer (speculative)",
+    location: "Lahore",
+    source: "Company careers/HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://clustox.com/contact-us/",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "AI-first engineering company. Emailed HR with a Full-Stack-Developer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed HR with CV"
+      }
+    ]
+  },
+  {
+    id: "invozone-spec-2026-11-18",
+    company: "InvoZone",
+    role: "React/RN/Node developer (speculative)",
+    location: "Lahore / Islamabad",
+    source: "Company careers/HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://invozone.com/careers",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Software dev + staff augmentation. Emailed HR with a Full-Stack-Developer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed HR with CV"
+      }
+    ]
+  },
+  {
+    id: "nextbridge-spec-2026-11-18",
+    company: "Nextbridge",
+    role: "Web/AI developer (speculative)",
+    location: "Lahore, Johar Town",
+    source: "Company careers/HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://nextbridge.com/careers",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Software, AI, embedded. Emailed HR with a Full-Stack-Developer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed HR with CV"
+      }
+    ]
+  },
+  {
+    id: "bitlogicx-spec-2026-11-18",
+    company: "Bitlogicx",
+    role: "React/Next/Node developer (speculative)",
+    location: "Lahore",
+    source: "Company careers/HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://bitlogicx.com/careers",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Healthcare/fintech/ecommerce/logistics software; React/Next/Node stack. Emailed HR with a Full-Stack-Developer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed HR with CV"
+      }
+    ]
+  },
+  {
+    id: "tekhqs-spec-2026-11-18",
+    company: "TEKHQS",
+    role: "Developer (speculative)",
+    location: "Lahore",
+    source: "Company careers/HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://tekhqs.com/careers",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "California AI/ERP/Web3 firm, Lahore office. Emailed HR with a Full-Stack-Developer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed HR with CV"
+      }
+    ]
+  },
+  {
+    id: "tenx-spec-2026-11-18",
+    company: "TenX",
+    role: "Full-stack for AI products (speculative)",
+    location: "Lahore, DHA",
+    source: "Company careers/HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://tenx.ai/career",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Enterprise AI solutions. Emailed HR with a Full-Stack-Developer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed HR with CV"
+      }
+    ]
+  },
+  {
+    id: "codingpixel-spec-2026-11-18",
+    company: "Coding Pixel",
+    role: "React Native / React (speculative)",
+    location: "Lahore",
+    source: "Company careers/HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://codingpixel.com/career",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Web and mobile app agency. Emailed HR with a React-Native-Developer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed HR with CV"
+      }
+    ]
+  },
+  {
+    id: "devbunch-spec-2026-11-18",
+    company: "DevBunch",
+    role: "Developer (speculative)",
+    location: "Lahore, Johar Town",
+    source: "Company careers/HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://devbunch.com/careers",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Custom software. Emailed HR with a Full-Stack-Developer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed HR with CV"
+      }
+    ]
+  },
+  {
+    id: "pixarsart-spec-2026-11-18",
+    company: "Pixarsart Studios",
+    role: "Developer (speculative)",
+    location: "Lahore",
+    source: "Company careers/HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://pixarsart.com/careers",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Custom software, AI, web and mobile. Emailed HR with a Full-Stack-Developer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed HR with CV"
+      }
+    ]
+  },
+  {
+    id: "cubix-spec-2026-11-18",
+    company: "Cubix",
+    role: "React Native developer (speculative)",
+    location: "Karachi (asked remote/hybrid)",
+    source: "Company careers/HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.cubix.co/careers",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Mobile apps and games, 1,300+ products. Emailed HR with a React-Native-Developer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed HR with CV"
+      }
+    ]
+  },
+  {
+    id: "arpatech-spec-2026-11-18",
+    company: "Arpatech",
+    role: "Developer, remote (speculative)",
+    location: "Karachi / remote",
+    source: "Company careers/HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.arpatech.com/careers/",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Software, cloud, infosec. Emailed HR with a Full-Stack-Developer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed HR with CV"
+      }
+    ]
+  },
+  {
+    id: "nayapay-spec-2026-11-18",
+    company: "NayaPay",
+    role: "React Native / React (speculative)",
+    location: "Karachi (asked remote/hybrid)",
+    source: "Company careers/HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://nayapay.com/careers",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Fintech wallet; said RN not native Swift. Emailed HR with a React-Native-Developer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed HR with CV"
+      }
+    ]
+  },
+  {
+    id: "dawaai-spec-2026-11-18",
+    company: "Dawaai",
+    role: "React / React Native (speculative)",
+    location: "Karachi (asked remote/hybrid)",
+    source: "Company careers/HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://dawaai.pk/careers",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Online pharmacy. Emailed HR with a Full-Stack-Developer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed HR with CV"
+      }
+    ]
+  },
+  {
+    id: "qordata-spec-2026-11-18",
+    company: "Qordata",
+    role: "Front-end / full-stack (speculative)",
+    location: "Karachi (asked remote/hybrid)",
+    source: "Company careers/HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://qordata.com/careers",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "AI compliance SaaS. Emailed HR with a Full-Stack-Developer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed HR with CV"
+      }
+    ]
+  },
+  {
+    id: "bitsclan-spec-2026-11-18",
+    company: "Bitsclan",
+    role: "Developer for AI products (speculative)",
+    location: "Pakistan",
+    source: "Company careers/HR email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://bitsclan.com/contact-us",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "AI/ML and custom software. Emailed HR with a Full-Stack-Developer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed HR with CV"
+      }
+    ]
   }
 ];
 
