@@ -2722,6 +2722,177 @@ const seededApplications: Application[] = [
         text: "Applied by email with the Fullstack Engineer CV"
       }
     ]
+  },
+  {
+    id: "mahaana-senior-software-engineer-2026-11-18",
+    company: "Mahaana",
+    role: "Senior Software Engineer",
+    location: "Karachi (asked about remote)",
+    source: "Email (careers@)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.linkedin.com/jobs/view/4487248726",
+    nextAction: "Wait for a reply; follow up Nov 25",
+    due: "2026-11-25",
+    notes: "YC fintech. RN preferred, AI-assisted coding central. Stated 3.5 yrs vs 5+, Node vs Python/.NET.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Applied by email with the Software Engineer CV"
+      }
+    ]
+  },
+  {
+    id: "hikmah-react-native-2026-11-18",
+    company: "Hikmah AI",
+    role: "React Native Developer",
+    location: "Islamabad (asked about hybrid/remote)",
+    source: "Indeed post · named contact email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://bebee.com/pk/jobs/react-native-developer-hikmah-ai-islamabad-islamabad--t7xk-933066746",
+    nextAction: "Wait for a reply; follow up Nov 25",
+    due: "2026-11-25",
+    notes: "Event apps for delegates, drivers and staff: real-time, push, maps, live location, store releases. Gaps stated: offline sync, TDD.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the hiring contact with RN CV and app links"
+      }
+    ]
+  },
+  {
+    id: "arascow-ai-native-full-stack-2026-11-18",
+    company: "Arascow",
+    role: "AI-Native Full-Stack Developer",
+    location: "Lahore · on-site, 1-10 PM",
+    source: "LinkedIn job · email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.linkedin.com/jobs/view/4490872040",
+    nextAction: "Wait for a practical test invite",
+    due: "2026-11-25",
+    notes: "Gave 3 live projects (Hopn x2, repocards) and an AI-process note. No Shopify/WordPress.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Applied by email"
+      }
+    ]
+  },
+  {
+    id: "panacealogics-react-native-2026-11-18",
+    company: "PanaceaLogics",
+    role: "React Native Developer (part-time)",
+    location: "Remote",
+    source: "Careers page email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://jobs.smartrecruiters.com/PanaceaLogics/743999766171787-react-native-developer-remote",
+    nextAction: "Wait for a reply; follow up Nov 25",
+    due: "2026-11-25",
+    notes: "Remote part-time, 2 yrs RN. Gaps stated: native modules, automated tests.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Applied by email"
+      }
+    ]
+  },
+  {
+    id: "suave-frontend-2026-11-18",
+    company: "Suave Solutions",
+    role: "Senior Software Engineer (Front-End)",
+    location: "Lahore · on-site",
+    source: "Classified ad · named contact email",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.hrpostingpartner.com/classified-jobs/multiple-positions-2804",
+    nextAction: "Wait for a reply; follow up Nov 25",
+    due: "2026-11-25",
+    notes: "5+ yrs asked; stated 3.5 and offered mid-level.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the hiring contact"
+      }
+    ]
+  },
+  {
+    id: "techdrop-full-stack-rn-2026-11-18",
+    company: "Tech Drop",
+    role: "Full Stack Developer (React Native / Node.js)",
+    location: "Karachi",
+    source: "Rozee",
+    stage: "Draft",
+    appliedOn: "2026-11-18",
+    link: "https://www.rozee.pk/full-stack-developer-react-native-nodejs-karachi-jobs-1959379",
+    nextAction: "Apply on Rozee yourself (deadline Nov 21); ask about remote",
+    due: "2026-11-21",
+    notes: "Closest skill match: sockets chat, Redis, Next, Node, MongoDB.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Found; needs your Rozee account"
+      }
+    ]
+  },
+  {
+    id: "payon-frontend-2026-11-18",
+    company: "PayOn",
+    role: "Senior Frontend Developer (Next.js & TypeScript)",
+    location: "Remote · Pakistan",
+    source: "Rozee",
+    stage: "Draft",
+    appliedOn: "2026-11-18",
+    link: "https://www.rozee.pk/senior-frontend-developer-nextjs-typescript-jobs-1965377",
+    nextAction: "Apply on Rozee yourself (deadline Nov 24)",
+    due: "2026-11-24",
+    notes: "Payments software for restaurants/hotels; remote.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Found; needs your Rozee account"
+      }
+    ]
+  },
+  {
+    id: "moongate-full-stack-2026-11-18",
+    company: "Moongate",
+    role: "Full Stack Software Engineer",
+    location: "Remote (Asia)",
+    source: "Wellfound",
+    stage: "Draft",
+    appliedOn: "2026-11-18",
+    link: "https://wellfound.com/jobs/5031224-full-stack-software-engineer",
+    nextAction: "Apply on Wellfound yourself (needs an account)",
+    due: "2026-11-20",
+    notes: "$70-80k, TS/React/Next/Node/Postgres; 1-10 person startup.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Found; needs Wellfound account"
+      }
+    ]
+  },
+  {
+    id: "native-builder-in-residence-2026-11-18",
+    company: "Native (withnative.ai)",
+    role: "Builder-in-Residence (3-month contract)",
+    location: "Remote",
+    source: "Hacker News",
+    stage: "Draft",
+    appliedOn: "2026-11-18",
+    link: "https://withnative.ai/careers/builder-in-residence",
+    nextAction: "Record four one-minute Looms and apply",
+    due: "2026-11-22",
+    notes: "$3-6k/month; open-source workstation for agent teams; repocards fits exactly.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Found; needs your videos"
+      }
+    ]
   }
 ];
 
