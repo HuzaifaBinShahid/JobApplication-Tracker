@@ -3862,6 +3862,424 @@ const seededApplications: Application[] = [
         text: "Emailed HR with CV; it bounced"
       }
     ]
+  },
+  {
+    id: "vexo-rn-2026-11-18",
+    company: "Vexo",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/vexo",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Fall 2026; AI bracelet + companion app. Emailed Haris Malik, Farqaleet Kiani with a React-Native-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "navi-rn-2026-11-18",
+    company: "Navi",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Closed",
+    appliedOn: "2026-11-18",
+    link: "https://navi.app",
+    nextAction: "Email bounced: LinkedIn note to the founder if wanted",
+    due: "2026-11-25",
+    notes: "Techstars Fall 2026; AI plans on maps. Emailed Thais Blumenthal, Andre Bianchessi with a React-Native-Engineer CV. Bounced (550).",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Founder email bounced"
+      }
+    ]
+  },
+  {
+    id: "vouch-rn-2026-11-18",
+    company: "Vouch",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/vouchwealth",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Fall 2026; AI wealth app, India. Emailed Arnav Ghatiwala with a React-Native-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "loops-fs-2026-11-18",
+    company: "Loops AI",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Closed",
+    appliedOn: "2026-11-18",
+    link: "https://loopsai.com",
+    nextAction: "Email bounced: LinkedIn note to the founder if wanted",
+    due: "2026-11-25",
+    notes: "a16z speedrun SR006; AI commerce OS, Istanbul. Emailed Ari Nazir, Yusuf Bahadir with a Full-Stack-Engineer CV. Bounced (550).",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Founder email bounced"
+      }
+    ]
+  },
+  {
+    id: "tasteit-rn-2026-11-18",
+    company: "Tasteit",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://tasteit.me",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Techstars Fall 2026; food social app, Tbilisi. Emailed Giorgi Urushadze, Anano Aspanidze with a React-Native-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "illume-fs-2026-11-18",
+    company: "Illume Labs",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/illume-labs",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Summer 2026; AI health texts. Emailed Pari Latawa, Frank Lee with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "zaplar-fs-2026-11-18",
+    company: "Zaplar",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/zaplar",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Summer 2026; AI hotel system, Stockholm. Emailed Douglas Solberg, Jon Milles with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "kairos-fs-2026-11-18",
+    company: "Kairos Health",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/kairos-health",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Fall 2026; AI dental front desk. Emailed Tanush Chintala and team with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "atlia-fs-2026-11-18",
+    company: "Atlia",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/atlia",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Summer 2026; AI short-term-rental management. Emailed Edmond Niu with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "lumeria-rn-2026-11-18",
+    company: "Lumeria",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/lumeria",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Summer 2026; skin scanner app. Emailed Maryanne Alhallak, Anthea Guo with a React-Native-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "vene-fs-2026-11-18",
+    company: "Vene Health",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://venehealth.com",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "a16z speedrun SR007; AI patient advocate. Emailed Sujal Dhakal, Nik Nandi with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "rollup-rn-2026-11-18",
+    company: "Rollup",
+    role: "React Native / TypeScript (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://tryrollup.com",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "a16z speedrun SR007; user-context SDK (RN SDK pitch). Emailed Jennifer Yim, Nora Xiao with a React-Native-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "egoist-fs-2026-11-18",
+    company: "Egoist Machines",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/egoist-machines",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Summer 2026; portable personal AI context. Emailed Erin McGurk, David Khachaturov with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "alven-fs-2026-11-18",
+    company: "Alven",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://alven.ai",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "a16z speedrun SR007; AI property manager. Emailed Julio-Cezar Scerbina, Christian Brown with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "tash-rn-2026-11-18",
+    company: "tash",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/tash",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Summer 2026; trading-card investing app. Emailed John Ohannesian, Nathan Borshell with a React-Native-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "cova-fs-2026-11-18",
+    company: "Cova",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/cova",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Summer 2026; paid family caregiving. Emailed Jordan Ibe, Ansh Tandon with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "grocalo-fs-2026-11-18",
+    company: "Grocalo",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/grocalo",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Summer 2026; AI creator content (AI-Video-Maker hook). Emailed David Hwang, Alex Yee with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "vyra-fs-2026-11-18",
+    company: "Vyra",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/vyra",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Fall 2026; AI content agent (AI-Video-Maker hook). Emailed Caleb Pong (CTO) with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "axelrod-fs-2026-11-18",
+    company: "Axelrod",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/axelrod",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Summer 2026; autonomous hotel office. Emailed Adrian Stoica, Saman Sayahpour with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "palisade-fs-2026-11-18",
+    company: "Palisade",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/palisade",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Summer 2026; AI sales agent for marketplaces. Emailed Jonathan Salama with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "theo-fs-2026-11-18",
+    company: "Theo",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://www.ycombinator.com/companies/theo",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "YC Fall 2026; AI website builder for small businesses. Emailed Miles Pines with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "sam-fs-2026-11-18",
+    company: "Sam (Quo Labs)",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (YC / speedrun / Techstars)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://withsam.com",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "a16z speedrun SR006; AI caretaker for seniors. Emailed Audrey Lo, Jenny Wen with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
   }
 ];
 
