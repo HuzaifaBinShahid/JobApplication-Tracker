@@ -2988,6 +2988,481 @@ const seededApplications: Application[] = [
         text: "Applied by email from the hiring post"
       }
     ]
+  },
+  {
+    id: "drs-mobile-2026-11-18",
+    company: "DRS",
+    role: "Mobile Engineer (open application)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://teamdrs.ai/careers/",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "a16z speedrun SR007; AI consumer app studio, Türkiye; careers page asks mobile engineers to email. Emailed Osman Elsoz with a Mobile-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "vucar-fs-2026-11-18",
+    company: "Vucar",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://vucar.vn",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Pre-Series A Nov 2026; AI-priced used-car auctions, Vietnam. Emailed Jake Long Vu with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "salehli-rn-2026-11-18",
+    company: "Salehli",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://salehli.com",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "$100K Oct 2026; home-maintenance marketplace, Syria. Emailed AbdulRhman Arnaout with a React-Native-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "orbits-rn-2026-11-18",
+    company: "Orbits",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://tryorbits.com",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "a16z speedrun SR007; AI household manager app. Emailed Nomaan Ahmed, Erik Tillberg with a React-Native-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "maasi-rn-2026-11-18",
+    company: "Maasi",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Draft",
+    appliedOn: "2026-11-18",
+    link: "https://mymaasi.com",
+    nextAction: "Email bounced: send the founder a LinkedIn note",
+    due: "2026-11-20",
+    notes: "Pre-seed Oct 2026; nanny booking, Bengaluru. Emailed Reshov Roy with a React-Native-Engineer CV. Bounced: address does not exist.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Founder email bounced"
+      }
+    ]
+  },
+  {
+    id: "reelful-fs-2026-11-18",
+    company: "Reelful",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://reelful.app",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "a16z speedrun SR007; AI video editing agent (AI-Video-Maker hook). Emailed Kate Deyneka with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "nexor-fs-2026-11-18",
+    company: "Nexor AI",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://getnexor.ai",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "a16z speedrun SR007; revenue agents over messaging. Emailed Ian Lee with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "keepconverting-fs-2026-11-18",
+    company: "Keep Converting",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://keepconverting.ai",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Pre-seed $2M Sep 2026; AI personalised web stores. Emailed Mohammad El Mougi, Manuel Prinz with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "ghanem-rn-2026-11-18",
+    company: "Ghanem",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://ghanem.sa",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Pre-seed ext. Oct 2026; fractional real-estate app, KSA. Emailed Saleh Al-Ghamdi, Amr Essam with a React-Native-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "autobia-fs-2026-11-18",
+    company: "Autobia",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://autobia.com",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Series A $12M Oct 2026; B2B auto-parts marketplace, KSA. Emailed Emad Daghreri, Ahmed Alawfi with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "bounty-fs-2026-11-18",
+    company: "Bounty",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://trybounty.ai",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "a16z speedrun SR007; marketplace to hire AI agents. Emailed Aashna Doshi with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "cartsy-rn-2026-11-18",
+    company: "Cartsy",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://cartsy.com",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "a16z speedrun SR007; shoppable content + AI shopping agent. Emailed Alain Michel, Raul Dagir with a React-Native-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "rumbo-fs-2026-11-18",
+    company: "Rumbo",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://rumbo-ai.com",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "a16z speedrun SR007; AI quoting for freight forwarders. Emailed Guido Haissiner with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "nimble-fs-2026-11-18",
+    company: "Nimble",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://nimbleops.io",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "a16z speedrun SR007; AI OS for freight forwarding. Emailed Dhruv Dabriwal (CTO) with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "mirai-fs-2026-11-18",
+    company: "Mirai",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://heymirai.ai",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "a16z speedrun SR007; explore any address as a simulation. Emailed Caleb Lo, Andrew Shum with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "saru-fs-2026-11-18",
+    company: "Saru",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://hellosaru.com",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "a16z speedrun SR007; AI concierge for brands. Emailed Tarun Khasnavis (CTO) with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "mawsool-fs-2026-11-18",
+    company: "Mawsool",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://mawsool.co",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Pre-seed Nov 2026; AI sales intelligence, Riyadh. Emailed Osama Abdelhadi, Oday Ali with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "lazyweb-fs-2026-11-18",
+    company: "Lazyweb",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://lazyweb.com",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "a16z speedrun SR007; AI growth platform. Emailed Ali Abouelatta with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "alia-fs-2026-11-18",
+    company: "Alia",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://usealia.com",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "a16z speedrun SR007; AI agents coordinating teams. Emailed Livia Kuga, Thomas Filshill with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "hunar-fs-2026-11-18",
+    company: "Hunar.ai",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://hunar.ai",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Series A Oct 2026; AI agents for frontline hiring, India. Emailed Krishna Khandelwal, Shantanu Bhattacharyya with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "vrtx-fs-2026-11-18",
+    company: "Vrtx",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://vrtx.sa",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Pre-seed $3.6M Oct 2026; embedded finance, KSA. Emailed Mishal Bin Slimah, Omar Shaaban with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "rwaj-rn-2026-11-18",
+    company: "Rwaj",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://rwaj.co",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Pre-seed $1.2M Sep 2026; live-stream shopping app (support inbox, asked to forward). Emailed Taher Alblowe with a React-Native-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "khaime-rn-2026-11-18",
+    company: "Khaime",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://khaime.com",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Pre-seed $500K Nov 2026; stores + WhatsApp AI agent (support inbox, asked to forward). Emailed Gabriel Olokunwolu with a React-Native-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "popcorn-fs-2026-11-18",
+    company: "Popcorn Studio AI",
+    role: "Full-Stack Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://popcornstudio.ai",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Pre-seed $1M Oct 2026; AI film/video (AI-Video-Maker hook; support inbox). Emailed Shady Essam, Mohamed Hedar with a Full-Stack-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
+  },
+  {
+    id: "onto-rn-2026-11-18",
+    company: "Onto",
+    role: "React Native Engineer (cold)",
+    location: "Remote",
+    source: "Founder email (funded startup)",
+    stage: "Applied",
+    appliedOn: "2026-11-18",
+    link: "https://onto.travel",
+    nextAction: "Wait for a reply; follow up once on Nov 25",
+    due: "2026-11-25",
+    notes: "Pre-seed $1M Oct 2026; hotel price-drop refunds (support inbox). Emailed Jagdeep Singh, Shubham Goyal with a React-Native-Engineer CV.",
+    activity: [
+      {
+        date: "Nov 18",
+        text: "Emailed the founders with CV"
+      }
+    ]
   }
 ];
 
