@@ -4280,6 +4280,25 @@ const seededApplications: Application[] = [
         text: "Emailed the founders with CV"
       }
     ]
+  },
+  {
+    id: "g2i-staff-se-rl-datasets-2026-11-19",
+    company: "G2i",
+    role: "Staff Software Engineer – Coding & RL Environment Datasets",
+    location: "Remote · contract",
+    source: "Ashby (unlisted posting)",
+    stage: "Applied",
+    appliedOn: "2026-11-19",
+    link: "https://jobs.ashbyhq.com/g2i/76286c1b-24dc-4d24-a0ac-178775ab9a64",
+    nextAction: "Watch for the take-home (1-2 h); do it without AI tools",
+    due: "2026-11-26",
+    notes: "Designing coding tasks for frontier-lab model training. Wants senior+ or prior task-building; note said 3.5 yrs and pointed to repocards. English answered C1 or lower.",
+    activity: [
+      {
+        date: "Nov 19",
+        text: "Applied on Ashby (success page)"
+      }
+    ]
   }
 ];
 
