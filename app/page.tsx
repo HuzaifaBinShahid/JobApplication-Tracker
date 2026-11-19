@@ -5292,6 +5292,71 @@ const seededOutreach: Outreach[] = [
     researchNote: "USD 53M across a seed (Together Fund) and a Series A (Accel), 16 Nov 2026 (TechCrunch); 35+ people. Open roles (Member of Technical Staff, Forward Deployed Engineer) listed on the site's About page and applied through its careers portal. No email published.",
     message: "Not drafted: write 4–5 lines in your own words (see angle)",
     shared: "Nothing sent"
+  },
+  {
+    id: "sysgyte-technologies-frontend-real-time",
+    name: "Hiring team (post by Scalable Talent Nigeria)",
+    company: "Sysgyte Technologies",
+    title: "Frontend Developer / Engineer, real-time data and API integration",
+    region: "Remote · contract · country of the company not stated",
+    linkedin: "https://www.linkedin.com/company/scalable-talent-9ja/",
+    status: "Draft ready",
+    angle: "Real-time dashboards, WebSockets and REST integration in React with Tailwind and Redux/Zustand: Boolmind live dashboards and Hopn real-time chat; 3.5 years against their minimum of 3",
+    researchNote: "LinkedIn post by the recruitment page Scalable Talent Nigeria, about 5 h old on 19 Nov 2026, deadline 9 Dec 2026; the application email is written in the post (email in the private daily file). Pay and whether Pakistan is allowed are not stated: ask. The company website did not load during the scan.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "flatgigs-senior-react-native-contract",
+    name: "Hiring team",
+    company: "Flatgigs",
+    title: "Senior React Native Developer (Remote, contract)",
+    region: "Remote · Pakistan listed",
+    linkedin: "https://apply.workable.com/j/4F290B09C1",
+    status: "Draft ready",
+    angle: "React Native + Expo + TypeScript app for frontline staff: Hopn Passenger and Driver apps shipped to both stores, push notifications; stretch because they ask for 4+ years of mobile and offline-first sync plus Microsoft Entra ID sign-in",
+    researchNote: "Workable posting published 18 Nov 2026 (RemoteYeah repost on LinkedIn, about 3 h old on 19 Nov); apply through the Workable form, no email published. End client described only as an enterprise operations platform. Needs 4+ years mobile (2+ React Native), offline-first SQLite sync, MSAL/OAuth/OIDC, FCM/APNs.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "ihsan-founding-messenger-engineer",
+    name: "Hiring team (listing shared by Allweb3jobs)",
+    company: "Ihsan (Ihsan Connect)",
+    title: "Founding Senior Messenger Engineer",
+    region: "Remote · global · full-time",
+    linkedin: "https://x.com/crypto_vazima/status/2123065578571116627",
+    status: "Draft ready",
+    angle: "Real-time messaging in React Native + TypeScript with WebSockets and push: Hopn real-time chat and notifications; stretch because the role is senior and asks for E2EE and WebRTC",
+    researchNote: "X post by the job-sharing account Allweb3jobs, about 12 h old on 19 Nov 2026, 275 views; stated pay USD 120K-180K a year; apply on the cryptojobslist listing (https://cryptojobslist.com/jobs/founding-cto-messenger-stablecoin-remote-at-ihsan, blocked my fetch). No email published; the poster does not verify jobs, so check Ihsan's own site first.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "unsiloed-ai-founders",
+    name: "Aman Mishra / Adnan Abbas",
+    company: "Unsiloed AI",
+    title: "Co-founder and CEO / co-founder and CTO",
+    region: "San Francisco · Founding Software Engineer (backend and infrastructure) listed; remote not stated",
+    linkedin: "https://www.linkedin.com/company/unsiloed-ai",
+    status: "Draft ready",
+    angle: "API that turns PDFs, DOCX and tables into structured Markdown/JSON for LLM agents: your Node + LLM API work and AI agents at Boolmind; honest gap: their open role is backend/infrastructure",
+    researchNote: "USD 7.5M seed led by Felicis (YC, Orange Collective), reported 18 Nov 2026 (TechCrunch); 7 people, funds to hire researchers and engineers. Founders' email is published on their YC page (email in the private daily file). Open role on YC: Founding Software Engineer, Backend and Infrastructure, San Francisco; ask about remote.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "perry-ai-founders",
+    name: "Shashwat Patel / Vaneesa Agrawal",
+    company: "Perry AI",
+    title: "Co-founder and CEO / co-founder and CPO",
+    region: "London · no role listed",
+    linkedin: "https://useperry.com",
+    status: "Draft ready",
+    angle: "AI legal operating system for private capital funds and law firms: your LLM API work, scheduled AI agents and React dashboards; low priority because no role is listed",
+    researchNote: "USD 2.2M seed led by Haatch (Antler, Syncorp, Araya), 18 Nov 2026 (TheSaaSNews). No email published; the site has a Careers link and a Calendly demo link only, and the Workable board is empty. Route: the founders on LinkedIn.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
   }
 ];
 
