@@ -1726,13 +1726,17 @@ const seededApplications: Application[] = [
     stage: "Draft",
     appliedOn: "2026-11-14",
     link: "https://docs.google.com/forms/d/e/1FAIpQLSdv_A14dNch1PhXY5BcPXtP7yrMrsD3S8t4dY--77JjRu0Xzg/viewform",
-    nextAction: "Finish the saved draft: ratings, 4 written answers, CV upload, 1–2 minute video, then Submit",
-    due: "2026-11-16",
+    nextAction: "Form closed by 19 Nov (never submitted). Message the recruiter (BuildaBox HR) on LinkedIn",
+    due: "2026-11-20",
     notes: "Therapy platform for schools and clinics; TypeScript, React/Next.js, PostgreSQL, Hasura, GraphQL Codegen, LLM APIs. Contact details, links, the project link and the 'why I fit' answer are already filled in the saved draft.",
     activity: [
       {
         date: "Nov 14",
         text: "Form partly filled and saved as a draft; the rest needs your own answers and a video"
+      },
+      {
+        date: "Nov 19",
+        text: "Re-shared post found; the form now says it is no longer accepting responses. Hiring is run by BuildaBox HR (LinkedIn), shortlisting from Monday"
       }
     ]
   },
