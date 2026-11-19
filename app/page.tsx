@@ -4345,6 +4345,139 @@ const seededApplications: Application[] = [
         text: "Emailed CV (no bounce)"
       }
     ]
+  },
+  {
+    id: "hbox-digital-react-native-2026-11-20",
+    company: "HBOX Digital Pakistan",
+    role: "React Native Mobile App Developer",
+    location: "Karachi (DHA) · asked about remote",
+    source: "LinkedIn job post (email in post)",
+    stage: "Applied",
+    appliedOn: "2026-11-20",
+    link: "https://pk.linkedin.com/jobs/view/react-native-mobile-app-developer-at-hbox-digital-pakistan-4492437619",
+    nextAction: "Wait for a reply; follow up 27 Nov if quiet",
+    due: "2026-11-27",
+    notes: "Emailed HR with the React Native Mobile App Developer CV and Hopn store links. Post asks 3+ yrs React Native: stated RN in production since Mar 2026 (React/TS 3.5 yrs). Also mentioned their Full-Stack (Web & AI Automation) role, honest: no PHP/WordPress.",
+    activity: [
+      {
+        date: "Nov 20",
+        text: "Emailed CV 01:06 PKT (no bounce)"
+      }
+    ]
+  },
+  {
+    id: "hud-product-engineer-frontend-2026-11-20",
+    company: "HUD (YC W25)",
+    role: "Product Engineer, Frontend & Design",
+    location: "Remote (Asia) / San Francisco / Singapore",
+    source: "YC job board → Ashby form",
+    stage: "Applied",
+    appliedOn: "2026-11-20",
+    link: "https://jobs.ashbyhq.com/hud/0b162d2d-1390-41b5-8202-40cbc1771f3d",
+    nextAction: "Wait for a reply; follow up 27 Nov if quiet",
+    due: "2026-11-27",
+    notes: "AI data infrastructure (agent environments + DataVendor marketplace). Stack match: Next.js, React, TS, Tailwind, TanStack Query, Zustand. Answers: first-month idea = make the agent trace view readable (steps, first failure, run diff); Remote (Asia) from Lahore; relocation Yes only with visa sponsorship. $100K–$225K listed.",
+    activity: [
+      {
+        date: "Nov 20",
+        text: "Submitted on Ashby ('successfully submitted')"
+      }
+    ]
+  },
+  {
+    id: "social-champ-mobile-developer-2026-11-20",
+    company: "Social Champ",
+    role: "Mobile Application Developer (React Native)",
+    location: "Karachi (Gulshan-e-Iqbal)",
+    source: "Company careers page (Techstars portfolio)",
+    stage: "Applied",
+    appliedOn: "2026-11-20",
+    link: "https://www.socialchamp.com/careers/",
+    nextAction: "Wait for a reply; follow up 27 Nov if quiet",
+    due: "2026-11-27",
+    notes: "Social-media scheduling SaaS. Emailed careers inbox with subject 'Mobile Application Developer' (as the page asks) and the Mobile Application Developer CV. Said open to relocating to Karachi or remote.",
+    activity: [
+      {
+        date: "Nov 20",
+        text: "Emailed CV 01:13 PKT (no bounce)"
+      }
+    ]
+  },
+  {
+    id: "fiverivers-software-engineer-mern-2026-11-20",
+    company: "FiveRivers Technologies",
+    role: "Software Engineer (MERN)",
+    location: "Lahore · on-site",
+    source: "Zoho careers page (email on page)",
+    stage: "Applied",
+    appliedOn: "2026-11-20",
+    link: "https://fiveriverstech.zohorecruit.com/jobs/Careers",
+    nextAction: "Wait for a reply; follow up 27 Nov if quiet",
+    due: "2026-11-27",
+    notes: "Post asks 1–2 yrs (he has 3.5). Emailed jobs inbox with the Software Engineer MERN CV; mentioned their agentic/generative AI practice.",
+    activity: [
+      {
+        date: "Nov 20",
+        text: "Emailed CV 01:39 PKT (no bounce)"
+      }
+    ]
+  },
+  {
+    id: "kwanso-full-stack-mern-2026-11-20",
+    company: "Kwanso",
+    role: "Software Engineer - Full Stack (MERN)",
+    location: "Lahore · on-site",
+    source: "Rozee repost of LinkedIn; company site inbox",
+    stage: "Applied",
+    appliedOn: "2026-11-20",
+    link: "https://kwanso.com",
+    nextAction: "Wait for a reply; follow up 27 Nov if quiet",
+    due: "2026-11-27",
+    notes: "Their Lever board was 404, so emailed the general inbox naming the role. Gaps stated: no Angular/GraphQL in production, Docker day-to-day only.",
+    activity: [
+      {
+        date: "Nov 20",
+        text: "Emailed CV 01:39 PKT (no bounce)"
+      }
+    ]
+  },
+  {
+    id: "transcure-frontend-react-2026-11-20",
+    company: "Transcure",
+    role: "Frontend Developer (React/TypeScript)",
+    location: "Lahore",
+    source: "Rozee repost of LinkedIn; company site inbox",
+    stage: "Applied",
+    appliedOn: "2026-11-20",
+    link: "https://transcure.net/",
+    nextAction: "Wait for a reply; follow up 27 Nov if quiet",
+    due: "2026-11-27",
+    notes: "US medical billing/RCM with AI agents; screens for clinicians to review AI-generated notes. Post is a junior band: asked to be considered for mid-level too. Gap stated: no Vitest/Testing Library in production.",
+    activity: [
+      {
+        date: "Nov 20",
+        text: "Emailed CV 01:39 PKT (no bounce)"
+      }
+    ]
+  },
+  {
+    id: "hr-navigator-full-stack-web-mobile-2026-11-20",
+    company: "HR Navigator (client: Belgian startup)",
+    role: "Junior to Mid-Level Full Stack Developer (Web & Mobile)",
+    location: "Model Town, Lahore · on-site, 11–7",
+    source: "Company careers page (Manatal)",
+    stage: "Applied",
+    appliedOn: "2026-11-20",
+    link: "https://www.careers-page.com/navigatorhr/job/7X75376X",
+    nextAction: "Wait for a reply; follow up 27 Nov if quiet",
+    due: "2026-11-27",
+    notes: "Node/Nest/React/Next/TS/React Native for a Belgian student-jobs platform. Range PKR 170–220K: entered current 200K, expected 220K (his choice), notice Immediately. T&C ticked with his OK.",
+    activity: [
+      {
+        date: "Nov 20",
+        text: "Submitted on Manatal ('successfully submitted')"
+      }
+    ]
   }
 ];
 
