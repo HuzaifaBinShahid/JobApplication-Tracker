@@ -4299,6 +4299,44 @@ const seededApplications: Application[] = [
         text: "Applied on Ashby (success page)"
       }
     ]
+  },
+  {
+    id: "zenomusic-mobile-developer-2026-11-19",
+    company: "ZenoMusic",
+    role: "Mobile Developer (Flutter / React Native)",
+    location: "Remote · full-time (team in Dar es Salaam)",
+    source: "Company careers page",
+    stage: "Applied",
+    appliedOn: "2026-11-19",
+    link: "https://zenomusic.io/apply",
+    nextAction: "Wait for a reply; follow up 25 Nov if quiet",
+    due: "2026-11-25",
+    notes: "AI music studio for Africa. Mobile Developer CV, Hopn store links, honest gaps (no audio player or mobile-money payments yet). Confirmation email received.",
+    activity: [
+      {
+        date: "Nov 19",
+        text: "Applied on careers page ('Application sent' + confirmation email)"
+      }
+    ]
+  },
+  {
+    id: "imtiaz-full-stack-developer-2026-11-19",
+    company: "Imtiaz Group (Private) Limited",
+    role: "Full Stack Developer (React.js, Next.js, NestJS, PHP)",
+    location: "Karachi · on-site",
+    source: "LinkedIn post (job flyer)",
+    stage: "Applied",
+    appliedOn: "2026-11-19",
+    link: "https://imtiaz.com.pk/career-opportunity/",
+    nextAction: "Wait for a reply; deadline was 22 Nov",
+    due: "2026-11-26",
+    notes: "Emailed the careers inbox with subject 'Full Stack Developer - Karachi' and the Full Stack Developer CV. Post asks 4+ yrs (3.5 stated), NestJS/PHP/GraphQL gaps stated, open to relocating from Lahore.",
+    activity: [
+      {
+        date: "Nov 19",
+        text: "Emailed CV (no bounce)"
+      }
+    ]
   }
 ];
 
