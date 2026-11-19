@@ -4478,12 +4478,237 @@ const seededApplications: Application[] = [
         text: "Submitted on Manatal ('successfully submitted')"
       }
     ]
+  },
+  {
+    id: "squatwolf-mobile-app-dev-easyapply-2026-11-20",
+    company: "SQUATWOLF",
+    role: "Mobile Application Developer (React Native)",
+    location: "Karachi · on-site",
+    source: "LinkedIn Easy Apply",
+    stage: "Applied",
+    appliedOn: "2026-11-20",
+    link: "https://www.linkedin.com/jobs/view/4488936551/",
+    nextAction: "Wait for a reply; check LinkedIn messages",
+    due: "2026-11-27",
+    notes: "Dubai gym-wear brand, 1–3 yrs RN, Redux Toolkit, push, Firebase. React Native Developer CV (file named Mobile Application Developer). Answers: Java 0, iOS 1, Swift 0.",
+    activity: [
+      {
+        date: "Nov 20",
+        text: "Easy Apply submitted"
+      }
+    ]
+  },
+  {
+    id: "squatwolf-frontend-easyapply-2026-11-20",
+    company: "SQUATWOLF",
+    role: "Frontend Developer (React / Next.js)",
+    location: "Karachi · on-site",
+    source: "LinkedIn Easy Apply",
+    stage: "Applied",
+    appliedOn: "2026-11-20",
+    link: "https://www.linkedin.com/jobs/view/4488948133/",
+    nextAction: "Wait for a reply; check LinkedIn messages",
+    due: "2026-11-27",
+    notes: "Headless e-commerce storefront (Next.js, Tailwind, Shopify Storefront GraphQL, English/Arabic RTL). Frontend Developer CV. Answers: JavaScript 3, HTML5 3. Gap: Shopify/GraphQL.",
+    activity: [
+      {
+        date: "Nov 20",
+        text: "Easy Apply submitted"
+      }
+    ]
+  },
+  {
+    id: "shiza-frontend-easyapply-2026-11-20",
+    company: "Shiza Enterprises",
+    role: "Frontend Developer",
+    location: "Islamabad · remote",
+    source: "LinkedIn Easy Apply",
+    stage: "Applied",
+    appliedOn: "2026-11-20",
+    link: "https://www.linkedin.com/jobs/view/4491617687/",
+    nextAction: "Wait for a reply; check LinkedIn messages",
+    due: "2026-11-27",
+    notes: "2+ yrs frontend, web + mobile UI. Frontend Developer CV. One-page Easy Apply.",
+    activity: [
+      {
+        date: "Nov 20",
+        text: "Easy Apply submitted"
+      }
+    ]
+  },
+  {
+    id: "beam-ai-product-engineer-easyapply-2026-11-20",
+    company: "Beam AI",
+    role: "Product Engineer",
+    location: "Karachi · on-site",
+    source: "LinkedIn Easy Apply",
+    stage: "Applied",
+    appliedOn: "2026-11-20",
+    link: "https://www.linkedin.com/jobs/view/4490597157/",
+    nextAction: "Wait for a reply; check LinkedIn messages",
+    due: "2026-11-27",
+    notes: "Self-learning AI agents platform; asks 4+ yrs (3.5 stated by CV). Answers: open to Karachi in person, immediately available, PKR 3,000,000/yr gross, why-Beam text (end-to-end features, AI agents at Boolmind, Hopn apps).",
+    activity: [
+      {
+        date: "Nov 20",
+        text: "Easy Apply submitted"
+      }
+    ]
+  },
+  {
+    id: "cloudexify-software-engineer-easyapply-2026-11-20",
+    company: "CloudExify",
+    role: "Software Engineer (remote contract)",
+    location: "Pakistan · remote",
+    source: "LinkedIn Easy Apply",
+    stage: "Applied",
+    appliedOn: "2026-11-20",
+    link: "https://www.linkedin.com/jobs/view/4491609524/",
+    nextAction: "Wait for a reply; check LinkedIn messages",
+    due: "2026-11-27",
+    notes: "Small studio (Next.js, React, React Native, AI agents). Full Stack CV (file named Software Engineer). Answers: bachelor's yes, remote yes, 3 yrs.",
+    activity: [
+      {
+        date: "Nov 20",
+        text: "Easy Apply submitted"
+      }
+    ]
   }
 ];
 
 const githubProfile = "https://github.com/HuzaifaBinShahid";
 
 const seededOutreach: Outreach[] = [
+  {
+    id: "sehrish-khan-arbisoft-2026-11-20",
+    name: "Sehrish Khan",
+    company: "Arbisoft",
+    title: "Associate Talent Management",
+    region: "Pakistan",
+    linkedin: "https://www.linkedin.com/in/sehrish-khan-70603a280/",
+    status: "Sent",
+    angle: "Asked about mid-level React / Next.js / React Native openings, or what it would take to join",
+    researchNote: "1st-degree connection: direct LinkedIn message with the Full Stack Developer CV attached, 20 Nov 2026.",
+    message: "Hi Sehrish, hope you're doing well. I'm a full-stack developer in Lahore with 3.5 years in React, Next.js, Node.js and React Native. At Boolmind I built the front ends of 2 AI SaaS products that went to production, and this year I shipped a ride-booking company's passenger and driver apps to both app stores as their only mobile developer.\n\nI'd really like to work at Arbisoft. The openings I saw are mostly senior and lead roles. Are there mid-level frontend, full-stack or React Native positions open or coming up? If not, what would make my profile a stronger fit for Arbisoft? I've attached my CV.\n\nThank you,\nHuzaifa",
+    shared: "Full Stack Developer CV attached"
+  },
+  {
+    id: "haleema-khan-netsol-2026-11-20",
+    name: "Haleema Khan",
+    company: "NETSOL Technologies Pakistan",
+    title: "Talent Acquisition Specialist",
+    region: "Pakistan",
+    linkedin: "https://www.linkedin.com/in/haleema-khan179/",
+    status: "Sent",
+    angle: "Asked about mid-level React / Next.js / React Native openings, or what it would take to join",
+    researchNote: "2nd-degree: connection request with a personal note (Premium: unlimited notes), 20 Nov 2026. When accepted, send the CV with a short thank-you message.",
+    message: "Hi Haleema, I'm a Lahore-based full-stack developer (React, Next.js, Node.js, React Native; 3.5 yrs). I built 2 AI SaaS front ends and shipped a ride-booking app to both app stores. Are there openings at NetSol that fit, or what would it take to join? Happy to send my CV.",
+    shared: "CV offered on reply"
+  },
+  {
+    id: "alhan-rauf-systems-2026-11-20",
+    name: "Alhan Rauf",
+    company: "Systems Limited",
+    title: "Assistant Manager – Talent Acquisition",
+    region: "Pakistan",
+    linkedin: "https://www.linkedin.com/in/alhan-rauf/",
+    status: "Sent",
+    angle: "Asked about mid-level React / Next.js / React Native openings, or what it would take to join",
+    researchNote: "2nd-degree: connection request with a personal note (Premium: unlimited notes), 20 Nov 2026. When accepted, send the CV with a short thank-you message.",
+    message: "Hi Alhan, I'm a Lahore-based full-stack developer (React, Next.js, Node.js, React Native; 3.5 yrs). I built 2 AI SaaS front ends and shipped a ride-booking app to both app stores. Are there openings at Systems Limited that fit, or what would it take to join? Happy to send my CV.",
+    shared: "CV offered on reply"
+  },
+  {
+    id: "hamid-akhtar-devsinc-2026-11-20",
+    name: "Hamid Akhtar",
+    company: "Devsinc",
+    title: "Senior Talent Acquisition Specialist",
+    region: "Pakistan",
+    linkedin: "https://www.linkedin.com/in/hamidakhtar07/",
+    status: "Sent",
+    angle: "Asked about mid-level React / Next.js / React Native openings, or what it would take to join",
+    researchNote: "2nd-degree: connection request with a personal note (Premium: unlimited notes), 20 Nov 2026. When accepted, send the CV with a short thank-you message.",
+    message: "Hi Hamid, I'm a Lahore-based full-stack developer (React, Next.js, Node.js, React Native; 3.5 yrs). I built 2 AI SaaS front ends and shipped a ride-booking app to both app stores. Are there openings at Devsinc that fit, or what would it take to join? Happy to send my CV.",
+    shared: "CV offered on reply"
+  },
+  {
+    id: "anayat-ullah-educative-2026-11-20",
+    name: "Anayat Ullah",
+    company: "Educative",
+    title: "Associate Recruiter",
+    region: "Pakistan",
+    linkedin: "https://www.linkedin.com/in/anayat-ullah-060852254/",
+    status: "Sent",
+    angle: "Asked about mid-level React / Next.js / React Native openings, or what it would take to join",
+    researchNote: "2nd-degree: connection request with a personal note (Premium: unlimited notes), 20 Nov 2026. When accepted, send the CV with a short thank-you message.",
+    message: "Hi Anayat, I'm a Lahore-based full-stack developer (React, Next.js, Node.js, React Native; 3.5 yrs). I built 2 AI SaaS front ends and shipped a ride-booking app to both app stores. Are there openings at Educative that fit, or what would it take to join? Happy to send my CV.",
+    shared: "CV offered on reply"
+  },
+  {
+    id: "riffat-nabi-gosaas-2026-11-20",
+    name: "Riffat Nabi",
+    company: "GoSaaS",
+    title: "Talent Acquisition Manager",
+    region: "Pakistan",
+    linkedin: "https://www.linkedin.com/in/riffat-nabi-148820179/",
+    status: "Sent",
+    angle: "Asked about mid-level React / Next.js / React Native openings, or what it would take to join",
+    researchNote: "2nd-degree: connection request with a personal note (Premium: unlimited notes), 20 Nov 2026. When accepted, send the CV with a short thank-you message.",
+    message: "Hi Riffat, I'm a Lahore-based full-stack developer (React, Next.js, Node.js, React Native; 3.5 yrs). I built 2 AI SaaS front ends and shipped a ride-booking app to both app stores. Are there openings at GoSaaS that fit, or what would it take to join? Happy to send my CV.",
+    shared: "CV offered on reply"
+  },
+  {
+    id: "sahar-afzal-10pearls-2026-11-20",
+    name: "Sahar Afzal",
+    company: "10Pearls",
+    title: "Talent Partner",
+    region: "Pakistan",
+    linkedin: "https://www.linkedin.com/in/sahar-afzal-ab6ab0260/",
+    status: "Sent",
+    angle: "Asked about mid-level React / Next.js / React Native openings, or what it would take to join",
+    researchNote: "2nd-degree: connection request with a personal note (Premium: unlimited notes), 20 Nov 2026. When accepted, send the CV with a short thank-you message.",
+    message: "Hi Sahar, I'm a Lahore-based full-stack developer (React, Next.js, Node.js, React Native; 3.5 yrs). I built 2 AI SaaS front ends and shipped a ride-booking app to both app stores. Are there openings at 10Pearls that fit, or what would it take to join? Happy to send my CV.",
+    shared: "CV offered on reply"
+  },
+  {
+    id: "saleha-tahir-tkxel-2026-11-20",
+    name: "Saleha Tahir",
+    company: "Tkxel",
+    title: "HRBP & Talent Acquisition",
+    region: "Pakistan",
+    linkedin: "https://www.linkedin.com/in/saleha-tahir-/",
+    status: "Sent",
+    angle: "Asked about mid-level React / Next.js / React Native openings, or what it would take to join",
+    researchNote: "2nd-degree: connection request with a personal note (Premium: unlimited notes), 20 Nov 2026. When accepted, send the CV with a short thank-you message.",
+    message: "Hi Saleha, I'm a Lahore-based full-stack developer (React, Next.js, Node.js, React Native; 3.5 yrs). I built 2 AI SaaS front ends and shipped a ride-booking app to both app stores. Are there openings at Tkxel that fit, or what would it take to join? Happy to send my CV.",
+    shared: "CV offered on reply"
+  },
+  {
+    id: "hafsa-arshad-contour-2026-11-20",
+    name: "Hafsa Arshad",
+    company: "Contour Software",
+    title: "Technical Recruiter",
+    region: "Pakistan",
+    linkedin: "https://www.linkedin.com/in/hafsa-arshad/",
+    status: "Sent",
+    angle: "Asked about mid-level React / Next.js / React Native openings, or what it would take to join",
+    researchNote: "2nd-degree: connection request with a personal note (Premium: unlimited notes), 20 Nov 2026. When accepted, send the CV with a short thank-you message.",
+    message: "Hi Hafsa, I'm a Lahore-based full-stack developer (React, Next.js, Node.js, React Native; 3.5 yrs). I built 2 AI SaaS front ends and shipped a ride-booking app to both app stores. Are there openings at Contour Software that fit, or what would it take to join? Happy to send my CV.",
+    shared: "CV offered on reply"
+  },
+  {
+    id: "salma-shahab-venturedive-2026-11-20",
+    name: "Salma Shahab",
+    company: "VentureDive",
+    title: "Lead Talent Acquisition",
+    region: "Pakistan",
+    linkedin: "https://www.linkedin.com/in/salma-shahab-52596a146/",
+    status: "Sent",
+    angle: "Asked about mid-level React / Next.js / React Native openings, or what it would take to join",
+    researchNote: "2nd-degree: connection request with a personal note (Premium: unlimited notes), 20 Nov 2026. When accepted, send the CV with a short thank-you message.",
+    message: "Hi Salma, I'm a Lahore-based full-stack developer (React, Next.js, Node.js, React Native; 3.5 yrs). I built 2 AI SaaS front ends and shipped a ride-booking app to both app stores. Are there openings at VentureDive that fit, or what would it take to join? Happy to send my CV.",
+    shared: "CV offered on reply"
+  },
   {
     id: "lobna-mahmoud",
     name: "Lobna Mahmoud",
