@@ -4573,6 +4573,82 @@ const seededApplications: Application[] = [
         text: "Easy Apply submitted"
       }
     ]
+  },
+  {
+    id: "webdesignshop-fullstack-ai-2026-11-20",
+    company: "Web Design Shop",
+    role: "Full Stack Developer – AI & Automation",
+    location: "Gulberg, Lahore · on-site, 7 PM–4 AM",
+    source: "LinkedIn post (Pakistan IT Jobs, email in post)",
+    stage: "Applied",
+    appliedOn: "2026-11-20",
+    link: "https://www.linkedin.com/search/results/content/?keywords=webdesignshop%20full%20stack",
+    nextAction: "Wait for a reply; follow up 27 Nov if quiet",
+    due: "2026-11-27",
+    notes: "React/Next/Node + LLM APIs, agents, prompt engineering. Full Stack Developer (AI & Automation) CV. Gap stated: backend in Node.js rather than Python. Said the night shift works.",
+    activity: [
+      {
+        date: "Nov 20",
+        text: "Emailed CV ~07:10 PKT (no bounce)"
+      }
+    ]
+  },
+  {
+    id: "thinkdigitally-rn-2026-11-20",
+    company: "Think Digitally",
+    role: "Software Engineer – React Native",
+    location: "Karachi · hybrid",
+    source: "LinkedIn post (shared by recruiters, email in post)",
+    stage: "Applied",
+    appliedOn: "2026-11-20",
+    link: "https://www.linkedin.com/search/results/content/?keywords=think%20digitally%20react%20native",
+    nextAction: "Wait for a reply; follow up 27 Nov if quiet",
+    due: "2026-11-27",
+    notes: "1–2 yrs RN, React Navigation, store publishing. Software Engineer (React Native) CV + Hopn store links. Open to relocating to Karachi.",
+    activity: [
+      {
+        date: "Nov 20",
+        text: "Emailed CV ~07:10 PKT (no bounce)"
+      }
+    ]
+  },
+  {
+    id: "dakar-senior-rn-2026-11-20",
+    company: "Dakar Software",
+    role: "Senior React Native Developer",
+    location: "Karachi · on-site",
+    source: "LinkedIn post (Pakistan IT Jobs, email in post)",
+    stage: "Applied",
+    appliedOn: "2026-11-20",
+    link: "https://www.linkedin.com/search/results/content/?keywords=dakar%20software%20react%20native",
+    nextAction: "Wait for a reply; follow up 27 Nov if quiet",
+    due: "2026-11-27",
+    notes: "Asks 4+ yrs RN, native modules, performance tuning. Honest: RN in production since Mar 2026; asked to be considered for this or a mid-level role. Open to relocating to Karachi.",
+    activity: [
+      {
+        date: "Nov 20",
+        text: "Emailed CV ~07:10 PKT (no bounce)"
+      }
+    ]
+  },
+  {
+    id: "paypeople-ai-engineer-2026-11-20",
+    company: "PayPeople",
+    role: "Junior AI Engineer (and other engineering roles)",
+    location: "Lahore · on-site, morning shift",
+    source: "Indeed alert → careers page email",
+    stage: "Applied",
+    appliedOn: "2026-11-20",
+    link: "https://paypeople.pk/careers",
+    nextAction: "Wait for a reply; follow up 27 Nov if quiet",
+    due: "2026-11-27",
+    notes: "HR/payroll SaaS (850+ organisations, 200K+ workforce monthly). Subject format 'Application: Engineering'. AI Engineer CV; asked to be considered at mid level too.",
+    activity: [
+      {
+        date: "Nov 20",
+        text: "Emailed CV ~07:20 PKT (no bounce)"
+      }
+    ]
   }
 ];
 
