@@ -5875,6 +5875,84 @@ const seededOutreach: Outreach[] = [
     researchNote: "USD 2.2M seed led by Haatch (Antler, Syncorp, Araya), 18 Nov 2026 (TheSaaSNews). No email published; the site has a Careers link and a Calendly demo link only, and the Workable board is empty. Route: the founders on LinkedIn.",
     message: "Not drafted: write 4–5 lines in your own words (see angle)",
     shared: "Nothing sent"
+  },
+  {
+    id: "skyware-it-solutions-full-stack",
+    name: "Hiring team",
+    company: "Skyware IT Solutions",
+    title: "Mid-Level Full Stack Developer",
+    region: "Peshawar-based company (US and Pakistan markets) · role location not stated, ask about remote",
+    linkedin: "https://www.linkedin.com/company/skyware-it-solutions-private-limited/",
+    status: "Draft ready",
+    angle: "React.js, Next.js, Node.js, PostgreSQL and Flutter stack: the first four are your daily stack, Flutter is the gap; end-to-end web and mobile for real projects matches Hopn and Boolmind",
+    researchNote: "Company post on LinkedIn about 1 h old at the scan on 20 Nov 2026, 3 reactions. IoT / smart-hotel and custom software company, 11–50 employees; skywareit.com did not load. Email written in the post (email in the private daily file). City, remote or on-site and pay are not stated.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "u-devs-technical-lead",
+    name: "Mehmood Shah (poster, Sr. HR Executive)",
+    company: "U DEVS (SMC-Private) Limited",
+    title: "Technical Lead (remote, paid in USD, 3–6 years)",
+    region: "Remote · Pakistan company · full-time after a 2-month probation",
+    linkedin: "https://www.linkedin.com/in/mehmood-shah-5ab9a3149/",
+    status: "Draft ready",
+    angle: "Stretch because it is a lead role (mentoring a team): your Node.js, REST APIs, MongoDB, LLM API work and scheduled AI agents match the AI-product side; you were Hopn's only mobile developer",
+    researchNote: "LinkedIn post by Mehmood Shah about 1 h old on 20 Nov 2026 (the same text on job pages about 18 h). No email; apply form on hrpostingpartner.com via the post link. Nothing found about U DEVS itself: look the company up first (probation, 'training provided' wording looks like outsourcing).",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "savoir-founding-engineer",
+    name: "Jacqueline Minor",
+    company: "Savoir",
+    title: "Founder (Columbia MBA '27 candidate)",
+    region: "US founder · Founding Engineer, remote or on-site not stated",
+    linkedin: "https://www.linkedin.com/in/jacqueline-minor-7859a9187/",
+    status: "Draft ready",
+    angle: "Founding Engineer for a live style app (Next.js + iOS, Python, Supabase/pgvector, agent pipelines): Next.js/TypeScript/Supabase and a tiny-team production record match; Python, queues and infrastructure are the gaps",
+    researchNote: "LinkedIn post about 11 h old on 20 Nov 2026, 12 reactions; the app is live in the US App Store with a waitlist (www.savoir.style). No email: the post says to message her on LinkedIn. Pay, equity, location and years not stated; stretch.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "each-labs-product-engineer",
+    name: "Eftal Yurtseven / Canberk Sinangil",
+    company: "each::labs",
+    title: "Co-founders",
+    region: "Remote (GMT+0 to GMT+4; Pakistan is GMT+5, ask) · London, Ankara and Istanbul postings",
+    linkedin: "https://www.linkedin.com/company/eachlabs",
+    status: "Draft ready",
+    angle: "Product Engineer (AI-native full stack: Go, React, TypeScript, PostgreSQL, coding agents): React, TypeScript and PostgreSQL match, Go does not; Claude 101 certificate, repocards and AI-Video-Maker show AI-native building",
+    researchNote: "USD 7M seed co-led by Revo Capital and EBRD, 18 Nov 2026 (TheSaaSNews). Platform that orchestrates 600+ generative media models behind one API; 10–50 people. Open roles on https://eachlabs.hrpanda.co/ (Product Engineer remote London/Ankara/Istanbul; Full Stack Engineer Istanbul remote). No email published; apply through the board.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "voyage-labs-founders",
+    name: "Manik Gupta / Yogesh Jain",
+    company: "Voyage Labs",
+    title: "Founder and CEO / CTO",
+    region: "San Francisco · no role listed, remote not stated",
+    linkedin: "https://voyagelabs.ai",
+    status: "Draft ready",
+    angle: "Atlas, an AI trip-planning web app with agent 'experts': your React/Next.js front ends, LLM API work and live chat at Hopn match; they plan to grow the engineering team but list no role",
+    researchNote: "USD 12M seed led by Kleiner Perkins (SignalFire, SV Angel), 18 Nov 2026 (TheSaaSNews); funds to grow the engineering team. No careers page or job-board openings found; only a support inbox and a contact form are published. Route: the founders on LinkedIn.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
+  },
+  {
+    id: "uplift-ai-founders",
+    name: "Hammad Malik / Zaid Qureshi",
+    company: "Uplift AI",
+    title: "Co-founder and CEO / co-founder and CTO",
+    region: "San Francisco and Lahore · no role listed",
+    linkedin: "https://www.linkedin.com/company/upliftai",
+    status: "Draft ready",
+    angle: "Urdu voice AI for Pakistan with a Lahore link: your React/Next.js and Node API work fits their studio, developer API and calling dashboard; very small team, so name one thing you could build",
+    researchNote: "USD 3.5M seed announced 30 Jan 2026 (Dawn), so OUTSIDE the 7-day window; kept because it is Pakistan-linked (YC S25, team of 3, site says made in San Francisco and Lahore). Email published on their website (email in the private daily file). No jobs on the YC page.",
+    message: "Not drafted: write 4–5 lines in your own words (see angle)",
+    shared: "Nothing sent"
   }
 ];
 
