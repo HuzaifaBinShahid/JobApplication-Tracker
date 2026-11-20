@@ -4649,6 +4649,44 @@ const seededApplications: Application[] = [
         text: "Emailed CV ~07:20 PKT (no bounce)"
       }
     ]
+  },
+  {
+    id: "momentum-fintech-mobile-2026-11-20",
+    company: "UAE fintech client (via recruiter Muqadas Fatima)",
+    role: "Full-Stack / Mobile Developer (digital gold wallet, cards)",
+    location: "Pakistan · remote/hybrid",
+    source: "LinkedIn post by a 1st-degree recruiter (email in post)",
+    stage: "Applied",
+    appliedOn: "2026-11-20",
+    link: "https://www.linkedin.com/search/results/content/?keywords=hiringmomentum21",
+    nextAction: "Wait for the recruiter's reply; follow up 27 Nov if quiet",
+    due: "2026-11-27",
+    notes: "Subject 'Frontend Developer – Mobile'. Full-Stack Mobile Developer CV + Hopn store links. Gaps stated: 3.5 yrs not 4+, no banking/wallet app, payments only Stripe (no Apple/Google Pay, 3-D Secure). Client not named; recruiter uses a gmail address.",
+    activity: [
+      {
+        date: "Nov 20",
+        text: "Emailed CV ~07:45 PKT (no bounce)"
+      }
+    ]
+  },
+  {
+    id: "momentum-fintech-banking-portal-2026-11-20",
+    company: "UAE fintech client (via recruiter Muqadas Fatima)",
+    role: "Frontend / Full-Stack Developer – Corporate Banking Portal",
+    location: "Pakistan · remote/hybrid",
+    source: "LinkedIn post by a 1st-degree recruiter (email in post)",
+    stage: "Applied",
+    appliedOn: "2026-11-20",
+    link: "https://www.linkedin.com/search/results/content/?keywords=hiringmomentum21",
+    nextAction: "Wait for the recruiter's reply; follow up 27 Nov if quiet",
+    due: "2026-11-27",
+    notes: "Subject 'Frontend Developer – Banking Portal'. Frontend Developer CV. Payroll upload/approval screens, Direct Debit UI. Gaps stated: 3.5 yrs not 4+, no maker-checker/banking in production, no Arabic/RTL.",
+    activity: [
+      {
+        date: "Nov 20",
+        text: "Emailed CV ~07:45 PKT (no bounce)"
+      }
+    ]
   }
 ];
 
