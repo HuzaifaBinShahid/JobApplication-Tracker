@@ -44,6 +44,20 @@ const stages: Stage[] = ["Applied", "Awaiting reply", "Interview", "Offer", "Rej
 
 const seededApplications: Application[] = [
   {
+    id: "codebeacon-react-developer-2026-11-21",
+    company: "CodeBeacon",
+    role: "React Developer (Remote)",
+    location: "Remote · Anywhere",
+    source: "LinkedIn post you shared → codebeacon.site/careers (form broken, emailed)",
+    stage: "Applied",
+    appliedOn: "2026-11-21",
+    link: "https://codebeacon.site/careers/react-developer",
+    nextAction: "Wait for a reply; follow up 28 Nov if quiet",
+    due: "2026-11-28",
+    notes: "Developer learning/interview-prep site. Post: interns to 3 yrs, React/TS/Next. The careers form failed twice ('We could not send your application'), so emailed the support address the page gives, with the React Developer CV. Gap stated: no Jest/RTL. Note: careers page carries ads and all roles were posted the same day; may be a small content business.",
+    activity: [{ date: "Nov 21", text: "Form failed twice; emailed CV to the address on the page (no bounce)" }]
+  },
+  {
     id: "lowcode-agency-full-stack-2026-11-21",
     company: "LowCode Agency",
     role: "Full Stack Developer (React, Next.js, React Native, Postgres)",
