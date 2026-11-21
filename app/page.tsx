@@ -49,13 +49,14 @@ const seededApplications: Application[] = [
     role: "Senior Full-Stack Engineer (contract, 4–5 months)",
     location: "Remote · worldwide",
     source: "Hacker News Who is Hiring (Nov 2026) → Google Form",
-    stage: "Draft",
+    stage: "Applied",
     appliedOn: "2026-11-21",
     compensation: "USD 3,000–5,000/month by milestone (their range)",
     link: "https://forms.gle/yJAabKvLKtJmfz21A",
-    nextAction: "Answer their screening question yourself: have you personally built and maintained a multi-tenant SaaS with paying customers in one shared database?",
-    notes: "Stack is TypeScript, React/Next.js, Node.js, PostgreSQL with row-level security; first engineer, 3 h daily overlap. Form not submitted: the first question is a yes/no knockout only you can answer honestly.",
-    activity: [{ date: "Nov 21", text: "Form opened; waiting on your answer to the screening question" }]
+    due: "2026-11-28",
+    nextAction: "Wait for Gabriel (founder) to reply; he says he replies to every application. Expect a paid tenant-isolation exercise next.",
+    notes: "Stack TypeScript, React/Next.js, Node.js, PostgreSQL with row-level security; first engineer, 3 h daily overlap. Answered yes to multi-tenant SaaS, full-time 30+ h and USD 3–5k by milestone. Examples given: Hopn (shared backend for passengers, drivers, admins; role-based checks in the backend) and Media X (advertising SaaS). Real problem: the Hopn live-ride trip sheet switching to another passenger, plus the map line/car layering fixes. Said he would add Postgres RLS as a fail-closed guard.",
+    activity: [{ date: "Nov 21", text: "Form opened; waiting on your answer to the screening question" }, { date: "Nov 21", text: "Form submitted (confirmation from Gabriel, Collabify)" }]
   },
   {
     id: "jushivara-react-developer-2026-11-21",
