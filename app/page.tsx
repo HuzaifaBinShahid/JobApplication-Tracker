@@ -44,6 +44,19 @@ const stages: Stage[] = ["Applied", "Awaiting reply", "Interview", "Offer", "Rej
 
 const seededApplications: Application[] = [
   {
+    id: "rezerv-frontend-engineer-2026-11-21",
+    company: "Rezerv",
+    role: "Frontend Engineer (or Fullstack, Payment Integration)",
+    location: "Remote · paid in SGD",
+    source: "LinkedIn post you shared (email in post)",
+    stage: "Applied",
+    appliedOn: "2026-11-21",
+    nextAction: "Wait for a reply; only shortlisted candidates are contacted",
+    due: "2026-11-28",
+    notes: "Booking, payment and studio platform for 1,000+ studios in Southeast Asia. The post asks for Burmese professionals; the email says plainly he is in Lahore (GMT+5) and asks if they consider candidates outside Myanmar. Frontend Engineer CV; Hopn booking apps, Boolmind dashboards, Stripe.",
+    activity: [{ date: "Nov 21", text: "Emailed CV (no bounce)" }]
+  },
+  {
     id: "collabify-senior-full-stack-2026-11-21",
     company: "Collabify",
     role: "Senior Full-Stack Engineer (contract, 4–5 months)",
