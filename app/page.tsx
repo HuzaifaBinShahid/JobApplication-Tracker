@@ -44,6 +44,19 @@ const stages: Stage[] = ["Applied", "Awaiting reply", "Interview", "Offer", "Rej
 
 const seededApplications: Application[] = [
   {
+    id: "lowcode-agency-full-stack-2026-11-21",
+    company: "LowCode Agency",
+    role: "Full Stack Developer (React, Next.js, React Native, Postgres)",
+    location: "Remote · listed as LatAm",
+    source: "LinkedIn post you shared → jobs.lowcode.agency",
+    stage: "Draft",
+    appliedOn: "2026-11-21",
+    link: "https://jobs.lowcode.agency/jobs/full-stack-developer",
+    nextAction: "Record a 1–2 min intro video (Loom, English) and send the link; the form auto-rejects without it. Answers and script: Career/Job-Outreach/LowCode-Agency-Application-2026-11-21.md",
+    notes: "Very strong stack match (React, Next.js, React Native, TypeScript, Postgres, daily AI coding tools). Listed for LatAm; their 'Secret Flavor' general application is open to remote applicants anywhere. Salary answer prepared: USD 1,500/month.",
+    activity: [{ date: "Nov 21", text: "Form read; answers and video script prepared; waiting on your video link" }]
+  },
+  {
     id: "prg-full-stack-developer-2026-11-21",
     company: "Progressive Resource Group",
     role: "Full Stack Developer",
