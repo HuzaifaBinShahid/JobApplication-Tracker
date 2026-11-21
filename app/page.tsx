@@ -44,6 +44,19 @@ const stages: Stage[] = ["Applied", "Awaiting reply", "Interview", "Offer", "Rej
 
 const seededApplications: Application[] = [
   {
+    id: "prg-full-stack-developer-2026-11-21",
+    company: "Progressive Resource Group",
+    role: "Full Stack Developer",
+    location: "Lahore · Gulberg, Jail Road · On-site · 6 PM–3 AM PKT",
+    source: "LinkedIn post you shared (email in post)",
+    stage: "Applied",
+    appliedOn: "2026-11-21",
+    nextAction: "Wait for a reply; follow up 28 Nov if quiet",
+    due: "2026-11-28",
+    notes: "Asks 2–5 yrs, React/Angular/Vue + Node/PHP/Python/Laravel, MySQL/MongoDB/PostgreSQL, hands-on Azure and AWS. Sent the Full Stack Developer CV; said honestly he has not run production workloads on Azure/AWS (deploys with Git, Docker, Vercel, Render, Supabase). Benefits: meals, US holidays, fixed weekends, medical after probation.",
+    activity: [{ date: "Nov 21", text: "Emailed CV (no bounce)" }]
+  },
+  {
     id: "rezerv-frontend-engineer-2026-11-21",
     company: "Rezerv",
     role: "Frontend Engineer (or Fullstack, Payment Integration)",
