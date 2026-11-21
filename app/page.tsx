@@ -3,7 +3,7 @@
 import { FormEvent, useEffect, useMemo, useState } from "react";
 
 type Stage = "Applied" | "Awaiting reply" | "Interview" | "Offer" | "Rejected" | "Closed" | "Draft";
-type View = "applications" | "outreach";
+type View = "applications" | "outreach" | "ai";
 
 type Application = {
   id: string;
@@ -36,6 +36,8 @@ type Outreach = {
   researchNote: string;
   message: string;
   shared: string;
+  // "ai-engineering" = an entry-level AI engineering post saved to email later (emails live in the private list, not here).
+  track?: "ai-engineering";
 };
 
 const stages: Stage[] = ["Applied", "Awaiting reply", "Interview", "Offer", "Rejected", "Closed", "Draft"];
@@ -5953,7 +5955,17 @@ const seededOutreach: Outreach[] = [
     researchNote: "USD 3.5M seed announced 30 Jan 2026 (Dawn), so OUTSIDE the 7-day window; kept because it is Pakistan-linked (YC S25, team of 3, site says made in San Francisco and Lahore). Email published on their website (email in the private daily file). No jobs on the YC page.",
     message: "Not drafted: write 4–5 lines in your own words (see angle)",
     shared: "Nothing sent"
-  }
+  },
+  { id: "ai-huddleup-ai-engineer-2026-11-21", name: "Syeda Roha Ali (HR)", company: "HuddleUp AI", title: "AI Engineer (AI Agents & Automation)", region: "Remote · Pakistan · 0–2 yrs", linkedin: "https://www.linkedin.com/in/syeda-roha-ali-788b30339/", status: "Draft ready", angle: "Best fit: n8n, OpenAI API, JavaScript, REST/webhooks and AI agents are already in your work.", researchNote: "LinkedIn post, ~19 Nov 2026. AI agents and WhatsApp assistants for UAE clients; n8n/Make/Zapier, RAG, function calling. Fresh grads and 0–2 yrs welcome; GitHub valued. Apply by DM with CV + GitHub (no email in the post).", message: "Not drafted: email after your AI-engineering prep. The contact email is in your private list (Career/Job-Outreach/AI-Engineering-Posts.md).", shared: "Nothing sent", track: "ai-engineering" },
+  { id: "ai-nolyth-associate-ai-ml-2026-11-21", name: "Hiring team", company: "Nolyth", title: "Associate AI/ML Engineer", region: "Lahore · Johar Town · On-site · 0–1 yr", linkedin: "", status: "Draft ready", angle: "Entry level in Lahore: LLMs, RAG, embeddings, AI agents; your LLM product work counts.", researchNote: "LinkedIn post (Opportunity Seekers), ~19 Nov 2026. Wants Python + OOP, ML/DL fundamentals, LLMs, RAG, embeddings, FastAPI, SQL, Git; LangChain/LangGraph a plus. Gap: Python and ML fundamentals. Email in the private list.", message: "Not drafted: email after your AI-engineering prep. The contact email is in your private list (Career/Job-Outreach/AI-Engineering-Posts.md).", shared: "Nothing sent", track: "ai-engineering" },
+  { id: "ai-victreat-agentic-ai-2026-11-21", name: "Hiring team", company: "Victreat Health Tech", title: "Agentic AI Engineer", region: "Islamabad · NSTP NUST · On-site · Mid-level", linkedin: "", status: "Draft ready", angle: "Agentic AI, RAG and multi-agent systems for healthcare; matches your scheduled-agent work.", researchNote: "LinkedIn post (Pakistan IT Jobs), 20 Nov 2026. Python, RAG, vector search, multi-agent systems, tool calling, Neo4j knowledge graphs. Gaps: mid-level, Python, Neo4j; needs a move to Islamabad. Email in the private list.", message: "Not drafted: email after your AI-engineering prep. The contact email is in your private list (Career/Job-Outreach/AI-Engineering-Posts.md).", shared: "Nothing sent", track: "ai-engineering" },
+  { id: "ai-axiom-world-ml-ai-2026-11-21", name: "Fatima Jannat (HR, 1st-degree)", company: "Axiom World", title: "ML/AI Engineer (1–2 yrs)", region: "Lahore · On-site · 3 PM–12 AM", linkedin: "https://lnkd.in/dB4UJ6vX", status: "Draft ready", angle: "Lahore, 1–2 yrs; LangChain/LangGraph and FastAPI side fits, and the recruiter is a 1st-degree connection.", researchNote: "LinkedIn post, 20 Nov 2026 (theaxiomworld.com). Python, Pandas, NumPy, scikit-learn, TensorFlow/PyTorch, HuggingFace, LangChain, LangGraph, LlamaIndex, FastAPI, AWS. Gap: classical ML. Apply link only (no email); can also message Fatima.", message: "Not drafted: email after your AI-engineering prep. The contact email is in your private list (Career/Job-Outreach/AI-Engineering-Posts.md).", shared: "Nothing sent", track: "ai-engineering" },
+  { id: "ai-silicon-nexus-ai-ml-2026-11-21", name: "Abdullah Ali (HR)", company: "Silicon Nexus", title: "AI/ML Engineer", region: "Lahore · Night shift 11:30 PM–8:30 AM", linkedin: "https://lnkd.in/d9Dve9RX", status: "Draft ready", angle: "You are already in their React Native process; mention interest in the AI/ML role too.", researchNote: "LinkedIn post (Pakistan IT Jobs), 20 Nov 2026. 'Relevant professional experience'; night shift. Careers email in the private list (same as the RN application).", message: "Not drafted: email after your AI-engineering prep. The contact email is in your private list (Career/Job-Outreach/AI-Engineering-Posts.md).", shared: "Nothing sent", track: "ai-engineering" },
+  { id: "ai-fullstack-go-ts-2026-11-21", name: "Hiring team", company: "FullStack", title: "Full Stack AI Engineer (Go & TypeScript)", region: "Remote · Pakistan", linkedin: "https://lnkd.in/eCP5wSM4", status: "Draft ready", angle: "Remote from Pakistan; TypeScript and full-stack fit, Go is the gap.", researchNote: "Posted by ApexTech Career, 20 Nov 2026. Go, TypeScript, full-stack, AI engineering; pay not stated. Apply link only (no email). Already on your to-do as 'FullStack (LinkedIn)'.", message: "Not drafted: email after your AI-engineering prep. The contact email is in your private list (Career/Job-Outreach/AI-Engineering-Posts.md).", shared: "Nothing sent", track: "ai-engineering" },
+  { id: "ai-devno-sol-genai-2026-11-21", name: "Hiring team", company: "Devno Sol", title: "Generative AI Engineer (Python & Data Engineering)", region: "Lahore · Johar Town · On-site · 3+ yrs", linkedin: "", status: "Draft ready", angle: "Stretch: RAG pipelines and LLM apps fit, but it is Python data-engineering heavy.", researchNote: "LinkedIn post, 20 Nov 2026. RAG end to end, ETL/ELT, embeddings, FastAPI/Django, PySpark or Azure Databricks, local LLM workflows. Gaps: Python data engineering, PySpark. Email in the private list.", message: "Not drafted: email after your AI-engineering prep. The contact email is in your private list (Career/Job-Outreach/AI-Engineering-Posts.md).", shared: "Nothing sent", track: "ai-engineering" },
+  { id: "ai-alpha-it-jr-ai-ml-2026-11-21", name: "Shiva S (recruiter)", company: "Alpha IT Technologies LLC", title: "Jr. AI/ML Engineer (contract)", region: "Location: 'open to suitable candidates' (check)", linkedin: "", status: "Draft ready", angle: "Check eligibility first: a US staffing LLC, contract, ML/DL heavy.", researchNote: "LinkedIn post, 20–21 Nov 2026. Python, ML/DL, TensorFlow/PyTorch, LLMs, RAG, vector DBs, FastAPI, cloud. Immediate joiners. Confirm they accept candidates in Pakistan before emailing. Email in the private list.", message: "Not drafted: email after your AI-engineering prep. The contact email is in your private list (Career/Job-Outreach/AI-Engineering-Posts.md).", shared: "Nothing sent", track: "ai-engineering" },
+  { id: "ai-ai-innovate-junior-2026-11-21", name: "Hiring team", company: "AI-innovate", title: "Junior AI Software Engineer (computer vision)", region: "Location not stated (check)", linkedin: "", status: "Draft ready", angle: "Junior role, but computer vision (OpenCV, PyTorch) for factory inspection is a gap.", researchNote: "LinkedIn company post, 20 Nov 2026. Python, computer vision, ML fundamentals, OpenCV/PyTorch, testing. Check the location before emailing. Email in the private list.", message: "Not drafted: email after your AI-engineering prep. The contact email is in your private list (Career/Job-Outreach/AI-Engineering-Posts.md).", shared: "Nothing sent", track: "ai-engineering" },
+  { id: "ai-shackleton-junior-2026-11-21", name: "People team", company: "Shackleton", title: "Junior AI Engineer", region: "Cape Town · Hybrid · South African citizens only", linkedin: "", status: "Not a fit", angle: "Not eligible: South African citizens only.", researchNote: "Post you shared on 21 Nov 2026. Wants CV + a few lines on something you built with AI, what surprised you, and why. Kept only as a reference for the kind of note AI teams ask for.", message: "Not eligible (ZA citizens only): do not email.", shared: "Nothing sent", track: "ai-engineering" }
 ];
 
 const stageTone: Record<Stage, string> = {
@@ -5980,6 +5992,7 @@ function OutreachBadge({ status }: { status: OutreachStatus }) {
 }
 
 function LinkedinLink({ href }: { href: string }) {
+  if (!href) return null;
   return <a className="linkedin-link" href={href} target="_blank" rel="noreferrer" aria-label="Open LinkedIn profile"><span>in</span> LinkedIn</a>;
 }
 
@@ -6061,8 +6074,14 @@ export default function Home() {
   const interviews = applications.filter((application) => application.stage === "Interview").length;
   const responseRate = applications.length ? Math.round((interviews / applications.filter((application) => application.stage !== "Draft" && application.stage !== "Closed").length || 0) * 100) : 0;
   const upcoming = applications.filter((application) => application.due && application.stage !== "Rejected" && application.stage !== "Closed").sort((a, b) => (a.due ?? "").localeCompare(b.due ?? ""));
-  const readyOutreach = outreach.filter((contact) => contact.status === "Draft ready").length;
-  const sentOutreach = outreach.filter((contact) => contact.status === "Sent" || contact.status === "Replied").length;
+  const founderOutreach = outreach.filter((contact) => contact.track !== "ai-engineering");
+  const aiPosts = outreach.filter((contact) => contact.track === "ai-engineering");
+  const readyOutreach = founderOutreach.filter((contact) => contact.status === "Draft ready").length;
+  const sentOutreach = founderOutreach.filter((contact) => contact.status === "Sent" || contact.status === "Replied").length;
+  const aiToEmail = aiPosts.filter((contact) => contact.status === "Draft ready").length;
+  const aiEmailed = aiPosts.filter((contact) => contact.status === "Sent" || contact.status === "Replied").length;
+  const aiNotEligible = aiPosts.filter((contact) => contact.status === "Not a fit").length;
+  const visibleOutreach = view === "ai" ? aiPosts : founderOutreach;
 
   function updateSelected(update: Partial<Application>, activityText?: string) {
     if (!selected) return;
@@ -6113,6 +6132,7 @@ export default function Home() {
           <button className={view === "applications" && filter === "All" ? "nav-item active" : "nav-item"} onClick={() => { setView("applications"); setFilter("All"); setSelectedOutreachId(""); }}><span>▦</span> All applications <b>{applications.length}</b></button>
           <button className={view === "applications" && filter === "Interview" ? "nav-item active" : "nav-item"} onClick={() => { setView("applications"); setFilter("Interview"); setSelectedOutreachId(""); }}><span>◌</span> Interviews <b>{interviews}</b></button>
           <button className={view === "outreach" ? "nav-item active" : "nav-item"} onClick={() => { setView("outreach"); setSelectedId(""); }}><span>↗</span> Founder outreach <b>{readyOutreach}</b></button>
+          <button className={view === "ai" ? "nav-item active" : "nav-item"} onClick={() => { setView("ai"); setSelectedId(""); setSelectedOutreachId(""); }}><span>✦</span> AI engineering posts <b>{aiToEmail}</b></button>
         </nav>
         <div className="sidebar-bottom">
           <div className="quiet-note"><span className="dot" /> Your data stays in this browser</div>
@@ -6123,20 +6143,25 @@ export default function Home() {
       <section className="workspace">
         <header className="topbar">
           <div>
-            <p className="eyebrow">{view === "applications" ? "YOUR JOB SEARCH" : "OUTREACH PIPELINE"}</p>
-            <h1>{view === "applications" ? "Keep the search moving." : "Start useful conversations."}</h1>
+            <p className="eyebrow">{view === "applications" ? "YOUR JOB SEARCH" : view === "ai" ? "AI ENGINEERING POSTS" : "OUTREACH PIPELINE"}</p>
+            <h1>{view === "applications" ? "Keep the search moving." : view === "ai" ? "Saved now, emailed when you're ready." : "Start useful conversations."}</h1>
           </div>
           {view === "applications" && <button className="add-button top-add" onClick={() => setIsAdding(true)}>+ Add application</button>}
         </header>
 
-        <section className="metrics" aria-label={view === "applications" ? "Application statistics" : "Outreach statistics"}>
+        <section className="metrics" aria-label={view === "applications" ? "Application statistics" : view === "ai" ? "AI engineering post statistics" : "Outreach statistics"}>
           {view === "applications" ? <>
             <article><span>Total tracked</span><strong>{applications.length}</strong><small>Every opportunity in one place</small></article>
             <article><span>Active applications</span><strong>{applied}</strong><small>Applied or waiting for a reply</small></article>
             <article><span>Interview rate</span><strong>{responseRate}%</strong><small>Interviews from submitted applications</small></article>
             <article><span>Next follow-up</span><strong>{upcoming[0]?.due ? formatDate(upcoming[0].due).replace(", 2026", "") : "—"}</strong><small>{upcoming[0]?.company ?? "No follow-ups scheduled"}</small></article>
+          </> : view === "ai" ? <>
+            <article><span>Posts saved</span><strong>{aiPosts.length}</strong><small>Entry-level AI engineering roles</small></article>
+            <article><span>To email later</span><strong>{aiToEmail}</strong><small>Eligible; nothing sent yet</small></article>
+            <article><span>Emailed</span><strong>{aiEmailed}</strong><small>Update only after a real send</small></article>
+            <article><span>Not eligible</span><strong>{aiNotEligible}</strong><small>Location or citizenship rules out applying</small></article>
           </> : <>
-            <article><span>Researched contacts</span><strong>{outreach.length}</strong><small>Public founder and product-lead profiles</small></article>
+            <article><span>Researched contacts</span><strong>{founderOutreach.length}</strong><small>Public founder and product-lead profiles</small></article>
             <article><span>Drafts ready</span><strong>{readyOutreach}</strong><small>Personalized; no message sent yet</small></article>
             <article><span>Contacted</span><strong>{sentOutreach}</strong><small>Update only after a real send</small></article>
             <article><span>Shared with each</span><strong>GitHub</strong><small>No CV attached unless you choose to send it</small></article>
@@ -6170,13 +6195,13 @@ export default function Home() {
         </section> : <section className="outreach-board">
           <div className="board-header outreach-header">
             <div>
-              <h2>Founder & product outreach</h2>
-              <p>Ten researched targets. Each note leads with useful delivery skills, not a generic request for a job.</p>
+              <h2>{view === "ai" ? "Entry-level AI engineering posts" : "Founder & product outreach"}</h2>
+              <p>{view === "ai" ? `${aiPosts.length} saved while you prepare. Contact emails are kept in your private list, not in this public app.` : "Ten researched targets. Each note leads with useful delivery skills, not a generic request for a job."}</p>
             </div>
-            <span className="research-label">PUBLIC RESEARCH</span>
+            <span className="research-label">{view === "ai" ? "EMAIL LATER" : "PUBLIC RESEARCH"}</span>
           </div>
           <div className="outreach-list">
-            {outreach.map((contact) => <div key={contact.id} role="button" tabIndex={0} className={selectedOutreach?.id === contact.id ? "outreach-row selected" : "outreach-row"} onClick={() => { setSelectedOutreachId(contact.id); setSelectedId(""); }} onKeyDown={(event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); setSelectedOutreachId(contact.id); setSelectedId(""); } }}>
+            {visibleOutreach.map((contact) => <div key={contact.id} role="button" tabIndex={0} className={selectedOutreach?.id === contact.id ? "outreach-row selected" : "outreach-row"} onClick={() => { setSelectedOutreachId(contact.id); setSelectedId(""); }} onKeyDown={(event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); setSelectedOutreachId(contact.id); setSelectedId(""); } }}>
               <div className="company-avatar">{contact.name.slice(0, 1)}</div>
               <div className="outreach-person"><strong>{contact.name}</strong><span>{contact.title} · {contact.company}</span></div>
               <div className="outreach-angle">{contact.angle}</div>
