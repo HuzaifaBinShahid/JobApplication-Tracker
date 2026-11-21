@@ -44,6 +44,47 @@ const stages: Stage[] = ["Applied", "Awaiting reply", "Interview", "Offer", "Rej
 
 const seededApplications: Application[] = [
   {
+    id: "collabify-senior-full-stack-2026-11-21",
+    company: "Collabify",
+    role: "Senior Full-Stack Engineer (contract, 4–5 months)",
+    location: "Remote · worldwide",
+    source: "Hacker News Who is Hiring (Nov 2026) → Google Form",
+    stage: "Draft",
+    appliedOn: "2026-11-21",
+    compensation: "USD 3,000–5,000/month by milestone (their range)",
+    link: "https://forms.gle/yJAabKvLKtJmfz21A",
+    nextAction: "Answer their screening question yourself: have you personally built and maintained a multi-tenant SaaS with paying customers in one shared database?",
+    notes: "Stack is TypeScript, React/Next.js, Node.js, PostgreSQL with row-level security; first engineer, 3 h daily overlap. Form not submitted: the first question is a yes/no knockout only you can answer honestly.",
+    activity: [{ date: "Nov 21", text: "Form opened; waiting on your answer to the screening question" }]
+  },
+  {
+    id: "jushivara-react-developer-2026-11-21",
+    company: "Jushivara Technologies",
+    role: "React.js Developer (remote, freelance / project-based)",
+    location: "Remote",
+    source: "LinkedIn company post, 1 h old, 2 reactions (email in post)",
+    stage: "Applied",
+    appliedOn: "2026-11-21",
+    nextAction: "Wait for a reply; follow up 28 Nov if quiet",
+    due: "2026-11-28",
+    notes: "Low-competition post (under 1 hour old). Subject 'React Developer' as the post asked; React Developer CV, GitHub, Hopn, Boolmind and repocards as the 2–3 projects.",
+    activity: [{ date: "Nov 21", text: "Emailed CV ~08:05 PKT (no bounce)" }]
+  },
+  {
+    id: "matcha-founding-full-stack-2026-11-21",
+    company: "Matcha.fm",
+    role: "Founding Full-stack Software Engineer",
+    location: "Remote · worldwide incl. APAC",
+    source: "Hacker News Who is Hiring (Nov 2026) → matcha.fm/apply/fse",
+    stage: "Applied",
+    appliedOn: "2026-11-21",
+    link: "https://matcha.fm/apply/fse",
+    nextAction: "Wait for the founder chat invite (30 min chat, then system design)",
+    due: "2026-11-28",
+    notes: "TypeScript + React, hands-on AI, 0-to-1 building; same salary anywhere, B2B contract OK. Applied with the Full Stack Engineer CV, location 'Lahore, Pakistan (GMT+5), remote via B2B contract'.",
+    activity: [{ date: "Nov 21", text: "Form submitted (confirmation shown)" }]
+  },
+  {
     id: "aklikx-technologies-website-developer",
     company: "Aklikx Technologies",
     role: "Website Developer · Project-based",
@@ -5965,7 +6006,12 @@ const seededOutreach: Outreach[] = [
   { id: "ai-devno-sol-genai-2026-11-21", name: "Hiring team", company: "Devno Sol", title: "Generative AI Engineer (Python & Data Engineering)", region: "Lahore · Johar Town · On-site · 3+ yrs", linkedin: "", status: "Draft ready", angle: "Stretch: RAG pipelines and LLM apps fit, but it is Python data-engineering heavy.", researchNote: "LinkedIn post, 20 Nov 2026. RAG end to end, ETL/ELT, embeddings, FastAPI/Django, PySpark or Azure Databricks, local LLM workflows. Gaps: Python data engineering, PySpark. Email in the private list.", message: "Not drafted: email after your AI-engineering prep. The contact email is in your private list (Career/Job-Outreach/AI-Engineering-Posts.md).", shared: "Nothing sent", track: "ai-engineering" },
   { id: "ai-alpha-it-jr-ai-ml-2026-11-21", name: "Shiva S (recruiter)", company: "Alpha IT Technologies LLC", title: "Jr. AI/ML Engineer (contract)", region: "Location: 'open to suitable candidates' (check)", linkedin: "", status: "Draft ready", angle: "Check eligibility first: a US staffing LLC, contract, ML/DL heavy.", researchNote: "LinkedIn post, 20–21 Nov 2026. Python, ML/DL, TensorFlow/PyTorch, LLMs, RAG, vector DBs, FastAPI, cloud. Immediate joiners. Confirm they accept candidates in Pakistan before emailing. Email in the private list.", message: "Not drafted: email after your AI-engineering prep. The contact email is in your private list (Career/Job-Outreach/AI-Engineering-Posts.md).", shared: "Nothing sent", track: "ai-engineering" },
   { id: "ai-ai-innovate-junior-2026-11-21", name: "Hiring team", company: "AI-innovate", title: "Junior AI Software Engineer (computer vision)", region: "Location not stated (check)", linkedin: "", status: "Draft ready", angle: "Junior role, but computer vision (OpenCV, PyTorch) for factory inspection is a gap.", researchNote: "LinkedIn company post, 20 Nov 2026. Python, computer vision, ML fundamentals, OpenCV/PyTorch, testing. Check the location before emailing. Email in the private list.", message: "Not drafted: email after your AI-engineering prep. The contact email is in your private list (Career/Job-Outreach/AI-Engineering-Posts.md).", shared: "Nothing sent", track: "ai-engineering" },
-  { id: "ai-shackleton-junior-2026-11-21", name: "People team", company: "Shackleton", title: "Junior AI Engineer", region: "Cape Town · Hybrid · South African citizens only", linkedin: "", status: "Not a fit", angle: "Not eligible: South African citizens only.", researchNote: "Post you shared on 21 Nov 2026. Wants CV + a few lines on something you built with AI, what surprised you, and why. Kept only as a reference for the kind of note AI teams ask for.", message: "Not eligible (ZA citizens only): do not email.", shared: "Nothing sent", track: "ai-engineering" }
+  { id: "ai-shackleton-junior-2026-11-21", name: "People team", company: "Shackleton", title: "Junior AI Engineer", region: "Cape Town · Hybrid · South African citizens only", linkedin: "", status: "Not a fit", angle: "Not eligible: South African citizens only.", researchNote: "Post you shared on 21 Nov 2026. Wants CV + a few lines on something you built with AI, what surprised you, and why. Kept only as a reference for the kind of note AI teams ask for.", message: "Not eligible (ZA citizens only): do not email.", shared: "Nothing sent", track: "ai-engineering" },
+  {id: "ai-spring-digital-llm-fullstack-2026-11-21", name: "Hiring team (via Recruit AI)", company: "Spring Digital", title: "AI Software Engineer – Full-Stack with LLMs", region: "Remote · Pakistan · 3+ yrs", linkedin: "https://www.linkedin.com/jobs/view/4492917371", status: "Draft ready", angle: "Closest stack match: TypeScript, Supabase, Vercel, Claude/OpenAI tool calling, RAG, dashboards.", researchNote: "LinkedIn job, 20 Nov 2026, 200+ applicants. Also wants AI video tools (Runway, Sora) and n8n/Hono. External apply link, no email.", message: "Not drafted: email after your AI-engineering prep. The contact email is in your private list (Career/Job-Outreach/AI-Engineering-Posts.md).", shared: "Nothing sent", track: "ai-engineering"},
+  {id: "ai-coreframe-foundry-2026-11-21", name: "Hiring team", company: "Coreframe Labs", title: "AI Engineer (Microsoft Foundry), contract ×3", region: "Remote · Pakistan · Entry level", linkedin: "https://www.linkedin.com/jobs/view/4491608941", status: "Draft ready", angle: "Node.js/TypeScript, React and LLM apps (agents, RAG); entry level and remote.", researchNote: "LinkedIn Easy Apply, 19 Nov 2026, 200+ applicants. Gap: Azure Foundry / Azure OpenAI. Start immediately.", message: "Not drafted: email after your AI-engineering prep. The contact email is in your private list (Career/Job-Outreach/AI-Engineering-Posts.md).", shared: "Nothing sent", track: "ai-engineering"},
+  {id: "ai-dbs-solutions-fde-2026-11-21", name: "HR", company: "DBS Solutions", title: "AI / Forward Deployed Engineer", region: "Lahore · on-site/hybrid/remote · 5 yrs asked", linkedin: "https://www.linkedin.com/jobs/view/4491912230", status: "Draft ready", angle: "LLM apps, conversational agents, client-facing delivery; they want GitHub repos and AI demos.", researchNote: "LinkedIn job, 20 Nov 2026, 200+ applicants. Asks 5 years (you have 3.5); voice/vision emphasis. Email in the private list.", message: "Not drafted: email after your AI-engineering prep. The contact email is in your private list (Career/Job-Outreach/AI-Engineering-Posts.md).", shared: "Nothing sent", track: "ai-engineering"},
+  {id: "ai-elite-it-team-2026-11-21", name: "Hiring team", company: "Elite IT Team", title: "AI Engineer (1–3 yrs)", region: "Remote · Pakistan · PKR 110–150k", linkedin: "https://www.linkedin.com/jobs/view/4491697901", status: "Draft ready", angle: "Lists Node.js, React, TypeScript, LLM agents, PostgreSQL/MongoDB.", researchNote: "LinkedIn job, 20 Nov 2026, 200+ applicants. Core is Python/FastAPI/LangChain plus computer vision. External apply.", message: "Not drafted: email after your AI-engineering prep. The contact email is in your private list (Career/Job-Outreach/AI-Engineering-Posts.md).", shared: "Nothing sent", track: "ai-engineering"},
+  {id: "ai-lumovy-agentic-2026-11-21", name: "Hiring team", company: "Lumovy Technology Solutions", title: "Agentic AI Engineer", region: "Lahore · 3–5 yrs Python", linkedin: "https://www.linkedin.com/jobs/view/4493220922", status: "Draft ready", angle: "LLM tool calling, agents, OAuth integrations.", researchNote: "LinkedIn job, 21 Nov 2026, 53 applicants. Python-first (3–5 yrs). External apply.", message: "Not drafted: email after your AI-engineering prep. The contact email is in your private list (Career/Job-Outreach/AI-Engineering-Posts.md).", shared: "Nothing sent", track: "ai-engineering"}
 ];
 
 const stageTone: Record<Stage, string> = {
