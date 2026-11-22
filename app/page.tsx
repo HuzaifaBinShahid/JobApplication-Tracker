@@ -44,6 +44,34 @@ const stages: Stage[] = ["Applied", "Awaiting reply", "Interview", "Offer", "Rej
 
 const seededApplications: Application[] = [
   {
+    id: "codenzy-full-stack-engineer-2026-11-22",
+    company: "Codenzy",
+    role: "Full-Stack Engineer (ReactJS, NodeJS)",
+    location: "Lahore · On-site · US Eastern hours",
+    source: "Company careers page (codenzy.com/careers)",
+    stage: "Applied",
+    appliedOn: "2026-11-22",
+    link: "https://www.codenzy.com/careers/full-stack-engineer/",
+    nextAction: "Wait for a reply; follow up 29 Nov if quiet",
+    due: "2026-11-29",
+    notes: "Junior to mid (6 months–2 yrs), React/Node/Express/TypeScript/PostgreSQL, AWS CI/CD, US Eastern hours. Used their subject line. Gaps stated: no production AWS, no Jest. He had already applied to Codenzy's React Developer role twice (1 Oct, 3 Nov, no reply), so the React role was not re-sent; the email mentions it.",
+    activity: [{ date: "Nov 22", text: "Emailed CV (no bounce)" }]
+  },
+  {
+    id: "eizie-front-end-developer-2026-11-22",
+    company: "Eizie",
+    role: "Front-End Developer (React JS)",
+    location: "Listed in Canada (Ontario) · asked about remote",
+    source: "Company careers page (eizie.com)",
+    stage: "Applied",
+    appliedOn: "2026-11-22",
+    link: "https://eizie.com/careers/career-details/front-end-developer-react-js",
+    nextAction: "Wait for a reply; they may only hire in Canada",
+    due: "2026-11-29",
+    notes: "2–4 yrs React, Redux/Context, REST, responsive. The page's Apply Now button is broken (empty link), so emailed the general address on the site. Said plainly he is in Lahore and asked if remote is possible. Front-End Developer (React JS) CV.",
+    activity: [{ date: "Nov 22", text: "Emailed CV (no bounce)" }]
+  },
+  {
     id: "saani-systems-software-engineer-2026-11-22",
     company: "Saani Systems",
     role: "Software Engineer",
