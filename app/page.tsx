@@ -44,6 +44,33 @@ const stages: Stage[] = ["Applied", "Awaiting reply", "Interview", "Offer", "Rej
 
 const seededApplications: Application[] = [
   {
+    id: "hirealpha-mobile-app-developer-qatar-2026-11-22",
+    company: "HireAlpha (recruiter, client in Qatar)",
+    role: "Mobile App Developer (Android & iOS)",
+    location: "Qatar · On-site",
+    source: "LinkedIn post (recruiter Mehma Singh), email in post",
+    stage: "Applied",
+    appliedOn: "2026-11-22",
+    link: "https://www.linkedin.com/posts/mehma-singh-685a72302_hiring-mobileappdeveloper-flutter-share-7529826804224798720-S_Kf/",
+    nextAction: "Wait for a reply; confirm visa sponsorship before anything else",
+    due: "2026-11-29",
+    notes: "Must-have React JS, DevOps, Android and iOS programming, web APIs; notice max 30 days. Mobile App Developer CV. Gaps stated: cross-platform (React Native) not native Kotlin/Swift; DevOps at deployment level. Asked whether visa sponsorship is included (his rule for jobs abroad).",
+    activity: [{ date: "Nov 22", text: "Emailed CV (no bounce)" }]
+  },
+  {
+    id: "mohd-r-freelance-mobile-2026-11-22",
+    company: "Mohd R. (Singsys developer, freelance projects)",
+    role: "Mobile App Developer (freelance / project-based)",
+    location: "Remote · India-based poster",
+    source: "LinkedIn post (asked for CV, portfolio and project charges by DM)",
+    stage: "Applied",
+    appliedOn: "2026-11-22",
+    link: "https://www.linkedin.com/posts/mohd-r-79b8401b1_hiring-freelancedeveloper-projectbasedwork-share-7529564910419185665-xYbr/",
+    nextAction: "If he accepts the connection, send CV + portfolio and quote per project",
+    notes: "React Native/Flutter, Firebase, payments, push notifications. DM needs Premium, so sent a connection request with a note (used 1 of 2 remaining personalized notes for November). Charges: 'depend on scope, happy to quote'. 49 comments on the post, so competition is high.",
+    activity: [{ date: "Nov 22", text: "Connection request with note sent (pending)" }]
+  },
+  {
     id: "codenzy-full-stack-engineer-2026-11-22",
     company: "Codenzy",
     role: "Full-Stack Engineer (ReactJS, NodeJS)",
