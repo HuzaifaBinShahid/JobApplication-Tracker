@@ -44,6 +44,34 @@ const stages: Stage[] = ["Applied", "Awaiting reply", "Interview", "Offer", "Rej
 
 const seededApplications: Application[] = [
   {
+    id: "saani-systems-software-engineer-2026-11-22",
+    company: "Saani Systems",
+    role: "Software Engineer",
+    location: "Gujranwala · Citi Housing · On-site",
+    source: "LinkedIn jobs (posted 30 min earlier, early applicant)",
+    stage: "Applied",
+    appliedOn: "2026-11-22",
+    link: "https://www.linkedin.com/jobs/view/4492336664/",
+    nextAction: "Wait for a reply; they run a short paid trial task before any offer",
+    due: "2026-11-29",
+    notes: "Business software, dashboards and AI automation; review, test, finish and ship products with the founder. Wants 3+ yrs JS/TS + SQL (Postgres/Supabase), Git, deployment, security habits, AI coding tools. Emailed the address in the description with the Software Engineer CV and two shipped things (Hopn, repocards).",
+    activity: [{ date: "Nov 22", text: "Emailed CV (no bounce)" }]
+  },
+  {
+    id: "silver-concepts-full-stack-2026-11-22",
+    company: "Silver Concepts",
+    role: "Full Stack Developer",
+    location: "Lahore",
+    source: "Google site:linkedin.com/jobs (closed on LinkedIn; email in the description)",
+    stage: "Applied",
+    appliedOn: "2026-11-22",
+    link: "https://www.linkedin.com/jobs/view/4491688662/",
+    nextAction: "Wait for a reply; follow up 29 Nov if quiet",
+    due: "2026-11-29",
+    notes: "2+ yrs JS full stack, PostgreSQL, cloud, Kafka, Linux sysadmin, telecom preferred. Gaps stated honestly: no Kafka, no telecom, cloud/Linux at deployment level only. Full Stack Developer CV.",
+    activity: [{ date: "Nov 22", text: "Emailed CV (no bounce)" }]
+  },
+  {
     id: "codebeacon-react-developer-2026-11-21",
     company: "CodeBeacon",
     role: "React Developer (Remote)",
