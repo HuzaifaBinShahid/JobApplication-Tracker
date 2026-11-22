@@ -3088,16 +3088,24 @@ const seededApplications: Application[] = [
     role: "Web Developer (Remote)",
     location: "Remote · 9-6 PKT",
     source: "LinkedIn post · email",
-    stage: "Applied",
+    stage: "Interview",
     appliedOn: "2026-11-18",
     link: "https://www.linkedin.com/search/results/content/",
-    nextAction: "Wait for a reply; follow up once on Nov 25",
-    due: "2026-11-25",
-    notes: "React/TS/Vite/Node/Express/MySQL.",
+    nextAction: "Online interview Mon 23 Nov, 3:00–3:30 PM PKT (Google Meet link in the invite email)",
+    due: "2026-11-23",
+    notes: "React/TS/Vite/Node/Express/MySQL. Shortlisted; HR invited him to an online interview and he confirmed.",
     activity: [
       {
         date: "Nov 18",
         text: "Applied by email from the hiring post"
+      },
+      {
+        date: "Nov 21",
+        text: "Shortlisted: interview invitation for 23 Nov, 3:00 PM PKT"
+      },
+      {
+        date: "Nov 22",
+        text: "Confirmed availability by email"
       }
     ]
   },
