@@ -3091,8 +3091,8 @@ const seededApplications: Application[] = [
     stage: "Interview",
     appliedOn: "2026-11-18",
     link: "https://www.linkedin.com/search/results/content/",
-    nextAction: "Online interview Mon 23 Nov, 3:00–3:30 PM PKT (Google Meet link in the invite email)",
-    due: "2026-11-23",
+    nextAction: "Missed the 23 Nov interview; apologised and asked to reschedule to Tue 24 Nov, 3:00 PM PKT. Wait for HR's reply",
+    due: "2026-11-24",
     notes: "React/TS/Vite/Node/Express/MySQL. Shortlisted; HR invited him to an online interview and he confirmed.",
     activity: [
       {
@@ -3106,6 +3106,10 @@ const seededApplications: Application[] = [
       {
         date: "Nov 22",
         text: "Confirmed availability by email"
+      },
+      {
+        date: "Nov 23",
+        text: "Missed the interview; sent an apology and asked to reschedule to 24 Nov, 3:00 PM PKT"
       }
     ]
   },
