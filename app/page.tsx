@@ -44,6 +44,20 @@ const stages: Stage[] = ["Applied", "Awaiting reply", "Interview", "Offer", "Rej
 
 const seededApplications: Application[] = [
   {
+    id: "karing-ai-forward-deployed-engineer-2026-11-24",
+    company: "Karing AI",
+    role: "Forward Deployed Engineer (voice AI agents)",
+    location: "Remote · full-time · US healthcare clients",
+    source: "LinkedIn post you shared → Google Form",
+    stage: "Applied",
+    appliedOn: "2026-11-24",
+    link: "https://forms.gle/GL7Vi57GzSu6q44k7",
+    nextAction: "Wait for a reply; prepare voice-agent basics (Vapi/Retell/Twilio, STT → LLM → TTS, call flows, edge cases)",
+    due: "2026-12-01",
+    notes: "AI engineering role applied at your explicit ask. Form: Lahore, expected PKR 250,000/month, Mid-Level (3–7 yrs), Python + JS/TS + React + Node.js, start 25 Nov, Full Stack CV (compact PDF). Said honestly: LLM features, scheduled agents, n8n and Kokoro TTS done, but no phone voice agent shipped yet. Challenge story: the Hopn live-ride trip-switch bug and map fixes.",
+    activity: [{ date: "Nov 24", text: "Form submitted (Karing's confirmation page shown)" }]
+  },
+  {
     id: "hirealpha-mobile-app-developer-qatar-2026-11-22",
     company: "HireAlpha (recruiter, client in Qatar)",
     role: "Mobile App Developer (Android & iOS)",
