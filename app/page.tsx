@@ -44,6 +44,48 @@ const stages: Stage[] = ["Applied", "Awaiting reply", "Interview", "Offer", "Rej
 
 const seededApplications: Application[] = [
   {
+    id: "saarthi-ai-sde1-react-native-2026-11-24",
+    company: "Saarthi AI Private Limited",
+    role: "SDE-1 React Native Developer (Full-Time)",
+    location: "India (Delhi HQ) · applied as remote from Lahore",
+    source: "LinkedIn post by the CEO (Vishal Jain) → email to HR",
+    stage: "Applied",
+    appliedOn: "2026-11-24",
+    link: "https://www.linkedin.com/posts/vishal-jain-saarthiai_hiring-reactnative-sde1-share-7530540995638390784-TBds/",
+    nextAction: "Follow up with HR if no reply; check the LinkedIn thread with Vishal Jain",
+    due: "2026-12-01",
+    notes: "1–3 yrs RN. Emailed HR with the React Native CV, Hopn store links, GitHub; current PKR 200,000/month, expected USD 1,500/month remote, immediate start. Also sent Vishal Jain a free LinkedIn message (open profile; no invitation note used).",
+    activity: [{ date: "Nov 24", text: "Emailed HR + LinkedIn message to the CEO" }]
+  },
+  {
+    id: "abul-khair-web-app-project-2026-11-24",
+    company: "Abul Khair (independent project)",
+    role: "Web/App Developer for a new project",
+    location: "Remote",
+    source: "LinkedIn post (contact by email)",
+    stage: "Applied",
+    appliedOn: "2026-11-24",
+    link: "",
+    nextAction: "Wait for the project outline; suggest stack and timeline",
+    due: "2026-11-28",
+    notes: "Post asked for a web/app developer or team. Emailed the Full Stack CV, Hopn, Boolmind, Media X, Upwork; asked for a short project outline.",
+    activity: [{ date: "Nov 24", text: "Email with CV sent" }]
+  },
+  {
+    id: "ours-socially-freelance-android-rn-2026-11-24",
+    company: "ours Socially",
+    role: "Freelance Android App Developer (React Native preferred)",
+    location: "Remote · Freelance",
+    source: "Post shared by you → WhatsApp (no calls)",
+    stage: "Draft",
+    appliedOn: "",
+    link: "",
+    nextAction: "You send the prepared WhatsApp message + React Native CV",
+    due: "2026-11-25",
+    notes: "Message ready in the private Job-Outreach folder (Ours-Socially-WhatsApp-Message-2026-11-24.md). Number looks Indian (+91).",
+    activity: [{ date: "Nov 24", text: "WhatsApp message drafted" }]
+  },
+  {
     id: "visnext-full-stack-ror-react-2026-11-24",
     company: "Visnext Software Solutions",
     role: "Full Stack Developer (Ruby on Rails + React)",
