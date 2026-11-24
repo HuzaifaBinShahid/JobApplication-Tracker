@@ -4893,6 +4893,24 @@ const seededApplications: Application[] = [
         text: "Emailed CV ~07:45 PKT (no bounce)"
       }
     ]
+  },
+  {
+    id: "innovage-fullstack-2026-11-24",
+    company: "Innovage.io",
+    role: "Full-Stack (MERN) Software Engineer",
+    location: "Lahore · Remote for now",
+    source: "Google site:linkedin.com/jobs (past 24 h)",
+    stage: "Draft",
+    appliedOn: "2026-11-24",
+    link: "https://www.linkedin.com/jobs/view/4492391122/",
+    nextAction: "Apply today (small companies close at ~30 applicants)",
+    notes: "2-3 yrs, entry level, telecom operations software (React/Vite/Tailwind, Node/Express, MySQL+PostgreSQL, Redis queues). 32 applicants, 20h old at scan. Fits: React, Node, Postgres, queues-style work. Gaps: strong SQL depth, telecom/billing, Playwright/Sentry. Needs excellent English for North American client calls. Apply via the LinkedIn post/Easy Apply.",
+    activity: [
+      {
+        date: "Nov 24",
+        text: "Found by the daily Google scan"
+      }
+    ]
   }
 ];
 
