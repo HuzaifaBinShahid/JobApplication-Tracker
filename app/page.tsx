@@ -44,6 +44,20 @@ const stages: Stage[] = ["Applied", "Awaiting reply", "Interview", "Offer", "Rej
 
 const seededApplications: Application[] = [
   {
+    id: "visnext-full-stack-ror-react-2026-11-24",
+    company: "Visnext Software Solutions",
+    role: "Full Stack Developer (Ruby on Rails + React)",
+    location: "Lahore · On-site",
+    source: "LinkedIn post you shared → Google Form",
+    stage: "Applied",
+    appliedOn: "2026-11-24",
+    link: "https://forms.gle/7fvHXJK68CSTdU7v8",
+    nextAction: "Wait for a call; before any interview, learn Rails basics (MVC, Active Record, migrations, routes, REST controllers)",
+    due: "2026-12-01",
+    notes: "1–3 yrs, RoR + React. Form answers: React 3.5 yrs; no Rails in production yet, fast learner and can start on Rails straight away (his words), Node/Express + Laravel back-end experience maps to Rails; GitHub + Hopn + repocards links; current PKR 200,000, expected PKR 250,000; Full Stack CV. Earlier Visnext emails (2023) were for an Associate Software Engineer role.",
+    activity: [{ date: "Nov 24", text: "Form submitted (confirmation shown)" }]
+  },
+  {
     id: "plra-assistant-director-software-dev-2026-11-24",
     company: "Punjab Land Records Authority (PLRA)",
     role: "Assistant Director Software Development (Full Stack .NET Developer)",
