@@ -44,6 +44,21 @@ const stages: Stage[] = ["Applied", "Awaiting reply", "Interview", "Offer", "Rej
 
 const seededApplications: Application[] = [
   {
+    id: "plra-assistant-director-software-dev-2026-11-24",
+    company: "Punjab Land Records Authority (PLRA)",
+    role: "Assistant Director Software Development (Full Stack .NET Developer)",
+    location: "Lahore · HQ Multan Road · 3-year contract",
+    source: "News article → jobs.punjab.gov.pk",
+    stage: "Draft",
+    appliedOn: "2026-11-24",
+    compensation: "PKR 145,000–150,000 + PKR 100,000 technical allowance (advertised)",
+    link: "https://jobs.punjab.gov.pk/new_recruit/job_detail/assistant-director-software-development-full-stack-net-developer",
+    nextAction: "YOU apply on jobs.punjab.gov.pk before Tue 25 Nov, 5:00 PM (needs CNIC, domicile, attested degrees, experience letters, photos). Guide: Career/Job-Outreach/PLRA-Application-Guide-2026-11-24.md",
+    due: "2026-11-25",
+    notes: "6 posts. BSCS 4-yr + 3 yrs, age 24–34: he meets these. Stack: React accepted on the front end, but C#/ASP.NET Core/SQL Server on the back end (gap). Other government IT roles checked and not a fit (5–8 yrs or PHP/GIS).",
+    activity: [{ date: "Nov 24", text: "Checked the official listing; guide with ready-to-paste text prepared" }]
+  },
+  {
     id: "karing-ai-forward-deployed-engineer-2026-11-24",
     company: "Karing AI",
     role: "Forward Deployed Engineer (voice AI agents)",
